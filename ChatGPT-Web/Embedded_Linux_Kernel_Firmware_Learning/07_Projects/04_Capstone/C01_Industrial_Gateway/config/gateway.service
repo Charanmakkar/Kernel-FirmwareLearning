@@ -1,0 +1,17 @@
+[Unit]
+Description=Learning serial monitoring gateway
+After=dev-ttyACM0.device
+[Service]
+Type=simple
+User=gateway
+SupplementaryGroups=dialout
+WorkingDirectory=/opt/learning-gateway
+ExecStart=/bin/sh -c 'stty -F /dev/ttyACM0 115200 raw -echo; exec /usr/bin/python3 src/gateway.py --state /var/lib/learning-gateway < /dev/ttyACM0'
+Restart=on-failure
+StateDirectory=learning-gateway
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/lib/learning-gateway
+[Install]
+WantedBy=multi-user.target

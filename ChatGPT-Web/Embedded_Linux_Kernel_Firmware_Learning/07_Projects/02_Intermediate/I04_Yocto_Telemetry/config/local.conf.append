@@ -1,0 +1,6 @@
+MACHINE = "qemux86-64"
+DISTRO = "poky"
+INIT_MANAGER = "systemd"
+EXTRA_IMAGE_FEATURES = "debug-tweaks"
+BB_NUMBER_THREADS = "4"
+PARALLEL_MAKE = "-j4"

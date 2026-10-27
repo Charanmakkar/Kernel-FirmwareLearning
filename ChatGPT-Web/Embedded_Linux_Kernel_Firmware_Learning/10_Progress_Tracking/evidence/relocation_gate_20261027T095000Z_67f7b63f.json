@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "started_utc": "2026-10-27T09:50:00.078732+00:00",
+  "package_root": "/tmp/learning-relocation-_vumi4jf/Embedded_Linux_Kernel_Firmware_Learning",
+  "label": "relocation_gate",
+  "scope": "Existing offline Linux host suites and selected userspace builds only",
+  "network_used": false,
+  "privileged_actions": false,
+  "timings_are_benchmarks": false,
+  "environment": {
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "python": "3.12.14",
+    "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+    "cpp_compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+    "make": "GNU Make 4.3",
+    "openssl": "OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)"
+  },
+  "suites": [
+    {
+      "id": "B01",
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library",
+      "command": [
+        "make",
+        "-B",
+        "test"
+      ],
+      "scope": "Portable C ring, checked bit updates, CRC and parser tests",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.132559,
+      "output": "mkdir -p build\ncc -Iinclude -std=c11 -O2 -g -Wall -Wextra -Wpedantic -Werror src/util.c tests/test_util.c -o build/test_util\n./build/test_util\nPASS ring wrap/full/empty; bits; CRC known vector; 129 frame lengths; truncation; corruption; 10000 malformed inputs\n",
+      "status": "passed"
+    },
+    {
+      "id": "B02",
+      "path": "07_Projects/01_Basic/B02_Process_Inspector",
+      "command": [
+        "make",
+        "-B",
+        "test"
+      ],
+      "scope": "Linux proc inspection and deterministic malformed-record fixtures",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.133686,
+      "output": "mkdir -p build\ncc -std=c11 -O2 -g -Wall -Wextra -Wpedantic -Werror src/inspect.c -o build/inspect\npython3 tests/test_inspect.py\nPASS live proc; PID rejection; quoted/spaced comm; counters; malformed and disappearing proc entries\n",
+      "status": "passed"
+    },
+    {
+      "id": "B03",
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol",
+      "command": [
+        "make",
+        "-B",
+        "test"
+      ],
+      "scope": "PTY framing, timeout, corruption and terminal restoration including SIGINT, SIGTERM and broken stdout",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.881962,
+      "output": "mkdir -p build\ncc -Iinclude -std=c11 -O2 -g -Wall -Wextra -Wpedantic -Werror src/uart_frame.c src/util.c -o build/uart_frame\npython3 tests/test_pty.py\nPASS fragmented PTY; noise/stale/corrupt resynchronization; bounded timeout; 0/128-byte payload; oversize rejection; terminal restore on success/error/SIGINT/SIGTERM/broken stdout pipe\n",
+      "status": "passed"
+    },
+    {
+      "id": "B04",
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger",
+      "command": [
+        "make",
+        "-B",
+        "test"
+      ],
+      "scope": "Pthread queue ordering, finite completion, termination and output-error tests",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.214291,
+      "output": "mkdir -p build\ncc -std=c11 -O2 -g -Wall -Wextra -Wpedantic -Werror -pthread src/logger.c -o build/logger\npython3 tests/test_logger.py\nPASS 1000 samples no loss/duplicates; per-producer ordering; zero work; SIGTERM drain/join; failed output termination; invalid input\n",
+      "status": "passed"
+    },
+    {
+      "id": "B05",
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU",
+      "command": [
+        "make",
+        "-B",
+        "test"
+      ],
+      "scope": "Native reference build and boundary/invalid-input tests only",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.074151,
+      "output": "mkdir -p build\ncc -std=c11 -Og -g3 -Wall -Wextra -Wpedantic -Werror src/target_sum.c -o build/target_sum_native\npython3 tests/test_native.py\nPASS native reference: zero/max sum and malformed/overflow arguments; no cross/QEMU claim\n",
+      "status": "passed"
+    },
+    {
+      "id": "I01",
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance",
+      "command": [
+        "make",
+        "-B",
+        "test"
+      ],
+      "scope": "Native persistence, process-crash checkpoints, concurrency and corruption tests",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.178523,
+      "output": "mkdir -p build\ncc -std=c11 -O2 -g -Wall -Wextra -Wpedantic -Werror src/telemetry_once.c -o build/telemetry-once\npython3 tests/test_counter.py\nPASS initial/increment; crash before/after rename; 40 concurrent writers; corruption preserved; symlink/missing-dir rejection\n",
+      "status": "passed"
+    },
+    {
+      "id": "I02",
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver",
+      "command": [
+        "make",
+        "-B",
+        "client"
+      ],
+      "scope": "Userspace client and fault-test compilation only; no module or device execution",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.117645,
+      "output": "mkdir -p build\ncc -std=c11 -Og -g -Wall -Wextra -Wpedantic -Werror src/fifo_client.c -o build/fifo_client\nmkdir -p build\ncc -std=c11 -Og -g -Wall -Wextra -Wpedantic -Werror tests/test_faults.c -o build/test_faults\n",
+      "status": "passed"
+    },
+    {
+      "id": "I04",
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tests/test_telemetry.py"
+      ],
+      "scope": "Native telemetry program compilation, output and shutdown test only",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 1.074784,
+      "output": ".\n----------------------------------------------------------------------\nRan 1 test in 1.036s\n\nOK\n",
+      "status": "passed"
+    },
+    {
+      "id": "A01",
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tests/test_decode.py"
+      ],
+      "scope": "Independent Python sensor-conversion contract tests; not execution of the kernel C driver",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.03713,
+      "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.000s\n\nOK\n",
+      "status": "passed"
+    },
+    {
+      "id": "A02",
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tests/test_latency.py"
+      ],
+      "scope": "Existing sampling/recording tests only; durations are not new benchmark claims",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.100282,
+      "output": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.037s\n\nOK\n",
+      "status": "passed"
+    },
+    {
+      "id": "A03",
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tests/test_updates.py"
+      ],
+      "scope": "Host signed-update state-machine and failure tests with temporary lab keys",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.442749,
+      "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.394s\n\nOK\n",
+      "status": "passed"
+    },
+    {
+      "id": "C01",
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tests/test_gateway.py"
+      ],
+      "scope": "Host gateway framing, configuration, health and process integration tests",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.478618,
+      "output": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.434s\n\nOK\n",
+      "status": "passed"
+    },
+    {
+      "id": "C02",
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tests/test_robot.py"
+      ],
+      "scope": "Deterministic simulated robot state and control-boundary tests",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.04594,
+      "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.001s\n\nOK\n",
+      "status": "passed"
+    },
+    {
+      "id": "M04",
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M04/lab",
+      "command": [
+        "make",
+        "-B",
+        "test"
+      ],
+      "scope": "C++17 move-only file-descriptor ownership example build and execution",
+      "returncode": 0,
+      "timed_out": false,
+      "duration_seconds": 0.246061,
+      "output": "g++ -std=c++17 -Wall -Wextra -Wpedantic -Werror -g fd_owner.cpp -o fd_owner\n./fd_owner\nfd_owner: move, release, scope cleanup, invalid owner passed\n",
+      "status": "passed"
+    }
+  ],
+  "external_and_optional_checks": [
+    {
+      "id": "B01_B04_instrumentation",
+      "status": "skipped",
+      "expected": true,
+      "reason": "Sanitizer targets are separate existing project checks; this portable gate does not require sanitizer runtime support. Retain earlier project instrumentation evidence separately."
+    },
+    {
+      "id": "B05_target",
+      "status": "skipped",
+      "expected": true,
+      "reason": "AArch64 toolchain, QEMU execution and remote GDB are outside this offline native gate. Earlier project cross/emulator evidence remains separate."
+    },
+    {
+      "id": "I01_image",
+      "status": "skipped",
+      "expected": true,
+      "reason": "Full Buildroot image/toolchain build and full-system guest boot require external sources and target tools."
+    },
+    {
+      "id": "I02_I03_kernel",
+      "status": "skipped",
+      "expected": true,
+      "reason": "Kernel compilation, module linking/loading and GPIO board tests require matching external kernel/guest/board environments. No module is loaded by this runner."
+    },
+    {
+      "id": "I04_image",
+      "status": "skipped",
+      "expected": true,
+      "reason": "Yocto metadata/image/SDK builds and guest deployment require the external pinned checkout and its dependencies."
+    },
+    {
+      "id": "I05_RTOS",
+      "status": "skipped",
+      "expected": true,
+      "reason": "FreeRTOS POSIX and MCU builds require the pinned downloaded RTOS/toolchain; this runner does not download them or require an existing checkout."
+    },
+    {
+      "id": "A01_hardware",
+      "status": "skipped",
+      "expected": true,
+      "reason": "Kernel-driver execution and physical sensor/bus behavior are not established by Python conversion tests."
+    },
+    {
+      "id": "A02_tracing",
+      "status": "skipped",
+      "expected": true,
+      "reason": "Privileged tracing and performance experiments are not run; existing test-suite timings are functional observations only."
+    },
+    {
+      "id": "A03_physical",
+      "status": "skipped",
+      "expected": true,
+      "reason": "Flash partitions, bootloader trust, physical power loss and a hardware secure-boot chain are not exercised by the host simulator."
+    },
+    {
+      "id": "C01_C02_target",
+      "status": "skipped",
+      "expected": true,
+      "reason": "RTOS link hardware, physical robot/sensors, image deployment and optional AI experiments remain separate from the existing host suites."
+    }
+  ],
+  "summary": {
+    "host_suites": {
+      "passed": 14,
+      "failed": 0,
+      "skipped": 0
+    },
+    "expected_external_skips": 10
+  },
+  "finished_utc": "2026-10-27T09:50:04.250168+00:00",
+  "exit_code": 0
+}

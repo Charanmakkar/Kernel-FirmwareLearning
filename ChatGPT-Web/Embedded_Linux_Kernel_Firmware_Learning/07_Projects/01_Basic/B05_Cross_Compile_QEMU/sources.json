@@ -1,0 +1,18 @@
+[
+  {
+    "source_id": "QEMU",
+    "title": "QEMU user mode documentation",
+    "url": "https://www.qemu.org/docs/master/user/main.html",
+    "access_date": "2026-10-27",
+    "claims": "User mode translates system calls and does not boot a guest kernel",
+    "retrieval_ref": "turn3view3"
+  },
+  {
+    "source_id": "BOOTLIN",
+    "title": "Bootlin official toolchain archive",
+    "url": "https://toolchains.bootlin.com/downloads/releases/toolchains/aarch64/tarballs/",
+    "access_date": "2026-10-27",
+    "claims": "Pinned AArch64 2024.05-1 glibc toolchain availability",
+    "retrieval_ref": "turn25view0"
+  }
+]

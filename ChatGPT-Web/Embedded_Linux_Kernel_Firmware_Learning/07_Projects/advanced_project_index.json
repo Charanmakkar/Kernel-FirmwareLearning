@@ -1,0 +1,42 @@
+[
+  {
+    "id": "I03",
+    "path": "02_Intermediate/I03_Device_Tree_GPIO",
+    "files": 17
+  },
+  {
+    "id": "I04",
+    "path": "02_Intermediate/I04_Yocto_Telemetry",
+    "files": 15
+  },
+  {
+    "id": "I05",
+    "path": "02_Intermediate/I05_RTOS_Linux",
+    "files": 27
+  },
+  {
+    "id": "A01",
+    "path": "03_Advanced/A01_IIO_Sensor_Driver",
+    "files": 17
+  },
+  {
+    "id": "A02",
+    "path": "03_Advanced/A02_Latency_Investigation",
+    "files": 18
+  },
+  {
+    "id": "A03",
+    "path": "03_Advanced/A03_Signed_AB_Update",
+    "files": 11
+  },
+  {
+    "id": "C01",
+    "path": "04_Capstone/C01_Industrial_Gateway",
+    "files": 19
+  },
+  {
+    "id": "C02",
+    "path": "04_Capstone/C02_Robot_Control_Diagnostics",
+    "files": 16
+  }
+]

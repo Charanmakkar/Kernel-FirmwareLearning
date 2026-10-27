@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Yocto 5.0.9 documentation",
+    "url": "https://docs.yoctoproject.org/5.0.9/singleindex.html",
+    "access_date": "2026-10-27",
+    "supports": "Pinned Scarthgap environment and layer/image/SDK concepts",
+    "ref_id": "turn6search11"
+  },
+  {
+    "title": "Yocto quick build",
+    "url": "https://docs.yoctoproject.org/5.0/brief-yoctoprojectqs/index.html",
+    "access_date": "2026-10-27",
+    "supports": "QEMU build and run model",
+    "ref_id": "turn6search6"
+  }
+]

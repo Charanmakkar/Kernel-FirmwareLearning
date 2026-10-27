@@ -1,0 +1,5 @@
+/tmp/learning-arm-toolchain/usr/bin/arm-none-eabi-gcc -I. -I../../src -I/tmp/learning-freertos/include -I/tmp/learning-freertos/portable/GCC/ARM_CM4F -I/tmp/learning-arm-toolchain/usr/include/newlib -std=gnu11 -Os -g3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffreestanding -fno-builtin -ffunction-sections -fdata-sections -Wall -Wextra main.c startup.c memory.c /tmp/learning-freertos/tasks.c /tmp/learning-freertos/queue.c /tmp/learning-freertos/list.c /tmp/learning-freertos/portable/MemMang/heap_4.c /tmp/learning-freertos/portable/GCC/ARM_CM4F/port.c -Tlink.ld -nostdlib -Wl,--gc-sections,-Map=firmware.map -lgcc -o firmware.elf
+/tmp/learning-arm-toolchain/usr/bin/arm-none-eabi-size firmware.elf
+   text	   data	    bss	    dec	    hex	filename
+   6296	      4	  33084	  39384	   99d8	firmware.elf
+/tmp/learning-arm-toolchain/usr/bin/arm-none-eabi-objcopy -O binary firmware.elf firmware.bin

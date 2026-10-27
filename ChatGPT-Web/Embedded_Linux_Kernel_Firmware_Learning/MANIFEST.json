@@ -1,0 +1,2255 @@
+{
+  "package": "Embedded_Linux_Kernel_Firmware_Learning",
+  "edition_date": "2026-10-27",
+  "authored_deliverables": "Complete for the minimum project targets described in the runbooks",
+  "validation_scope": "Host tests, selected emulation and selected builds verified; pending steps remain explicit",
+  "pending_checks": [
+    "Full Buildroot image and guest boot",
+    "Yocto image and SDK builds",
+    "Final kernel module link/load/runtime checks",
+    "All physical board tests",
+    "Electrical, interrupt, DMA and timing measurements",
+    "Real bootloader power-cut recovery and physical robot integration"
+  ],
+  "learner_proficiency": "Not assessed",
+  "projects": [
+    {
+      "id": "B01",
+      "level": "Basic",
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library",
+      "title": "B01 Embedded C utility library",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/01_Basic/B01_C_Utility_Library/evidence/VALIDATION.md",
+        "07_Projects/01_Basic/B01_C_Utility_Library/evidence/host_tests.log",
+        "07_Projects/01_Basic/B01_C_Utility_Library/evidence/status.json"
+      ]
+    },
+    {
+      "id": "B02",
+      "level": "Basic",
+      "path": "07_Projects/01_Basic/B02_Process_Inspector",
+      "title": "B02 Linux process and resource inspector",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/01_Basic/B02_Process_Inspector/evidence/VALIDATION.md",
+        "07_Projects/01_Basic/B02_Process_Inspector/evidence/host_tests.log",
+        "07_Projects/01_Basic/B02_Process_Inspector/evidence/status.json"
+      ]
+    },
+    {
+      "id": "B03",
+      "level": "Basic",
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol",
+      "title": "B03 UART terminal and framed protocol tool",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/01_Basic/B03_UART_Framed_Protocol/evidence/VALIDATION.md",
+        "07_Projects/01_Basic/B03_UART_Framed_Protocol/evidence/host_tests.log",
+        "07_Projects/01_Basic/B03_UART_Framed_Protocol/evidence/status.json"
+      ]
+    },
+    {
+      "id": "B04",
+      "level": "Basic",
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger",
+      "title": "B04 Multithreaded sensor simulator and logger",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/01_Basic/B04_Sensor_Logger/evidence/VALIDATION.md",
+        "07_Projects/01_Basic/B04_Sensor_Logger/evidence/host_tests.log",
+        "07_Projects/01_Basic/B04_Sensor_Logger/evidence/status.json"
+      ]
+    },
+    {
+      "id": "B05",
+      "level": "Basic",
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU",
+      "title": "B05 Cross compilation and QEMU application debugging",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/01_Basic/B05_Cross_Compile_QEMU/evidence/VALIDATION.md",
+        "07_Projects/01_Basic/B05_Cross_Compile_QEMU/evidence/cross_qemu.log",
+        "07_Projects/01_Basic/B05_Cross_Compile_QEMU/evidence/host_tests.log",
+        "07_Projects/01_Basic/B05_Cross_Compile_QEMU/evidence/run_script.log",
+        "07_Projects/01_Basic/B05_Cross_Compile_QEMU/evidence/status.json"
+      ]
+    },
+    {
+      "id": "I01",
+      "level": "Intermediate",
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance",
+      "title": "I01 Custom Buildroot appliance",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/02_Intermediate/I01_Buildroot_Appliance/evidence/VALIDATION.md",
+        "07_Projects/02_Intermediate/I01_Buildroot_Appliance/evidence/buildroot_configure.log",
+        "07_Projects/02_Intermediate/I01_Buildroot_Appliance/evidence/host_tests.log",
+        "07_Projects/02_Intermediate/I01_Buildroot_Appliance/evidence/resolved_buildroot.config",
+        "07_Projects/02_Intermediate/I01_Buildroot_Appliance/evidence/source_archives.json",
+        "07_Projects/02_Intermediate/I01_Buildroot_Appliance/evidence/status.json"
+      ]
+    },
+    {
+      "id": "I02",
+      "level": "Intermediate",
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver",
+      "title": "I02 Kernel character driver and user space client",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/evidence/VALIDATION.md",
+        "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/evidence/host_tests.log",
+        "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/evidence/kernel_object_build.log",
+        "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/evidence/source_archives.json",
+        "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/evidence/status.json"
+      ]
+    },
+    {
+      "id": "I03",
+      "level": "Intermediate",
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO",
+      "title": "I03 Device tree GPIO interrupt platform driver",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/evidence/STATUS.md",
+        "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/evidence/build-object.log",
+        "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/evidence/device-tree.log",
+        "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/evidence/validation.json"
+      ]
+    },
+    {
+      "id": "I04",
+      "level": "Intermediate",
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry",
+      "title": "I04 Custom Yocto telemetry image",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/02_Intermediate/I04_Yocto_Telemetry/evidence/STATUS.md",
+        "07_Projects/02_Intermediate/I04_Yocto_Telemetry/evidence/tests.log",
+        "07_Projects/02_Intermediate/I04_Yocto_Telemetry/evidence/validation.json"
+      ]
+    },
+    {
+      "id": "I05",
+      "level": "Intermediate",
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux",
+      "title": "I05 RTOS telemetry connected to Linux",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/02_Intermediate/I05_RTOS_Linux/evidence/STATUS.md",
+        "07_Projects/02_Intermediate/I05_RTOS_Linux/evidence/build.log",
+        "07_Projects/02_Intermediate/I05_RTOS_Linux/evidence/mcu-build.log",
+        "07_Projects/02_Intermediate/I05_RTOS_Linux/evidence/tests.log",
+        "07_Projects/02_Intermediate/I05_RTOS_Linux/evidence/validation.json"
+      ]
+    },
+    {
+      "id": "A01",
+      "level": "Advanced",
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver",
+      "title": "A01 Sensor driver using the IIO subsystem",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/evidence/STATUS.md",
+        "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/evidence/build-object.log",
+        "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/evidence/device-tree.log",
+        "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/evidence/tests.log",
+        "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/evidence/validation.json"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "Advanced",
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation",
+      "title": "A02 Linux latency and performance investigation",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/STATUS.md",
+        "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/idle-run.log",
+        "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/loaded-run.log",
+        "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/tests.log",
+        "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/validation.json"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "Advanced",
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update",
+      "title": "A03 Signed A B update and rollback simulator",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/03_Advanced/A03_Signed_AB_Update/evidence/STATUS.md",
+        "07_Projects/03_Advanced/A03_Signed_AB_Update/evidence/demo.log",
+        "07_Projects/03_Advanced/A03_Signed_AB_Update/evidence/tests.log",
+        "07_Projects/03_Advanced/A03_Signed_AB_Update/evidence/validation.json"
+      ]
+    },
+    {
+      "id": "C01",
+      "level": "Capstone",
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway",
+      "title": "C01 Industrial monitoring and edge gateway",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/04_Capstone/C01_Industrial_Gateway/evidence/STATUS.md",
+        "07_Projects/04_Capstone/C01_Industrial_Gateway/evidence/rtos-integration.log",
+        "07_Projects/04_Capstone/C01_Industrial_Gateway/evidence/tests.log",
+        "07_Projects/04_Capstone/C01_Industrial_Gateway/evidence/validation.json"
+      ]
+    },
+    {
+      "id": "C02",
+      "level": "Capstone",
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics",
+      "title": "C02 Linux MCU robot control and diagnostics simulation",
+      "authored_status": "Complete minimum reference for the target stated in README",
+      "validation_status": "Mixed executed and pending; see evidence and Validation_Summary.md",
+      "hardware_test_status": "Not executed",
+      "evidence_files": [
+        "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/STATUS.md",
+        "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/ai-run.log",
+        "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/robot.csv",
+        "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/simulation.log",
+        "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/tests.log",
+        "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/validation.json"
+      ]
+    }
+  ],
+  "file_hash_algorithm": "SHA-256",
+  "hash_note": "MANIFEST.json does not contain a hash of itself.",
+  "files": [
+    {
+      "path": "00_Start_Here/Environment_Setup.md",
+      "bytes": 4688,
+      "sha256": "2f3da46295de01a742f077865aab899fb37f9b949889f6d0f6aa4886a8fef610"
+    },
+    {
+      "path": "00_Start_Here/Original_Master_Prompt.txt",
+      "bytes": 23422,
+      "sha256": "3f10444fb7913c43373d206300284ace7efd33aa55ed8412dbd2ecdcafac6a5a"
+    },
+    {
+      "path": "00_Start_Here/Profile_and_Study_Method.md",
+      "bytes": 4635,
+      "sha256": "185923b7fe0d6a18cbbf3ed18199a79ca3bc9d605fd8f1b06220f338a87d5c77"
+    },
+    {
+      "path": "00_Start_Here/figures/01_prerequisite_map.png",
+      "bytes": 322427,
+      "sha256": "eaba5a9f7d14425c28421011660d68e7a0c97fa4bcbaf8b33c7e1344399a473b"
+    },
+    {
+      "path": "00_Start_Here/figures/01_prerequisite_map.svg",
+      "bytes": 12259,
+      "sha256": "eb4b8b05bf4714aab2d4a0d498cdaba6424bc44a14a97c19454c947c18e31e12"
+    },
+    {
+      "path": "00_Start_Here/figures/02_linux_mcu_boundary.png",
+      "bytes": 314499,
+      "sha256": "73bc56fc39521df82307946f889c04f23001cada65eea0bcb09a20b0abf3a579"
+    },
+    {
+      "path": "00_Start_Here/figures/02_linux_mcu_boundary.svg",
+      "bytes": 11986,
+      "sha256": "43ed8fbbf6b85f081d0c26af2ce70ee3946a6b3d3c3a512ef67f5602d305689e"
+    },
+    {
+      "path": "00_Start_Here/figures/03_signed_ab_lifecycle.png",
+      "bytes": 266825,
+      "sha256": "e593bd801a6315482684d8ebb11c0819edea21552b2be2e0bc09ec7478b3c879"
+    },
+    {
+      "path": "00_Start_Here/figures/03_signed_ab_lifecycle.svg",
+      "bytes": 13841,
+      "sha256": "0ab6ea1a10a407a87b3db9fb10c6dc0d46a145a5360c3295262e91df388af4d8"
+    },
+    {
+      "path": "00_Start_Here/figures/README.md",
+      "bytes": 2376,
+      "sha256": "ab62198490fcc73ad9df53d340076365f18c8d5f36e39f6dbc2a2d925695ef14"
+    },
+    {
+      "path": "00_Start_Here/figures/draw_handbook_diagrams.py",
+      "bytes": 8287,
+      "sha256": "6e34b47ef6e7d926b482000c3e81a1f6df8504db9371eba5490b5f49b8440d8d"
+    },
+    {
+      "path": "01_Learning_Roadmap/Roadmap_and_Prerequisites.md",
+      "bytes": 5710,
+      "sha256": "1962f65ab463c10956736c4593017c916b221385cd94ea1ca964554be4e009c2"
+    },
+    {
+      "path": "01_Learning_Roadmap/Weekly_Roadmap.csv",
+      "bytes": 21837,
+      "sha256": "60fd9eb2e896e7e1850ec8d29fea18e12558b2353d96a0b51c020f5e152bd491"
+    },
+    {
+      "path": "01_Learning_Roadmap/weekly_roadmap.json",
+      "bytes": 37944,
+      "sha256": "41a9d50593d324246c07dad2938a8323d8fcd0fb39a8685c32b12ebec7243560"
+    },
+    {
+      "path": "02_Interview_Questions_and_Answers/Answers.md",
+      "bytes": 354928,
+      "sha256": "23662affa58ec7f0b9724c43ffc074cee55a4471ed10a89c9ab5ff9438aa5647"
+    },
+    {
+      "path": "02_Interview_Questions_and_Answers/Question_Index.csv",
+      "bytes": 32980,
+      "sha256": "3ed22ebbcf7f9d9ace90a594c540126bd2ae1f06d86295292e8814feeb455172"
+    },
+    {
+      "path": "02_Interview_Questions_and_Answers/Questions_Only.md",
+      "bytes": 94724,
+      "sha256": "2901c3159197500bfbaf4221807fe470bbe377290b56377596049b6baf6897c9"
+    },
+    {
+      "path": "02_Interview_Questions_and_Answers/README.md",
+      "bytes": 872,
+      "sha256": "f00204e4ddfa469e8fee60f0bdbee89ba59a0328d3f37b7c2ac32ad8695b0491"
+    },
+    {
+      "path": "02_Interview_Questions_and_Answers/bank.json",
+      "bytes": 296414,
+      "sha256": "c8ab9a02f9d106fea21288eb3270a7012d7fceed51bd542494da5838ea28d076"
+    },
+    {
+      "path": "02_Interview_Questions_and_Answers/sources.json",
+      "bytes": 15286,
+      "sha256": "b9481cae6f8d2d9368f71341301869df2f7abe39e59d90affc0fa8af807109f4"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/JD_Analysis_and_Gap_Closure.md",
+      "bytes": 2981,
+      "sha256": "4225858a2bd1e709a2d30be10048181b0f943e51b82e5996a2ab129d4202bce1"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M01/exercises.md",
+      "bytes": 296,
+      "sha256": "b39839223eb628401b5538e7172c73c4fd1039e4359136a8a0e2aec7009f2069"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M01/lesson.md",
+      "bytes": 4041,
+      "sha256": "6dcd4c2f7d25f11d1c00e2753027d4dada47a479e0dd47589039ff8c2112f233"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M01/solutions.md",
+      "bytes": 399,
+      "sha256": "21fc19c9774e84c3dee0adff300908ca44aebe2206414c32c259d2eeb3ba77b2"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M02/exercises.md",
+      "bytes": 378,
+      "sha256": "daed2745d6627b4837a8ba461a949f36cce7eb6f0d78ab52955bfca2a9ad8e0a"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M02/lesson.md",
+      "bytes": 4525,
+      "sha256": "a55b02fb5e15e9ccc8972518e9d89f4bc41c9c453fefb8a2341ca763cc8adfb9"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M02/solutions.md",
+      "bytes": 507,
+      "sha256": "8b1a5cbbd91de23e01c8a44e7e74bf8bde5381bc34511fa8310db071c15db970"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M03/exercises.md",
+      "bytes": 341,
+      "sha256": "35e861e22ddf8890971784f6c425d33392d74ef551e8751343cef90af91d98c2"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M03/lesson.md",
+      "bytes": 3900,
+      "sha256": "d21e62027a21f3d1c4bc08dc0337af904c1c59b960237619e438b448fccf3e2f"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M03/solutions.md",
+      "bytes": 515,
+      "sha256": "e9af4f89f5afe671c9e069e285184de626f6bbb65f84f1350ac3fae3eafd4089"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M04/exercises.md",
+      "bytes": 311,
+      "sha256": "563a6a367b26beadd09a74286e946ff85c73871b6ba3adb616f4c6b5d696633f"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M04/lab/Makefile",
+      "bytes": 190,
+      "sha256": "3f2147ddc2ae18b7a265aead3720e098d316a3d077637fc598016883b89e7e79"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M04/lab/VALIDATION.md",
+      "bytes": 301,
+      "sha256": "75504f8b6425421de161210ebd886c4e622972f0cac77392d69300084b1e1e1d"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M04/lab/fd_owner.cpp",
+      "bytes": 1886,
+      "sha256": "381b7ba5239dd776865ad1b78a587341eef96f60fc6da19408089432a201b4d8"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M04/lesson.md",
+      "bytes": 4237,
+      "sha256": "c684279ec83c35d05495f4a6735be996cee47f8ed0c2b968f83db67cd281bd5b"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M04/solutions.md",
+      "bytes": 569,
+      "sha256": "bf0e3337b2ea658c395d9f61fdfe4e855cc9db5b28a35adb9d61fb569dbc7680"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M05/exercises.md",
+      "bytes": 352,
+      "sha256": "e4095e8d723db823a8c7a9d627afd239ff529381c74e6fce04ca579c73a891e3"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M05/lesson.md",
+      "bytes": 4163,
+      "sha256": "7f061660ae22c2b6d4ff14227425e8c63a549bdd7cf571c7bf1bcd57b0732e24"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M05/solutions.md",
+      "bytes": 469,
+      "sha256": "ab64c2d6d847cb69ac12b95cb3da6def2f278f14323178587f33e3f06c25e7aa"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M06/exercises.md",
+      "bytes": 352,
+      "sha256": "754a8a6624b758e9b9975879a36784e314d3c164a71965453a799586c372ab90"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M06/lesson.md",
+      "bytes": 4176,
+      "sha256": "5f06ddbff79aa93a6bada6ad21dba25ebe0ca14eb196e89bf8f9d3b235ba1beb"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M06/solutions.md",
+      "bytes": 450,
+      "sha256": "c5d062e645a3744fbc2553b053d06f90f0b90849ffd12f5f2b844f2af39afa9e"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M07/exercises.md",
+      "bytes": 299,
+      "sha256": "d8b0a70af6d9de63eef752594ef9a1c9c2ecbbb36b536b185a8824446650b573"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M07/lesson.md",
+      "bytes": 4117,
+      "sha256": "46613794764e176b057be03b9a1eb469c29cccc317a6d1ca9e42ddcd96b49c2c"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M07/solutions.md",
+      "bytes": 512,
+      "sha256": "1aaf6698d3928791391b39b0fbf8a47b87fd22f24a016ea1cecdc12e294b6947"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M08/exercises.md",
+      "bytes": 325,
+      "sha256": "c2458516642dac6e6482acd4f6016ae1a8d68fa02540aa78266ce340bc2c1a88"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M08/lesson.md",
+      "bytes": 4123,
+      "sha256": "840c7e719351a8481e3745a28c785a47a3a2ebc056725991016620032d175e9d"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M08/solutions.md",
+      "bytes": 473,
+      "sha256": "f6c92d0ccea5743efc3184db46941e4ff1d1d1707990639b01345aae13b7a62a"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M09/exercises.md",
+      "bytes": 238,
+      "sha256": "b28d0c4dff47c62822de70c09790b4dadc4c621e1c2fc6a506f51ed64e3659c5"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M09/lesson.md",
+      "bytes": 4214,
+      "sha256": "91861fc356bdd9f0bae6e3f8ad6ccf8485812cc4bafd6411bdaa5a31bf0c5188"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M09/solutions.md",
+      "bytes": 462,
+      "sha256": "55920cf135ccb16f00fbbd2c5738439181704276421894e31a9620b5a4998e05"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M10/exercises.md",
+      "bytes": 310,
+      "sha256": "af45c48456c5e103ddf7c3556b2b89c0194cff7455919f45558f2d878e3ef6aa"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M10/lesson.md",
+      "bytes": 3926,
+      "sha256": "7c6550f2fe7d09158e46c6ff346b492611a60dc5a25261f35e089506dfafb9cd"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M10/solutions.md",
+      "bytes": 540,
+      "sha256": "7666d487057efeedc4e33a3ae51ebe14d20f0e5b219082fdf15184ce0fff3c2a"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M11/exercises.md",
+      "bytes": 297,
+      "sha256": "6becbe210f2b66a5e5f9a34182969a5a4c44d0cceb8f5b927bf180b30994b7e8"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M11/lesson.md",
+      "bytes": 4102,
+      "sha256": "185c71398f2f57f4f2b762bee7e1c90ab0be06c57cfebe29798fe91dbd59533a"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M11/solutions.md",
+      "bytes": 560,
+      "sha256": "876b7147553bdf9366038d0027d929de2106e4341e0e6d170df4cf5ecd709aa6"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M12/exercises.md",
+      "bytes": 269,
+      "sha256": "ebffea1ad5bd4ff463218a1b5de2120044f754b52e2aac0478fc9cb05ff988be"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M12/lesson.md",
+      "bytes": 4071,
+      "sha256": "c40a0f52d162915f6c1f9d561548bbb23228e35c324a0d72c132d39e2196806e"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M12/solutions.md",
+      "bytes": 506,
+      "sha256": "6f0eaa9aae75dd1f04051d50f093596a3ba88029a4014ba17333d754231d6cc8"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M13/exercises.md",
+      "bytes": 307,
+      "sha256": "5cc8875ec619576606b1486c06e414e9acd1eea7c9b3340388739cb4a46d8294"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M13/lesson.md",
+      "bytes": 4022,
+      "sha256": "2d8c41d591b5b61dc63d98c83b356a0e20410c42480bb2ed3bd8b14e669d57aa"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M13/solutions.md",
+      "bytes": 577,
+      "sha256": "f9d515c9184100801a75277757bea50c6752d33a97919fe1339aa37a87763aeb"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M14/exercises.md",
+      "bytes": 303,
+      "sha256": "25b5b82e02728b7e9daa5f9197aea9aa07cd068cf7e4ae97cbf8dc03c5f262c7"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M14/lesson.md",
+      "bytes": 4054,
+      "sha256": "2ce587aebac0128d90bb1b24f675de7b7db6b9d8eb635545f02e2d09b02b42b0"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M14/solutions.md",
+      "bytes": 487,
+      "sha256": "8bf5f5d2a4a672f04daa5b816e92d7f41d16c2c1f888d26434a088486dbc6d17"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M15/exercises.md",
+      "bytes": 293,
+      "sha256": "d5a186985c29b3c585ffc5f21b2d5f67b84e07c3fa276494e7bd6ed3e6b48f7e"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M15/lesson.md",
+      "bytes": 4302,
+      "sha256": "442ac4bbab572ff0964543f7b689c3bf47148bc4ef6fb88afa0416d5af7a06f3"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M15/solutions.md",
+      "bytes": 477,
+      "sha256": "03740c018298778eba2bad21076b622b62e7a88d78caee1e393fcdee3c9c469d"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M16/exercises.md",
+      "bytes": 304,
+      "sha256": "f8e780a7901b3b6a5f125342fc81e73eaed44af5d17fde207c354d7ca4c03d93"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M16/lesson.md",
+      "bytes": 4209,
+      "sha256": "39db888c7510344734d545cae13cc867995457926f1c9bc172c42f989903c6f3"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M16/solutions.md",
+      "bytes": 538,
+      "sha256": "20810e47da8dc800fb3cea7144918b8175c43778e931683d862a6258b3ccb020"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M17/exercises.md",
+      "bytes": 359,
+      "sha256": "a2732463ad8ab51361c8b7e9c7d90dfc85029b03e9fb8624ab4a98b7991d34b6"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M17/lesson.md",
+      "bytes": 3930,
+      "sha256": "5875be3acf8f676546134c4fd85f2f0ec33899daf48bdf8f69028059efe4918b"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M17/solutions.md",
+      "bytes": 478,
+      "sha256": "ed6b9167d92e267d98512325a2b06e14a02c0efcd0dee3b14e46c73968f48c6d"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M18/exercises.md",
+      "bytes": 295,
+      "sha256": "25c75b206cd6fdc4390ca845c164307df21eade648e82d4b8fa95ff4ccd7ed72"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M18/lesson.md",
+      "bytes": 4555,
+      "sha256": "bc5d2d6ecdddc3ba777bf3131a6532bc874c1d0f322decbecf63e0bf7acf8634"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Modules/M18/solutions.md",
+      "bytes": 499,
+      "sha256": "171e2058e9ce91f61860257774bae9ae81a6654d9c6875b2559c44747aa8653f"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/README.md",
+      "bytes": 1431,
+      "sha256": "d8c6c29ecdf4454c5d7a5cdff2f14980b8351ba842f861a7861996343b8dbb77"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/Reference_Skills_Matrix.csv",
+      "bytes": 19363,
+      "sha256": "588aca9924b0b00454f35bbb96cb4a9743058f573f828e05b9715150510f8e99"
+    },
+    {
+      "path": "03_JD_JR_Skills_and_Learning_Content/modules.json",
+      "bytes": 7256,
+      "sha256": "0972dab1c98fda746caf27ccab17b6f1d0b3ef34380dbea2a5b405788c0c6601"
+    },
+    {
+      "path": "04_Skill_Assessments/Evidence_Tracker.csv",
+      "bytes": 4864,
+      "sha256": "028719fb8faf1929d64932aa5f3eb1c2be3407599824cacd9edda13b46f9316b"
+    },
+    {
+      "path": "04_Skill_Assessments/README.md",
+      "bytes": 1518,
+      "sha256": "5bd39ecb118216eeeb4684023da8b4947518ef1852940b8cee98bd06d1391f18"
+    },
+    {
+      "path": "04_Skill_Assessments/Scoring_and_Evidence.md",
+      "bytes": 2430,
+      "sha256": "ae7bc858166ab308ce6b313b6c899b37fde2b6c6f62d0611dc9becec4a57a9c7"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/Debugging_Key.md",
+      "bytes": 3920,
+      "sha256": "52ed75137ada29a215a9afa37eab6f2dcb52bcb091a5c9ca00632c6016d680ea"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/Diagnostic_Key.md",
+      "bytes": 3422,
+      "sha256": "f03be3f1a072bef53263edc517f7bc1c4f463750657e36f1237183188fd80496"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/Final_Practical_Key.md",
+      "bytes": 2189,
+      "sha256": "ef85f9706e527f3b686504c64f0f0df30def7f98146f3b10dfede655f8d6effb"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/Phase_Exit_Key.md",
+      "bytes": 4374,
+      "sha256": "8ff910b40926308ef734cc05ebb3b0710ee03946a1b903f695c3573b2ce9af44"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/Role_Mock_Key.md",
+      "bytes": 1725,
+      "sha256": "87466ba96c9180b10a700b3a17432db7f49d50c51fe6d6f86d8a557227312f53"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/Timed_Coding_Key.md",
+      "bytes": 2405,
+      "sha256": "bf4bdd534f665ce072268b0c5b4f71414d8f0296c80b3a1e807c60c63b1889b7"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/Topic_Quiz_Key.md",
+      "bytes": 16368,
+      "sha256": "16b651c21d023cecf11f67f8d989a1663bf5593f63ab8726ce9000ff4d5b8f04"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/VALIDATION.md",
+      "bytes": 1991,
+      "sha256": "b2366b9db292973e91a7bbd1bc9cfe45176352b04ce4723204deee7f1572a163"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/coding_reference.c",
+      "bytes": 12946,
+      "sha256": "4b5c7c1432c8617e3e2329c0dc97ec2c1c6eaadd28d7d59e561d2cd7a897d1ff"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/content_validation.json",
+      "bytes": 293,
+      "sha256": "3763121106f15fd4cc6a1245595fbb48cf0eb3db569f9a148d9e6ad510d96ec2"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/parser_repair.c",
+      "bytes": 1138,
+      "sha256": "293a8283cad5e80ab3989e304eb1d5292302a33b392608f9e6bd5601e3f15d63"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/posix_reference.c",
+      "bytes": 1086,
+      "sha256": "be09aba2550d0f50262e59a16409eab68e507e6b37c21d721b2791b84c6ae575"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/reference_test_results.json",
+      "bytes": 1249,
+      "sha256": "4321d25758700e5aa2fc784d521fe8846b9475c65e00f6c479ae6476ccc545eb"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/run_reference_tests.sh",
+      "bytes": 374,
+      "sha256": "a03ec7eb5e3fb0e6e7bfd4394d0b9a4725dc395ed3a5e7ba004e88950b044497"
+    },
+    {
+      "path": "04_Skill_Assessments/answers/streaming_reference.c",
+      "bytes": 3224,
+      "sha256": "b2c65782a92677130317433be29e51f09f70b4c1f217f37180f5e30a462ae45f"
+    },
+    {
+      "path": "04_Skill_Assessments/fixtures/broken_parser.c",
+      "bytes": 308,
+      "sha256": "79bdf109ff3405466e58ae81ef16cdbbd7ff1718d33dac604af91f3f47504b06"
+    },
+    {
+      "path": "04_Skill_Assessments/fixtures/broken_queue.c",
+      "bytes": 469,
+      "sha256": "a83fa47e0f8952e709737fa14167d07fab9d8a17a1e821d24d4c12870447148c"
+    },
+    {
+      "path": "04_Skill_Assessments/fixtures/fault_summary.txt",
+      "bytes": 522,
+      "sha256": "a01bbcb0ce8f62c511c3cb49e2ad37ee1c006e14d5420eba23e1751467f42134"
+    },
+    {
+      "path": "04_Skill_Assessments/fixtures/fragments.json",
+      "bytes": 395,
+      "sha256": "5882ddfe846efbf088ad74fc6e254620a47fb2dba247a7528be3c6db1e493313"
+    },
+    {
+      "path": "04_Skill_Assessments/fixtures/kernel_oops.txt",
+      "bytes": 426,
+      "sha256": "ac7e852cc99e4802ac7d5bfe870360067a5df52efa349c5f1c1bfa3a47901d62"
+    },
+    {
+      "path": "04_Skill_Assessments/fixtures/spin.trace",
+      "bytes": 409,
+      "sha256": "3c848af166a0b98a76ffb24f80ca0839acf5e1c72bae275e1a6f5f02a751865b"
+    },
+    {
+      "path": "04_Skill_Assessments/questions/Debugging_Challenges.md",
+      "bytes": 4590,
+      "sha256": "3bec95b026c32c79fbd6e4adf63eb821b050945ba12b42ed784e9247c6edbf52"
+    },
+    {
+      "path": "04_Skill_Assessments/questions/Diagnostic.md",
+      "bytes": 3042,
+      "sha256": "b9a3adbd1f4c1435b854e230f3b7f5c19628d1a8270e87dcca429305fce9671b"
+    },
+    {
+      "path": "04_Skill_Assessments/questions/Final_Practical_and_Defense.md",
+      "bytes": 4613,
+      "sha256": "07f97ecb642f787905b8cd6be7de737eace7acb554b008b703a9c4f476d4d263"
+    },
+    {
+      "path": "04_Skill_Assessments/questions/Phase_Exit_Tests.md",
+      "bytes": 4584,
+      "sha256": "b65a7b387f6cdf8986759e020e7dcedb1c9f872eb1dda9d8d121d4bbace37705"
+    },
+    {
+      "path": "04_Skill_Assessments/questions/Role_Mock_Interviews.md",
+      "bytes": 3664,
+      "sha256": "9cda192ed550948db383367844db0336396f3b05f64fad936c43366148158fe2"
+    },
+    {
+      "path": "04_Skill_Assessments/questions/Timed_Coding_Tests.md",
+      "bytes": 3192,
+      "sha256": "63037370cec78ab6693f60c56e41a27f84c0dc9c8d947347f522be08c3c5f963"
+    },
+    {
+      "path": "04_Skill_Assessments/questions/Topic_Quizzes.md",
+      "bytes": 13330,
+      "sha256": "7b63fea32bd9cd140d82fbb8195c23b00207bbf2a04cb1a6bb02da32a53d8883"
+    },
+    {
+      "path": "05_Interview_Strategy/Interview_Day_Checklist.md",
+      "bytes": 1113,
+      "sha256": "cbac40d762cac203bf55029b670c3a35fa93c171957a952ea09481a73dd985bd"
+    },
+    {
+      "path": "05_Interview_Strategy/README.md",
+      "bytes": 6286,
+      "sha256": "d3b327089196a734dec80b215a1502a9c036204d22da234add74d125b6e23537"
+    },
+    {
+      "path": "05_Interview_Strategy/Revision_Sheets.md",
+      "bytes": 2548,
+      "sha256": "a433d17ab865a52e219fb7fc3be2a493fa9b8d49671cc4761a4315a38887d855"
+    },
+    {
+      "path": "05_Interview_Strategy/Thirty_Day_Revision.csv",
+      "bytes": 6698,
+      "sha256": "4878a24966898c7e8152a246677312a381184b486c66268311352647e1095628"
+    },
+    {
+      "path": "05_Interview_Strategy/Thirty_Day_Revision.md",
+      "bytes": 1814,
+      "sha256": "7d6038ad076f08ee892630811b22157064ca53bb80020d9c9b4198071bc4f263"
+    },
+    {
+      "path": "06_AI_Integration/AI_Workflows_and_Prompts.md",
+      "bytes": 9353,
+      "sha256": "0fedef35fce22e2d6f13832f35e20f4d43a9e52650b6aa1a02fcf0bc00707141"
+    },
+    {
+      "path": "06_AI_Integration/Assistance_Log_Template.md",
+      "bytes": 410,
+      "sha256": "30a730ee024a2d3e9bce8eb39c3e52ff31e499c794a6ace67fabe5f0fbafbcde"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/LICENSE",
+      "bytes": 1086,
+      "sha256": "8537433fd6d276ce31bedb0bf8b0a2d91f5d628c4863602ffe86775ba498db16"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/Makefile",
+      "bytes": 545,
+      "sha256": "3b951806d53763d88ffacbcfe5db2d4f4cece1be9138bfe29ad08fde23632ab6"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/README.md",
+      "bytes": 5306,
+      "sha256": "fb9ef8d275307e43f7fc69a221447e8af406500e7cb7c4bac9064e774f8d0419"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/VERSIONS.md",
+      "bytes": 665,
+      "sha256": "1e0fbdbb8e436a3be05d681919c4baff4ac5b3e1b1d77da99afb94ace4064ed9"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/evidence/VALIDATION.md",
+      "bytes": 930,
+      "sha256": "2b2a2251f2e6cc02edd28a84ac7c823268435a6b1f378b8de117ab1f9ac8353f"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/evidence/host_tests.log",
+      "bytes": 681,
+      "sha256": "671f0e9414741214d60a8773a165f744afbddc9866da2e4afb7f5f0198a6310b"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/evidence/status.json",
+      "bytes": 795,
+      "sha256": "f23f28e8c342ac2f273d4137c9d74a449ca1138fc0a31aea8a59c15e05286ddc"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/exercises/EXERCISES.md",
+      "bytes": 801,
+      "sha256": "0f79ebc33e8541fc1e3d348efb4e5a781289e9f29ed690746238f018f63546b3"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/include/util.h",
+      "bytes": 994,
+      "sha256": "6f00093fd7477614ec4815e5957c1b961bfb8b67b820e63a9f98bf7c3fa8885b"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/solutions/SOLUTIONS.md",
+      "bytes": 915,
+      "sha256": "3ca042ba156f43d3bb31b092b960711d8213d302ccb5558d04115e8bd9f82fc9"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/sources.json",
+      "bytes": 566,
+      "sha256": "70bff6e068e99998d7e5d021dd637ed5296959450a3fb698bba07be90a264f5c"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/src/util.c",
+      "bytes": 2394,
+      "sha256": "b69eba59d842cf4a306701eefc0a3e50fe6010f46d657277ff61b2d004858117"
+    },
+    {
+      "path": "07_Projects/01_Basic/B01_C_Utility_Library/tests/test_util.c",
+      "bytes": 2144,
+      "sha256": "42376f7352d01a6f6678cabe83fd8e880bc7979fbd03de9fa5ca42244524e6aa"
+    },
+    {
+      "path": "07_Projects/01_Basic/B02_Process_Inspector/LICENSE",
+      "bytes": 1086,
+      "sha256": "8537433fd6d276ce31bedb0bf8b0a2d91f5d628c4863602ffe86775ba498db16"
+    },
+    {
+      "path": "07_Projects/01_Basic/B02_Process_Inspector/Makefile",
+      "bytes": 243,
+      "sha256": "158b765c8ffe9c9dfe3de974c243ec17dd727f995931f80c806a33febc9250ee"
+    },
+    {
+      "path": "07_Projects/01_Basic/B02_Process_Inspector/README.md",
+      "bytes": 4917,
+      "sha256": "4e03d87f94fd8db1c02b459e02bdcea6fca05e09ea17fed4390a5d866da04b2e"
+    },
+    {
+      "path": "07_Projects/01_Basic/B02_Process_Inspector/VERSIONS.md",
+      "bytes": 675,
+      "sha256": "13e1ce9d375f5eb4939a91607a6554af060e7859b613d46aa518c8870c26cf08"
+    },
+    {
+      "path": "07_Projects/01_Basic/B02_Process_Inspector/evidence/VALIDATION.md",
+      "bytes": 733,
+      "sha256": "9b871eeb915481532fad17f4bc55b337ba690a60620d809d8bd15371a13caf4c"
+    },
+    {
+      "path": "07_Projects/01_Basic/B02_Process_Inspector/evidence/host_tests.log",
+      "bytes": 269,
+      "sha256": "91532063e6a5bb30ebad93939ef1db710d38f9c1695a36aae7700b736296f133"
+    },
+    {
+      "path": "07_Projects/01_Basic/B02_Process_Inspector/evidence/status.json",
+      "bytes": 555,
+      "sha256": "173afdd0de563c23a750d073160848257592e5823ea33edb3162ee59a01286fb"
+    },
+    {
+      "path": "07_Projects/01_Basic/B02_Process_Inspector/exercises/EXERCISES.md",
+      "bytes": 744,
+      "sha256": "8d994d37a678f3443e6d658e80b295fe40a2ab56bbbffa3c36a4ea679e0cbaf4"
+    },
+    {
+      "path": "07_Projects/01_Basic/B02_Process_Inspector/solutions/SOLUTIONS.md",
+      "bytes": 958,
+      "sha256": "ff254742c72a2a23b41169d9bc82f745f85efe88c0bb91665eefa9801bd62f38"
+    },
+    {
+      "path": "07_Projects/01_Basic/B02_Process_Inspector/sources.json",
+      "bytes": 283,
+      "sha256": "82644862b1946da0a31c3c65948426d527485b7d85c8d2cc30af62b6615cf02b"
+    },
+    {
+      "path": "07_Projects/01_Basic/B02_Process_Inspector/src/inspect.c",
+      "bytes": 3773,
+      "sha256": "6e429a9829304e75da5481da68c35dd95b58c6736f5c7cb210f73d99e5497665"
+    },
+    {
+      "path": "07_Projects/01_Basic/B02_Process_Inspector/tests/test_inspect.py",
+      "bytes": 1420,
+      "sha256": "c130fcde1a04ead19287a5b6b6ba7cba7e1350484934187dee475445475cae8f"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/LICENSE",
+      "bytes": 1086,
+      "sha256": "8537433fd6d276ce31bedb0bf8b0a2d91f5d628c4863602ffe86775ba498db16"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/Makefile",
+      "bytes": 309,
+      "sha256": "ad77b85e747803f1dfb6dddc24d8866ab8985e7a193849503e2ca118bc2bc599"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/README.md",
+      "bytes": 5423,
+      "sha256": "74a05a29b6c6797a0b1c82430e880f5d9406acd02239bd261bb02d4904d3de71"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/VERSIONS.md",
+      "bytes": 689,
+      "sha256": "de7fc324d3ce11e196ae9dcab331e926fdb992ea6ebf9c65f5cc89dfaf1c1d7b"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/docs/DEBUGGING_CASE.md",
+      "bytes": 1411,
+      "sha256": "21451b0cd5c172363361ddfb1150b85fa05b82727fb561b09c779e1470d7d969"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/docs/PROTOCOL.md",
+      "bytes": 1719,
+      "sha256": "1f29106e53f1aa0c52048ad54e2ad964fe5f3179e7422403e24deacfabfb7610"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/evidence/VALIDATION.md",
+      "bytes": 942,
+      "sha256": "e7e999618bc8fd5c53381cac3837887a15676bbc6751356490c676148e1b48d0"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/evidence/host_tests.log",
+      "bytes": 410,
+      "sha256": "1011957c8d55f631cb0bc2e773647eaa150b80d3e517bd770e38f484545698e5"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/evidence/status.json",
+      "bytes": 772,
+      "sha256": "8d4da35bd35e2e854af5f00bfc936bc910808cc15db1da848603a9f74f40f3b9"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/exercises/EXERCISES.md",
+      "bytes": 738,
+      "sha256": "f8b509be321809f85800ead1d3353a0f3471acf54d9cd41838f3be66be64eba9"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/hardware/UART_WORKSHEET.md",
+      "bytes": 926,
+      "sha256": "3eae53a1a94199a03e2db68b1f67b68c16dc1db3a64477cb6c739034780880a5"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/include/util.h",
+      "bytes": 994,
+      "sha256": "6f00093fd7477614ec4815e5957c1b961bfb8b67b820e63a9f98bf7c3fa8885b"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/solutions/SOLUTIONS.md",
+      "bytes": 832,
+      "sha256": "94ae19482131ac6d27effdfa7486ff4489ebd597c06c76462ed62f855eb47123"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/sources.json",
+      "bytes": 523,
+      "sha256": "6fe96895ab41ae09dd3c7cf8570b5aa66b0574ff37da1d33eae5f4f493e50b02"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/src/uart_frame.c",
+      "bytes": 4294,
+      "sha256": "7aeab145f287449bcc84b47379ba0ccdcd71436682b752440aef73d00bb473fa"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/src/util.c",
+      "bytes": 2474,
+      "sha256": "5d20d08c743cfd66b8568d3fafb7d1dc84a75e178b1c2cf1fc232b191591a1ba"
+    },
+    {
+      "path": "07_Projects/01_Basic/B03_UART_Framed_Protocol/tests/test_pty.py",
+      "bytes": 3376,
+      "sha256": "5379ab4484e2829deea8af19da1efb77e59d7d2c3b1c5d000c72bed54727eb42"
+    },
+    {
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger/LICENSE",
+      "bytes": 1086,
+      "sha256": "8537433fd6d276ce31bedb0bf8b0a2d91f5d628c4863602ffe86775ba498db16"
+    },
+    {
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger/Makefile",
+      "bytes": 416,
+      "sha256": "87632e56f712ae44f83066650eb04fde5f7b26a1d3c05714d464825ade8ff365"
+    },
+    {
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger/README.md",
+      "bytes": 5145,
+      "sha256": "235d781e3f7879f9d779ecd181f8e2da2b4c90731749a9509a02a8507d87977b"
+    },
+    {
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger/VERSIONS.md",
+      "bytes": 702,
+      "sha256": "0d3830f00a03ac703e56b035faf364e4fb59c3fb571ca7151463052fb1b85e64"
+    },
+    {
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger/evidence/VALIDATION.md",
+      "bytes": 832,
+      "sha256": "dfe036d409bf152c1603e650d5511b8c44e04ed1065e841f564a9fd4416be9ba"
+    },
+    {
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger/evidence/host_tests.log",
+      "bytes": 528,
+      "sha256": "dbc98301617563b2416ad69943361a724d975f983df8c683dac21f862baa9118"
+    },
+    {
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger/evidence/status.json",
+      "bytes": 654,
+      "sha256": "6817f4e0162a288403b07bbec70de048000f2dd968f9cb299bc9193fd92ef7cd"
+    },
+    {
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger/exercises/EXERCISES.md",
+      "bytes": 732,
+      "sha256": "56a2aba565b78407bac1418b13804457a7ceb7e4d36fea12981887e94a2db813"
+    },
+    {
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger/solutions/SOLUTIONS.md",
+      "bytes": 875,
+      "sha256": "33e2a93669dde67f7dac9434b12818cd4555f0878ae916f86265801cfb02ba20"
+    },
+    {
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger/sources.json",
+      "bytes": 679,
+      "sha256": "d2da20d359ebc10f52a47aa6ae99e84a527e0a5caf1bb40ad287bdb1a61c8ed1"
+    },
+    {
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger/src/logger.c",
+      "bytes": 4717,
+      "sha256": "769e6cd1feb248868b24124757001475c94daad716b5fe59053cc4086fd0235e"
+    },
+    {
+      "path": "07_Projects/01_Basic/B04_Sensor_Logger/tests/test_logger.py",
+      "bytes": 1497,
+      "sha256": "a84ad94aa9c2ee5bb231deae97d6adfe35361549a1a9e62b6d913c01f4063223"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/LICENSE",
+      "bytes": 1086,
+      "sha256": "8537433fd6d276ce31bedb0bf8b0a2d91f5d628c4863602ffe86775ba498db16"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/Makefile",
+      "bytes": 610,
+      "sha256": "784a4a60c9452d1bcb3f6327736d9e5ae318d75ffe902d7d990623849113eed8"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/README.md",
+      "bytes": 4807,
+      "sha256": "0ab7c69746b542f9ebff458bfd2fcb3f94c818aff2e5feda5f6dba5f38ea28d2"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/VERSIONS.md",
+      "bytes": 1252,
+      "sha256": "e40a10206d18ed4060960a377dfd349cda9b93753e6e5a69bab80fcad2c552da"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/evidence/VALIDATION.md",
+      "bytes": 1034,
+      "sha256": "b522ef46559227e37fb11f3553fabbdb7065c64d854e9f2b845be241088b1a38"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/evidence/cross_qemu.log",
+      "bytes": 4394,
+      "sha256": "2d406a141807ed0aa2e4ff02bf873eeac5efca211ec918216e033e6c8577cd4f"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/evidence/host_tests.log",
+      "bytes": 301,
+      "sha256": "067519677f48a7712097e328dd0860f254da1f22018336dd19c44ae9693a32d7"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/evidence/run_script.log",
+      "bytes": 1332,
+      "sha256": "23d1496f9554c14ffe3644490c664e316224db07fb0f35b01e57ff881d81f231"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/evidence/status.json",
+      "bytes": 829,
+      "sha256": "02114cb079c6f6793432adc7f049359aec42c139790592a64006d161ada7bd3a"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/exercises/EXERCISES.md",
+      "bytes": 751,
+      "sha256": "bcc68b0f84e2afd458ac7025a1209bd2ee08954b0a955f023cd2d5b3a4c81eec"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/scripts/run_qemu.sh",
+      "bytes": 658,
+      "sha256": "52e52059dff7cbde9f5ee470747749194774a36567b519d03de69728e91da092"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/solutions/SOLUTIONS.md",
+      "bytes": 764,
+      "sha256": "77a883e2047a2672ae1c282c5ed68cdb1f6f32ace2ba8ae805d396fda9efa824"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/sources.json",
+      "bytes": 615,
+      "sha256": "14388eae5feb98be36f31a759f343f679405bc9ebf63ffae845d705853da560c"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/src/target_sum.c",
+      "bytes": 775,
+      "sha256": "5702fc576c9fcd9826e7ec777a8ef174b2ed4fc09eaaa4f2b009b44548d053ff"
+    },
+    {
+      "path": "07_Projects/01_Basic/B05_Cross_Compile_QEMU/tests/test_native.py",
+      "bytes": 453,
+      "sha256": "5dc75c5a12b760458e648f539395a0145f06e35f7f187a894787438416016061"
+    },
+    {
+      "path": "07_Projects/01_Basic/README.md",
+      "bytes": 647,
+      "sha256": "69ebba6a5870941b1b3334b4d83b92f3f7dd3039b70bdd6a890f821e54052b6c"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/LICENSE",
+      "bytes": 1086,
+      "sha256": "8537433fd6d276ce31bedb0bf8b0a2d91f5d628c4863602ffe86775ba498db16"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/Makefile",
+      "bytes": 264,
+      "sha256": "f71d4e0d16a4df7ca5b1d7a8694264a32d372782ebb5289722c93189b0d57feb"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/README.md",
+      "bytes": 6178,
+      "sha256": "17f4292a993e6ab1d5ff9d25b37d236f8f717e85109ba7ced4913fe935aa50a9"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/VERSIONS.md",
+      "bytes": 772,
+      "sha256": "c7663c64d76ffbdc7b0300ac2215f5b1948884adda78bbbd96fdccf035c357eb"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/br2-external/Config.in",
+      "bytes": 68,
+      "sha256": "38c35228ac2f409eb4de60a22a3ce34f550cb9d4981fa29eacbd11da535796b5"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/br2-external/board/linux.fragment",
+      "bytes": 57,
+      "sha256": "e1af773756e9acbb7d8d21114d4aaddf4d91ab99e0f566848bd412443e1c5aae"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/br2-external/board/overlay/etc/init.d/S50learn-telemetry",
+      "bytes": 547,
+      "sha256": "99cda37e25c35ccd775d6464ae075981e486fe3804c34081e52f75a161d36903"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/br2-external/board/overlay/usr/bin/learn-loop",
+      "bytes": 222,
+      "sha256": "cf0bc1d0b8a463bf012aa3fec9ebdee9d1597a93d95d81cb3e98eb094158738c"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/br2-external/external.desc",
+      "bytes": 52,
+      "sha256": "acca29baa09b57239407f7f2220bf110586496e48edd35dcb2bfdaef9e796f09"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/br2-external/external.mk",
+      "bytes": 70,
+      "sha256": "5d3a1ecbb1e533783b21473f0f3ae3a62b219d3d8ee4451e129a648fb17a1635"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/br2-external/package/learn-telemetry/Config.in",
+      "bytes": 145,
+      "sha256": "35e7ee8b2dc6cf7d29bdfffce566a6f52f884130cbd53de88452e658189f2de4"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/br2-external/package/learn-telemetry/learn-telemetry.mk",
+      "bytes": 551,
+      "sha256": "d64154c6726e10fac86716950f44336860535878a872a2656064ad3e6d9c8c75"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/config/learning.fragment",
+      "bytes": 311,
+      "sha256": "402328d083af29144a8c88457bb8653aa8f1b869229229350308ee1109b3fbdc"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/config/upstream_2025.02.1_qemu_x86_64_defconfig",
+      "bytes": 686,
+      "sha256": "00e19531b96313fe7fcde63261e84934e75e242b55e66fe417e490fb3cf504c1"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/evidence/VALIDATION.md",
+      "bytes": 1118,
+      "sha256": "745c5b8673b7c031df40678146debe77d711542d53f5dece37c5f7eb13b098a2"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/evidence/buildroot_configure.log",
+      "bytes": 3077,
+      "sha256": "6b933d651e1e195ec76e610e0d041e2bc4f36870b43764c35e6062b3102f9365"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/evidence/host_tests.log",
+      "bytes": 338,
+      "sha256": "d81dff9a4f10c619461ac71bd17b8ac1b81025777cb34f48c4a49b2d9bf20b88"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/evidence/resolved_buildroot.config",
+      "bytes": 136067,
+      "sha256": "ba8fafd1aa166429c479ab60a18308eaa83b6b084e06f0f4d2a340ccbcb8a8f2"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/evidence/source_archives.json",
+      "bytes": 251,
+      "sha256": "d4f5b6df6cc3390d8923f4ca6d3c8828548673662c45b031b2e04444ac8d6afc"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/evidence/status.json",
+      "bytes": 930,
+      "sha256": "3c368db324ab3aa0ef45be34a31266f375cc9354624e77f81240a752bec6be13"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/exercises/EXERCISES.md",
+      "bytes": 773,
+      "sha256": "0c7c40be46e48b076a44e1a13b6d1aa81a69940bc22fe480ef18a9a5ee88df38"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/scripts/configure.sh",
+      "bytes": 810,
+      "sha256": "9b07fec4b3502185ff5930b3328623bc9d3b467dde1d867265a2b4486ecef727"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/scripts/run_qemu.sh",
+      "bytes": 614,
+      "sha256": "89494bbd2c30065522ed265f2d88abb7fb699bdf942eee9e8310aecfcb9afae9"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/solutions/SOLUTIONS.md",
+      "bytes": 964,
+      "sha256": "54d686717b8979023282f4b139fc14bacba3fd00236df6bbdd5e3ca705b5ef07"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/sources.json",
+      "bytes": 875,
+      "sha256": "0b84066895f6192cf0bb730fb56945ae2b72c0aa7087d492be2adb29b20a7b4e"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/src/LICENSE",
+      "bytes": 1086,
+      "sha256": "8537433fd6d276ce31bedb0bf8b0a2d91f5d628c4863602ffe86775ba498db16"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/src/telemetry_once.c",
+      "bytes": 3054,
+      "sha256": "ca0962356958be70bb137779b3da72ab4394180235e2b7c97a1f0b59ff9be9ef"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I01_Buildroot_Appliance/tests/test_counter.py",
+      "bytes": 1230,
+      "sha256": "1d04ae97fa5130287ee984678f12c42e772b50599b4cf14cbbc52a88c946ee6c"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/LICENSE",
+      "bytes": 1376,
+      "sha256": "e7274774d5a921ee407695be773c76c6d4775f45d31b59b2ae6502ba9779545e"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/Makefile",
+      "bytes": 586,
+      "sha256": "2b4e6d167288832577bd3a194713a705aaf360487df6dd6ae4c82b2411fc3e2b"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/README.md",
+      "bytes": 5990,
+      "sha256": "366ca36cc19f9059fe8b8e86c3109492247f4bdd2773930312538e09b191c53e"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/VERSIONS.md",
+      "bytes": 799,
+      "sha256": "e334123343e00553718924f6fbd52be9e4bc54286d33e0f8289d4c197fca9f5c"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/evidence/VALIDATION.md",
+      "bytes": 1047,
+      "sha256": "28797417ae8fec9006210066664c0bd0b403ad0c4dca8e53c6a3bce056976b76"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/evidence/host_tests.log",
+      "bytes": 150,
+      "sha256": "47d022212d467289c3c83384a8030b606bda2402bea955aa85d8d0b29e6b3c0e"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/evidence/kernel_object_build.log",
+      "bytes": 409,
+      "sha256": "fe77578fe673e5a0e6ea4110e267bd4587471ddac3b7c193465ab14c84298be3"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/evidence/source_archives.json",
+      "bytes": 246,
+      "sha256": "c403112f1803d0259a5ea69ea2e5abd6747de043a7156ac97e89633bcb4f9314"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/evidence/status.json",
+      "bytes": 859,
+      "sha256": "8ba4a7dc0753fc98c230375eb692127bf74df6fee24078a30a887a3567f6eae7"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/exercises/EXERCISES.md",
+      "bytes": 731,
+      "sha256": "bafc822cfa2dffe3b33a898d16398ebb5880b3bbb05ce717f507a1faf1a03c1b"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/scripts/guest_test.sh",
+      "bytes": 353,
+      "sha256": "95a70c9ff237a38f90a85f6088b3d0c96d93c7968f15ce1ef71d271b7e80c008"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/solutions/SOLUTIONS.md",
+      "bytes": 876,
+      "sha256": "2c3f1bfe37ce3e320f4b1978438cf98cdf46ecf3f578cbfe9b15b97eef745a27"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/sources.json",
+      "bytes": 822,
+      "sha256": "bd9022c7c4f9b158c24bfc02c83152abdf4db299d6950bd04cbea70c4973e81b"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/src/fifo_client.c",
+      "bytes": 1559,
+      "sha256": "6aad570959458e81d1e827626bda4cb319d0ffe85944f57f63674f164d6e94cd"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/src/learn_fifo.c",
+      "bytes": 3228,
+      "sha256": "c92c301c044f0ce8461385bd728b3b0f7b2c4cfa673eecae97be144c7f3feac8"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/tests/TEST_PLAN.md",
+      "bytes": 1537,
+      "sha256": "b4165ab4d32544a55b0ea169f5fbc35ddbbf150d846459c04b4982ce09564920"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/tests/test_device.py",
+      "bytes": 1764,
+      "sha256": "d1ce039bf5f880c604c9a9cc8004a9e0e44c3897b13ea429bbcb0ed186698f24"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I02_Kernel_Character_Driver/tests/test_faults.c",
+      "bytes": 2711,
+      "sha256": "1ee842592425550bef1a9ec03680dff6d326a573c97de358b0599eb78cfc4ee0"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/Makefile",
+      "bytes": 214,
+      "sha256": "b43cc65f5539f539598f9883cb48c0216edee3be5012ff96ecf8441ad289c9f5"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/README.md",
+      "bytes": 6612,
+      "sha256": "9714137486c3555ddafc1856f704da01ce1b8308f309721bb9fae30bf05a8455"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/VERSIONS.md",
+      "bytes": 662,
+      "sha256": "5fa1aeb44162435b048fd71359f4f7ade1b2062f6b2043c0290a568b64e53d77"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/config/learning,gpio-edge-counter.yaml",
+      "bytes": 546,
+      "sha256": "89d28a4ecf3649bf0e157222aac7f2401434dbfd6a706321a172b5e3a8d52557"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/config/learning-edge-overlay.dts",
+      "bytes": 242,
+      "sha256": "ed4b2f99b4e8b599f9a8e91cbdb31d29945088839eb06b7ec43f66ab3a782c21"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/evidence/STATUS.md",
+      "bytes": 1123,
+      "sha256": "410bd51843b09037e0d3f483d9673092c656d5d57c94985500424a4b7be75929"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/evidence/build-object.log",
+      "bytes": 408,
+      "sha256": "50aa02b8c0302349f06bfede9a4ffee0e0477aff48067881ecd431d030da9b56"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/evidence/device-tree.log",
+      "bytes": 188,
+      "sha256": "1c9cfeef9047871623b7a353c2f028f36699429719ed95e212202ff9f93bd776"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/evidence/validation.json",
+      "bytes": 1392,
+      "sha256": "86e21b6dd0f6aa5ad39cb574b2f931582465dc76dde07e52a93580d8a3540a43"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/exercises/EXERCISE.md",
+      "bytes": 334,
+      "sha256": "92265ae55c7d44c48d92bd06e4fa94df84cec795a374f08a7b676f5a9d89a088"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/exercises/SOLUTION.md",
+      "bytes": 514,
+      "sha256": "dd3343cd2e61058acb7bcf0b224cd9a9c0ffd50e3ad51661d687674c1080b4dc"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/hardware/WIRING.md",
+      "bytes": 978,
+      "sha256": "ba9adcc0b97645ec57458d16114d3f4987f52a341f5d472ae517d7df66a29bcf"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/sources.json",
+      "bytes": 562,
+      "sha256": "8687c96e228aa1e29dea31cfcfbc4629316f09e894014c38b4a50f6b141ad9c9"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/src/edge_counter.c",
+      "bytes": 2081,
+      "sha256": "07368684386e22505a04ced7c0bc1cfff84c4a07cf7f3606d8005c975d389c07"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I03_Device_Tree_GPIO/tests/check_count.py",
+      "bytes": 498,
+      "sha256": "19b2fa6176db4a70a62030b223c9d14c63602c8b0e44b9e203ab02a261f2f831"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/README.md",
+      "bytes": 6384,
+      "sha256": "d30b5065a6a141530ba4bae605e29daba7c079e6976c663b3c36a1939a2a97ca"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/VERSIONS.md",
+      "bytes": 626,
+      "sha256": "c2b2395ec6794a5ae1a2c3327d703aebac7c6ab6ae38aa74a044941adfd34e1a"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/config/local.conf.append",
+      "bytes": 148,
+      "sha256": "8c433d190a10674034f2926ea34f9e7be67e4a67d19951de82d1de184d34f352"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/evidence/STATUS.md",
+      "bytes": 455,
+      "sha256": "ebe774771aefecfbe1896098dc4c96b3f415778491f0c0b26606424e5f22edc0"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/evidence/tests.log",
+      "bytes": 179,
+      "sha256": "4ad8980ef62fc0b91bd5c524c05e5930c78abc22d9c919ba57b745607c648dd6"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/evidence/validation.json",
+      "bytes": 680,
+      "sha256": "bb9618cb582d0a7c9f871b4d3f9d6ee633c3cdb55f178f5db942666b52e9e673"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/exercises/EXERCISE.md",
+      "bytes": 298,
+      "sha256": "b9cbd2c368c54de201d996155a2c52933290d59b0455f319938a1b029b7d680a"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/exercises/SOLUTION.md",
+      "bytes": 512,
+      "sha256": "219afc85d94f6ae368b65a6f1852d96cd7affd341fdcec629e888a03aefe5053"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/meta-learning/conf/layer.conf",
+      "bytes": 281,
+      "sha256": "10bf1ab5b0ef90ab01f0004ac20f6dfc2b29c5a5e3db3825425f090726c9f3fe"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/meta-learning/recipes-apps/telemetry/files/telemetry.c",
+      "bytes": 666,
+      "sha256": "b04179c0622fd160754f0defd7b5a7ad282f36fb568c2d738cda575898b9b559"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/meta-learning/recipes-apps/telemetry/files/telemetry.service",
+      "bytes": 272,
+      "sha256": "5d68ca910ee94d0ab7dcf144f16f4be8ad3b46b434f66ea8c6686525c2cc3893"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/meta-learning/recipes-apps/telemetry/learning-telemetry_1.0.bb",
+      "bytes": 626,
+      "sha256": "4d117ab468001eb07f6157bd18a9f8ba80b36f70e344d0a6e28f8dcb630d95e3"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/meta-learning/recipes-core/images/learning-image.bb",
+      "bytes": 245,
+      "sha256": "4c26b4e87acafe2d3ff2afc16375132c5727db71b39a74d33c99d60ad8f7d63f"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/scripts/setup.sh",
+      "bytes": 730,
+      "sha256": "ca2138bcf3b38cad86843a485faaac7b3e4dfc7bdabfe2d945afb4bc38318495"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/sources.json",
+      "bytes": 489,
+      "sha256": "a5f8730c07443f77451308d154e0af04d3a93a9449622c1c94f1dc27ace3012f"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I04_Yocto_Telemetry/tests/test_telemetry.py",
+      "bytes": 579,
+      "sha256": "d86ebce7bc48d652ff3aa1f47f0180203038e510b63e8d8def0aa323a5f2673f"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/Makefile",
+      "bytes": 536,
+      "sha256": "b2d482923ce409e1301d95883b089704d69279de2b66662a473e5e71e0e79836"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/README.md",
+      "bytes": 6549,
+      "sha256": "ec8f56fd1c901c4e71a9eca60ba707c596fd43cdfb48d1fa3f1faaf5e02fd069"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/VERSIONS.md",
+      "bytes": 1089,
+      "sha256": "aa98538b163586af7c48f60ba4506141974ed2087d1b276c9bcc1d0f4daf4886"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/config/FreeRTOSConfig.h",
+      "bytes": 1372,
+      "sha256": "6bbf10b0f4d306c93baa43d3a8ca82aa130f7ca604699fe2432ff97677c45a0e"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/evidence/STATUS.md",
+      "bytes": 919,
+      "sha256": "129271156d6bcd77de6845642600f54927116f29259477ed0960bb6fca072055"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/evidence/build.log",
+      "bytes": 457,
+      "sha256": "c55b89eb85931a328b58e7d08c92fd099bc7313feb022c93d8e8899fb61e546c"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/evidence/mcu-build.log",
+      "bytes": 916,
+      "sha256": "629fbd471c41af69bb850787441894dba87b6901b3ae9315742959eed0c22dc7"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/evidence/tests.log",
+      "bytes": 326,
+      "sha256": "52e98246ca4968bc02f7e0be32d81f9f92d3c5bc751aa18cdfc241de4079dd6c"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/evidence/validation.json",
+      "bytes": 1197,
+      "sha256": "68a306fbc834ec2f2ac08a14dc1e5b28c76654d5a1a9087e35c3fc8e39a2e017"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/exercises/EXERCISE.md",
+      "bytes": 309,
+      "sha256": "52011242b66a6566142ec31fea4f5417c266f5c79af716ab72d2f72369d22d71"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/exercises/SOLUTION.md",
+      "bytes": 534,
+      "sha256": "569d20e1206a076458682ec798e410801d6450365e1219e4607b8ee247e07d4a"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/hardware/MCU_PORT.md",
+      "bytes": 4513,
+      "sha256": "e4ffb17b2e35177133b9f3bf8c3769b00a2a023592db5a640ede9ffbdf704a3a"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/hardware/stm32f446re/FreeRTOSConfig.h",
+      "bytes": 1613,
+      "sha256": "01691c38f9787d0d7b6bb27af1f1c44c29d56f9b4482f099443069a7ef91f6ec"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/hardware/stm32f446re/Makefile",
+      "bytes": 858,
+      "sha256": "d4490223b6e4873367f1421da5ea785aabe2378e58296a037b67d5952c5a9381"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/hardware/stm32f446re/link.ld",
+      "bytes": 638,
+      "sha256": "2564e6438485480f475fe519e11bd3c67c0920f35cb644c1ca20052a51599b33"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/hardware/stm32f446re/main.c",
+      "bytes": 2982,
+      "sha256": "a1e09dae00533fe732c708660343a6acc3686aff7c574a04bf0d4a15f8c23f2a"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/hardware/stm32f446re/memory.c",
+      "bytes": 332,
+      "sha256": "2f0adbdb59acbf2f0514cf1dee382ff16a89ad5a1036fc1836f6e22fdaa7c4b4"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/hardware/stm32f446re/startup.c",
+      "bytes": 984,
+      "sha256": "fc6279c471c210276fc64cd6558940ede595879ee3fecd6d409b9c84634d8856"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/scripts/fetch.sh",
+      "bytes": 287,
+      "sha256": "f5475b143911416a3cd20d06a2fc1631c34044d9c9704b02d18c29bf51bfc91f"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/sources.json",
+      "bytes": 1379,
+      "sha256": "363caa1ed4f79bafab05989d9b8a1e645f15b8371ac143afc422298fd6d6af49"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/src/firmware_posix.c",
+      "bytes": 2659,
+      "sha256": "0bc4fbfea238b28fef2434ba13a8933e399708d7c835ad39eb7148b92b5da7a6"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/src/protocol.h",
+      "bytes": 654,
+      "sha256": "c3576e9dad6b4388867eca4ebea53fc3c592b5e130cafd3968bfdafcb17467cb"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/src/receiver.py",
+      "bytes": 740,
+      "sha256": "8655a2fc4aa0ebe6ebb64907c4ec56c572ca04a8fe04f8592aa980e1e8526b14"
+    },
+    {
+      "path": "07_Projects/02_Intermediate/I05_RTOS_Linux/tests/test_rtos.py",
+      "bytes": 1367,
+      "sha256": "9b6c353d8ec8de5d7a0716757fd0492601f111c239f9b3181dd84ff8dbac8da1"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/Makefile",
+      "bytes": 205,
+      "sha256": "1fa00f305e951ec89c6db075bc5ee0b946d3ef49c86c0c38c990d77517c298da"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/README.md",
+      "bytes": 6306,
+      "sha256": "94df74925d109e7f2b0d1198515b8d10a52317b4e8d53bcee31127efe97683ec"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/VERSIONS.md",
+      "bytes": 662,
+      "sha256": "5fa1aeb44162435b048fd71359f4f7ade1b2062f6b2043c0290a568b64e53d77"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/config/learning-tmp102-overlay.dts",
+      "bytes": 263,
+      "sha256": "4e6f58f383b216e542643a2e2cfa4fae76090a81bdbfcb73b65b992cb669eaed"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/evidence/STATUS.md",
+      "bytes": 1111,
+      "sha256": "ceed9724e242c562edf8de70b467e3b50eea488a651b96f0fc70dce13aa5503d"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/evidence/build-object.log",
+      "bytes": 399,
+      "sha256": "b13b672be680eff4f3a9cca3c2dd13f9b41f770a5417b36e8a42aa3114c93c1c"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/evidence/device-tree.log",
+      "bytes": 164,
+      "sha256": "b1d45cb4147f929ecd4f31036cda8106a2236916e634eaf3366d946ebe602f83"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/evidence/tests.log",
+      "bytes": 500,
+      "sha256": "9099ba0aeec6ca94619badd281547c980dfe25189bae7c592c0e15fc01960c3d"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/evidence/validation.json",
+      "bytes": 1403,
+      "sha256": "be0a018356d7c6baf26ece8e9b3f3ba3e33c2ee0765f141e7d70fd09f96bb7cb"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/exercises/EXERCISE.md",
+      "bytes": 329,
+      "sha256": "213c65c837817d3e4b35fb3b0ad48f316fe4fca5502a246f6fb796c511099e33"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/exercises/SOLUTION.md",
+      "bytes": 537,
+      "sha256": "90d88e9a5f111c047bd525a6a209818021abe561ff4f98532ee3ec9475f6c4ff"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/hardware/WIRING.md",
+      "bytes": 1267,
+      "sha256": "ac4edb1867f8dcd76ca5b90307e8d06b544458570706c562c20849b2311c5567"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/sources.json",
+      "bytes": 751,
+      "sha256": "a1ab056cfa8c4bf54abb77e04c9e019dbae2bb365cb175ffb6e2f8223af975cc"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/src/learning_tmp102.c",
+      "bytes": 2889,
+      "sha256": "3bc23e2566e655c4f26f1484a4fdf1b6423379ad501908d6aeb92b7a80222c18"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A01_IIO_Sensor_Driver/tests/test_decode.py",
+      "bytes": 666,
+      "sha256": "a3c55a443660411e5c4625f7d6e78a9955b8d0c4b1122102d714f54a8e0b962d"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/README.md",
+      "bytes": 5350,
+      "sha256": "a2ed93fe34cc1153f9fe4248d80f7c3719fc2849a3c3ad187836a6b402ead1aa"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/VERSIONS.md",
+      "bytes": 586,
+      "sha256": "de0a9f6b2ec186c0ea4081ef04cd1024648beec641cc4baf7c1b96e9528d37e9"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/STATUS.md",
+      "bytes": 432,
+      "sha256": "685fe3428d4097a8678caca6b3c78f784cfd964308c3457567870d834cc31380"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/idle/absolute_deadline.csv",
+      "bytes": 11934,
+      "sha256": "089031507e75b5eb5a8db5f189bd9335fc1cfbb634074f030784b3bcbfb711c0"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/idle/relative_sleep.csv",
+      "bytes": 12714,
+      "sha256": "4eb613f5320e7805a5f0c28aaaf1127927d48fd439d8d0d1217dbce24b816d55"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/idle/summary.json",
+      "bytes": 643,
+      "sha256": "c65681e0a9c2de5baf56202c9b73f7276f7cc592de5fb5aef02021a4617d8279"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/idle-run.log",
+      "bytes": 643,
+      "sha256": "c65681e0a9c2de5baf56202c9b73f7276f7cc592de5fb5aef02021a4617d8279"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/loaded/absolute_deadline.csv",
+      "bytes": 11902,
+      "sha256": "1ade546bafeb53ad969ad2bace5eab95f19c71d0ea4d196fed058ae7a95467c2"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/loaded/relative_sleep.csv",
+      "bytes": 12649,
+      "sha256": "ae64300ccdcaad5d5cf52dcf2179564d7a17703b4db97ec8df0b649702f9b578"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/loaded/summary.json",
+      "bytes": 624,
+      "sha256": "2495ad85bc62e1778b1738fe427213c8d46def963550dfbe053b98a3263fda6e"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/loaded-run.log",
+      "bytes": 624,
+      "sha256": "2495ad85bc62e1778b1738fe427213c8d46def963550dfbe053b98a3263fda6e"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/tests.log",
+      "bytes": 214,
+      "sha256": "97568bb524201acd4ce997cdf6cb46de0fd6057ced38944fbec0503b7393c35a"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/evidence/validation.json",
+      "bytes": 959,
+      "sha256": "43d70e16afae3f53de98a81533f458e9143f69b638eabe3f359215da5df933a2"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/exercises/EXERCISE.md",
+      "bytes": 314,
+      "sha256": "72be8a2648efb896eb63cf338f14b933eea49b8a358e5a11f83cb12a993e16a7"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/exercises/SOLUTION.md",
+      "bytes": 561,
+      "sha256": "6aa54a5ee69e40ef2147821c9007429b96968cfbc27271b0fce3e7a2be9f958d"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/scripts/trace.sh",
+      "bytes": 295,
+      "sha256": "e2f6869d304b491d31ca8cef2f79444bda4118cdacf8fd91ca629f59592006af"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/sources.json",
+      "bytes": 485,
+      "sha256": "5e6658905b938fa6c0916faaaf9f0455f38d5ae1e160c180e304d5e6f096b08f"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/src/latency.py",
+      "bytes": 2591,
+      "sha256": "d9abae4d0b14056d952f1ac1f9e07b2f487aca71b4a6db850777c11faa6b1503"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A02_Latency_Investigation/tests/test_latency.py",
+      "bytes": 521,
+      "sha256": "3b5a5ee6e2dd5f4921d33fa688d9c3aa3bbc8ff1c40162d76b8e6e3165657cf9"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update/README.md",
+      "bytes": 5798,
+      "sha256": "91e58d9e39742e30f791c18073e60c634d6fafbda961215a4de93f7cf9468a18"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update/VERSIONS.md",
+      "bytes": 637,
+      "sha256": "f44732477ef295047b150813cd0ead471fc16a3c7b9909ed9c06db21e3de3016"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update/evidence/STATUS.md",
+      "bytes": 464,
+      "sha256": "7fa84a35afbc7c68ab3a1d23f780b695cea0c2112ea0adf7618d5eca124cfe05"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update/evidence/demo.log",
+      "bytes": 97,
+      "sha256": "84b537602f879b9e32338cad8d903589f617449a731972d524109f5f017172b5"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update/evidence/tests.log",
+      "bytes": 718,
+      "sha256": "cfd7402bee8d4817c5d319b8a368036bf9cba4bc317675415523716665ac8bfd"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update/evidence/validation.json",
+      "bytes": 711,
+      "sha256": "a4211337b2c08d78c75bde0591cc034e892d78aa178a4edebfb97bdece8c2caa"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update/exercises/EXERCISE.md",
+      "bytes": 298,
+      "sha256": "3cd9e837f0c60e1827c23b666b866081c417f5b493ece163bb721a9f5b89e663"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update/exercises/SOLUTION.md",
+      "bytes": 524,
+      "sha256": "75536c22f2b0a572c3bd48dba36ef5c609317f91de74d85c94fce8b69f6f4564"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update/scripts/demo.sh",
+      "bytes": 840,
+      "sha256": "053c15b5cb647ce3f73d71857676d39a720f3db016b1e3b491b208b76f9fc91b"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update/sources.json",
+      "bytes": 484,
+      "sha256": "964ab7acfcc62752bbbe1430f4c2c2d5270728073c986c773d768d08018d3804"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update/src/update.py",
+      "bytes": 6305,
+      "sha256": "97494f409ee945b969854cdeb88281c8306b648ea018804a2a0105ce26e0f7c9"
+    },
+    {
+      "path": "07_Projects/03_Advanced/A03_Signed_AB_Update/tests/test_updates.py",
+      "bytes": 2495,
+      "sha256": "ad894b4d3c4b8a5203dc2532532d89fcc7a4d1ae769fb5ecdbac238bfcedb41e"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/README.md",
+      "bytes": 7421,
+      "sha256": "9a2e07ac461c1fc0c6b35db0ea67c3765a601fa1fa6ea522f00f18ffd3116f4d"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/VERSIONS.md",
+      "bytes": 586,
+      "sha256": "de0a9f6b2ec186c0ea4081ef04cd1024648beec641cc4baf7c1b96e9528d37e9"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/config/ci.sh",
+      "bytes": 94,
+      "sha256": "f2a018c4220845132dd91069c62dabd6eb93ab5bf5e9a3ba7f84b64508d6ebbd"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/config/gateway-sim.service",
+      "bytes": 487,
+      "sha256": "d026aee8982416a1c6c7d50259335117b79c31d5316584b1dd6d8c6039cc16c6"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/config/gateway.service",
+      "bytes": 515,
+      "sha256": "6f3ecc2c8c2266595c424a0454a88368f4133acc4103767479efac582bcf0164"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/config/meta-gateway/conf/layer.conf",
+      "bytes": 241,
+      "sha256": "92061c5aed825067ce57b8f222d68a7b22557fe786491c635629db060811352d"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/config/meta-gateway/recipes-apps/gateway/learning-gateway_1.0.bb",
+      "bytes": 851,
+      "sha256": "edb177743f8469caccc544b8ad7eaee17d3291f78f20e2b22cf5b9594d13ffe3"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/config/meta-gateway/recipes-core/images/gateway-image.bb",
+      "bytes": 227,
+      "sha256": "cc7dab32aba18869ce661e904b7a49823042ef3e0b2ec40942c594429c80f159"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/evidence/STATUS.md",
+      "bytes": 766,
+      "sha256": "6a0593fc8ea40cde76ed6dc05f7f949e47d21b3fa6642d3e4c35cdba3148078f"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/evidence/rtos-integration.log",
+      "bytes": 111,
+      "sha256": "955d98ddb5eaf8162d0c25e80d0bc47ac88576d7bf8dcebbd30aaab31e87a186"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/evidence/tests.log",
+      "bytes": 642,
+      "sha256": "95b24eeb28237366aede3713d47a7a3eb76f8840747de3d7a941ecf0dcebef06"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/evidence/validation.json",
+      "bytes": 1029,
+      "sha256": "628d2d1f3fd8fb4e75ebd65c6d421b748a733240adba16b0ed4a9a9a2d167654"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/exercises/EXERCISE.md",
+      "bytes": 289,
+      "sha256": "5c2075b36fd3015e499d5bcba827c0dc3d5f8056bb4befb808b72a49c5db2362"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/exercises/SOLUTION.md",
+      "bytes": 553,
+      "sha256": "62605e33d97a6d52b05d8d84985cb726638f766d6e39dc0257427652a8a2025f"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/scripts/accept_update.py",
+      "bytes": 669,
+      "sha256": "e0d699439047926d29d655f9c025a84d55a04f0bf72c3d494c4fc5d849f4a45c"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/scripts/test_rtos_link.py",
+      "bytes": 973,
+      "sha256": "c3e0e8d3ad0c70867af38b75162d6e80ced39913c077a2aa9540e5ac393c8054"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/sources.json",
+      "bytes": 761,
+      "sha256": "03d1515b8743b812322b788db52ad7bad4e20ef63695c1dde4cb18aef8f8a559"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/src/gateway.py",
+      "bytes": 3310,
+      "sha256": "385ce7c400523f7fa285164c433bbd63b54541060bab8cf8befa756e858936ad"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/src/simulated_mcu.py",
+      "bytes": 697,
+      "sha256": "e5c794d10d2c386348471dc5e214a923da97e548f9993e3663f5770248c7221e"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C01_Industrial_Gateway/tests/test_gateway.py",
+      "bytes": 1942,
+      "sha256": "d6e506f3cef58732524ac11de30db4c438c911dde66fd61801b42150e9cb9f2c"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/README.md",
+      "bytes": 6241,
+      "sha256": "17848a1d4e5b6f17dc81eee924c7a1d235b79ec3b9facb04417b8430375a47cc"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/VERSIONS.md",
+      "bytes": 586,
+      "sha256": "de0a9f6b2ec186c0ea4081ef04cd1024648beec641cc4baf7c1b96e9528d37e9"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/config/ci.sh",
+      "bytes": 149,
+      "sha256": "7cad5c57deec73d58b936c420a7bfcd48773d1fdfe39a432b502e992b547acbf"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/STATUS.md",
+      "bytes": 525,
+      "sha256": "1fd0926b2805b34753e2b414f2e2cb1a7165dcc1a9d734275f03344f9233d007"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/ai/metrics.json",
+      "bytes": 674,
+      "sha256": "da1100133c61a8b4a513aab0b77a8dc65443aaad7ff28559151cbb31a196f0d7"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/ai/model.json",
+      "bytes": 194,
+      "sha256": "00fcf631dfd2d989c2d4c84e517fb7ad153cbf2e1e257c8d14b2d57a665cbfc3"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/ai-run.log",
+      "bytes": 674,
+      "sha256": "da1100133c61a8b4a513aab0b77a8dc65443aaad7ff28559151cbb31a196f0d7"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/robot.csv",
+      "bytes": 9169,
+      "sha256": "90bb060c69f31ce292fecfe26983e5d7783122c63b93fb4fbe8b5dfda69e3ff8"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/simulation.log",
+      "bytes": 87,
+      "sha256": "69eaca7d9c4e61f0cb8808f686bd55884f0dec94706231baf8266dc7c6a0d8fc"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/tests.log",
+      "bytes": 703,
+      "sha256": "c7ad54bc82c5ab8c86bacbf88647ab0c6904c08f4f71cf12b06fad76da1d9be6"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/evidence/validation.json",
+      "bytes": 905,
+      "sha256": "77676b6c7f0afa16e3587246b2a7ce3aada372274b159df6190d17d79aa9367b"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/exercises/EXERCISE.md",
+      "bytes": 322,
+      "sha256": "10ca8fb2594ea6602830b37891d5f61bf7ffd893a8dcbf7e27a09742c5c2af94"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/exercises/SOLUTION.md",
+      "bytes": 609,
+      "sha256": "dd57164635985f2a018a774e069836ac60824027f8b898d61cf69afbda902713"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/sources.json",
+      "bytes": 754,
+      "sha256": "5a58202b5200f39e15c2181b16d1d1b59bd1de7b4d341776f5bb55187efaa2fc"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/src/anomaly.py",
+      "bytes": 2663,
+      "sha256": "a1303e4109b166dc8f6e97a7c829b2d47afb94a086a1a133b80cf089e5b3ebdf"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/src/robot.py",
+      "bytes": 2979,
+      "sha256": "fa0e48950e7ce3e268d9041195d3d7f074e869c57f7c852d3835140955f10595"
+    },
+    {
+      "path": "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics/tests/test_robot.py",
+      "bytes": 1620,
+      "sha256": "741ee72f3998ad12eabb920ac04488f0eecc277cebe382264ecb3f000aac713b"
+    },
+    {
+      "path": "07_Projects/README.md",
+      "bytes": 4743,
+      "sha256": "bdc1f05e177c9373d16735b82b7be2def01605b7ff03db02a582cb7385cace9b"
+    },
+    {
+      "path": "07_Projects/advanced_project_index.json",
+      "bytes": 745,
+      "sha256": "e55c8f3c89fcba9cc94eec785d9c84743d899c731822b3fd4712a94858c84012"
+    },
+    {
+      "path": "07_Projects/project_index.json",
+      "bytes": 2573,
+      "sha256": "c27e6da8766bd7ec7c69d85fbbfd37c089519fddf589814b42a9fd1399266dc8"
+    },
+    {
+      "path": "08_Portfolio_and_Job_Readiness/README.md",
+      "bytes": 3420,
+      "sha256": "e26f925be2fefe3abfd18bc755c20a705c90890ee8adaf4c07a81b67f6083923"
+    },
+    {
+      "path": "08_Portfolio_and_Job_Readiness/Readiness_Gate.md",
+      "bytes": 1593,
+      "sha256": "2253106fb5585015983ebdc9cefdf2e96ed4f596f4201ca3763e105b78c66ae4"
+    },
+    {
+      "path": "09_References_and_Resources/Core_References.md",
+      "bytes": 8850,
+      "sha256": "a0ac4ce7798f246a25d7d7bc77c70c32a3965e4f6cb0d10c01e0fcf4df7b06f4"
+    },
+    {
+      "path": "09_References_and_Resources/Core_Sources.json",
+      "bytes": 11703,
+      "sha256": "3f6db8bf458da2dab75e1b140c73a9af41839cf41bc6f531d4311f141bd7ed27"
+    },
+    {
+      "path": "09_References_and_Resources/Project_and_Interview_References.md",
+      "bytes": 14300,
+      "sha256": "2eb3a2702cc589d644ec2853e3d94123ababa07e225e05bf0ea01db8e44b4bee"
+    },
+    {
+      "path": "09_References_and_Resources/Research_Method_and_Refresh.md",
+      "bytes": 1938,
+      "sha256": "877ec5babad7a15d57bdfe459b521abdcd327cce795a37d58c7f34aafdd9e17f"
+    },
+    {
+      "path": "09_References_and_Resources/Source_Catalogue.csv",
+      "bytes": 19154,
+      "sha256": "7d1beaa47ab4c05aac28b33723bb94136b891d326d52fd84e70e9ea7b8e9f69c"
+    },
+    {
+      "path": "09_References_and_Resources/Source_Catalogue.json",
+      "bytes": 36431,
+      "sha256": "1a6eeba480f17565ac39cb2fdd7d7cc4f4a69a2339ff88430916b8e24272c1b4"
+    },
+    {
+      "path": "10_Progress_Tracking/How_to_Record_Evidence.md",
+      "bytes": 1305,
+      "sha256": "5c28668f4f42ab7836abc690700ba3c3a8ab066e1bedf8eed66b9c2439570e7c"
+    },
+    {
+      "path": "10_Progress_Tracking/Learner_Skills_Tracker.csv",
+      "bytes": 5286,
+      "sha256": "8a952b9706a1e6138e9dac1ccbeab61f4e9978bbdc78f43dcbe23a21f476e273"
+    },
+    {
+      "path": "10_Progress_Tracking/Learning_Roadmap_and_Skills_Tracker.xlsx",
+      "bytes": 27487,
+      "sha256": "ae4194d7c704abb9e45f3a0e5c0c300bf7b1772c916de32ffddce01b4b0068f5"
+    },
+    {
+      "path": "10_Progress_Tracking/Study_Log.csv",
+      "bytes": 168,
+      "sha256": "b11c97486e9a9b1359681b5498a31c6a5dbfcfbd7fe2c0c8bad9be387421e3c6"
+    },
+    {
+      "path": "10_Progress_Tracking/Validation_Summary.md",
+      "bytes": 5886,
+      "sha256": "42d47f58bf290b77ff73a2639682714ffe157de0c3a25f7712e00a10232a28fe"
+    },
+    {
+      "path": "10_Progress_Tracking/evidence/document_layout_review.json",
+      "bytes": 1033,
+      "sha256": "bf33a64c8f088416ed82f101a92e9d2555ed178d223ab597971a4f1b75e21489"
+    },
+    {
+      "path": "10_Progress_Tracking/evidence/package_assembly_checks.json",
+      "bytes": 951,
+      "sha256": "e5a963d3b7c79dfa99dc38150d19c1196d6a40d8b8438e168caa0d0a06b685ed"
+    },
+    {
+      "path": "10_Progress_Tracking/evidence/relocation_gate_20261027T095000Z_67f7b63f.json",
+      "bytes": 11988,
+      "sha256": "4dc949a364c104d3aec4e2159227af490650bc7b0c3340c99acafe200e1347e5"
+    },
+    {
+      "path": "10_Progress_Tracking/evidence/relocation_gate_20261027T095000Z_67f7b63f.log",
+      "bytes": 7517,
+      "sha256": "9397cd6865e5b8a063b2edff46d1ec525f00a7ca7f8ec44ae7d558721b165cd2"
+    },
+    {
+      "path": "10_Progress_Tracking/evidence/relocation_location.json",
+      "bytes": 264,
+      "sha256": "21dbcbf5c651d432e62715cfde6b75c96becbbc345d37e065cad1124a1e37c5c"
+    },
+    {
+      "path": "10_Progress_Tracking/evidence/workbook_validation.json",
+      "bytes": 705,
+      "sha256": "96feae0afc398d78c4cf8dee025eb1db70a3afb9030104b58ff3e5e2e3caf140"
+    },
+    {
+      "path": "10_Progress_Tracking/workbook_data.json",
+      "bytes": 72644,
+      "sha256": "25e38fa209d07af9a6ab23b128a62042580fb9d16a448876f65eb33b6137eeb3"
+    },
+    {
+      "path": "Embedded_Linux_Kernel_Firmware_Handbook.docx",
+      "bytes": 1291101,
+      "sha256": "1a383403b00e7f507baabad1b1359117b92bf7904c88dc238c9967ad880bd0a4"
+    },
+    {
+      "path": "FILE_INDEX.md",
+      "bytes": 52774,
+      "sha256": "52abecc78fc2f7ff6a6aa35f764e55d76bb8b160bc72437090b786cfee5768ed"
+    },
+    {
+      "path": "PROGRESS.md",
+      "bytes": 2087,
+      "sha256": "88a128fd2037d696398dab468fd09ca3be9707b2788a9b7d84a3cc5b6ed70997"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3479,
+      "sha256": "a00b0aefd48110c6ea728fda3990042b5bcdd27fb29eb3ca4098f5bf7cc9c67c"
+    },
+    {
+      "path": "tools/verify_host_package.py",
+      "bytes": 12339,
+      "sha256": "bf2faaddc9aedee42e592363476b712e8f9a1fb8c509fc6cbc24a251113861f5"
+    }
+  ]
+}

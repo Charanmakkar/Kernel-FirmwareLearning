@@ -1,0 +1,27 @@
+{
+  "fixed_threshold_baseline": {
+    "tp": 43,
+    "fp": 0,
+    "tn": 150,
+    "fn": 7,
+    "accuracy": 0.965,
+    "precision": 1.0,
+    "recall": 0.86
+  },
+  "learned_stump": {
+    "tp": 50,
+    "fp": 1,
+    "tn": 149,
+    "fn": 0,
+    "accuracy": 0.995,
+    "precision": 0.9803921568627451,
+    "recall": 1.0
+  },
+  "inferences": 200000,
+  "mean_latency_ns": 178.914455,
+  "cpu_time_s": 0.035813551,
+  "traced_peak_bytes": 184,
+  "process_peak_rss_kib": 11520,
+  "model_bytes": 194,
+  "warning": "Synthetic IID datasets from separate seeds; results do not establish real-robot accuracy or bounded latency. Tracemalloc adds overhead; whole process RSS includes Python."
+}

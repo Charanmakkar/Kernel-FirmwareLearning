@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="489.6pt" height="583.2pt" viewBox="0 0 489.6 583.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-27T18:49:52.061806</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 583.2 
+L 489.6 583.2 
+L 489.6 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 42.69312 150.512256 
+L 446.90688 150.512256 
+Q 450.667008 150.512256 450.667008 146.03328 
+L 450.667008 62.05248 
+Q 450.667008 57.573504 446.90688 57.573504 
+L 42.69312 57.573504 
+Q 38.932992 57.573504 38.932992 62.05248 
+L 38.932992 146.03328 
+Q 38.932992 150.512256 42.69312 150.512256 
+z
+" clip-path="url(#pcca2792394)" style="fill: #f3f5f7; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 42.69312 256.887936 
+L 446.90688 256.887936 
+Q 450.667008 256.887936 450.667008 252.40896 
+L 450.667008 179.6256 
+Q 450.667008 175.146624 446.90688 175.146624 
+L 42.69312 175.146624 
+Q 38.932992 175.146624 38.932992 179.6256 
+L 38.932992 252.40896 
+Q 38.932992 256.887936 42.69312 256.887936 
+z
+" clip-path="url(#pcca2792394)" style="fill: #f3f5f7; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 244.8 150.512256 
+L 244.8 173.804983 
+" clip-path="url(#pcca2792394)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 246.8 169.804983 
+L 244.8 173.804983 
+L 242.8 169.804983 
+z
+" clip-path="url(#pcca2792394)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 34.46784 387.338112 
+L 224.82432 387.338112 
+Q 228.584448 387.338112 228.584448 382.859136 
+L 228.584448 282.082176 
+Q 228.584448 277.6032 224.82432 277.6032 
+L 34.46784 277.6032 
+Q 30.707712 277.6032 30.707712 282.082176 
+L 30.707712 382.859136 
+Q 30.707712 387.338112 34.46784 387.338112 
+z
+" clip-path="url(#pcca2792394)" style="fill: #ffffff; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 264.77568 387.338112 
+L 455.13216 387.338112 
+Q 458.892288 387.338112 458.892288 382.859136 
+L 458.892288 282.082176 
+Q 458.892288 277.6032 455.13216 277.6032 
+L 264.77568 277.6032 
+Q 261.015552 277.6032 261.015552 282.082176 
+L 261.015552 382.859136 
+Q 261.015552 387.338112 264.77568 387.338112 
+z
+" clip-path="url(#pcca2792394)" style="fill: #ffffff; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 244.8 256.887936 
+L 244.8 269.20512 
+L 129.64608 269.20512 
+L 129.64608 276.261559 
+" clip-path="url(#pcca2792394)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 131.64608 272.261559 
+L 129.64608 276.261559 
+L 127.64608 272.261559 
+z
+" clip-path="url(#pcca2792394)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 244.8 269.20512 
+L 359.95392 269.20512 
+L 359.95392 276.261559 
+" clip-path="url(#pcca2792394)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 361.95392 272.261559 
+L 359.95392 276.261559 
+L 357.95392 272.261559 
+z
+" clip-path="url(#pcca2792394)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 42.69312 461.801088 
+L 446.90688 461.801088 
+Q 450.667008 461.801088 450.667008 457.322112 
+L 450.667008 401.334912 
+Q 450.667008 396.855936 446.90688 396.855936 
+L 42.69312 396.855936 
+Q 38.932992 396.855936 38.932992 401.334912 
+L 38.932992 457.322112 
+Q 38.932992 461.801088 42.69312 461.801088 
+z
+" clip-path="url(#pcca2792394)" style="fill: #f3f5f7; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 129.64608 387.338112 
+L 129.64608 394.616448 
+L 244.8 394.616448 
+L 244.8 395.514295 
+" clip-path="url(#pcca2792394)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 246.8 391.514295 
+L 244.8 395.514295 
+L 242.8 391.514295 
+z
+" clip-path="url(#pcca2792394)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 359.95392 387.338112 
+L 359.95392 394.616448 
+L 246.141641 394.616448 
+" clip-path="url(#pcca2792394)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 250.141641 396.616448 
+L 246.141641 394.616448 
+L 250.141641 392.616448 
+z
+" clip-path="url(#pcca2792394)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 42.69312 549.421056 
+L 446.90688 549.421056 
+Q 450.667008 549.421056 450.667008 544.94208 
+L 450.667008 480.5568 
+Q 450.667008 476.077824 446.90688 476.077824 
+L 42.69312 476.077824 
+Q 38.932992 476.077824 38.932992 480.5568 
+L 38.932992 544.94208 
+Q 38.932992 549.421056 42.69312 549.421056 
+z
+" clip-path="url(#pcca2792394)" style="fill: #ffffff; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 244.8 461.801088 
+L 244.8 474.456247 
+" clip-path="url(#pcca2792394)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 246.8 470.456247 
+L 244.8 474.456247 
+L 242.8 470.456247 
+z
+" clip-path="url(#pcca2792394)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="244.8" y="34.259096" transform="rotate(-0 244.8 34.259096)">Learning prerequisites</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26384a" x="244.8" y="50.235348" transform="rotate(-0 244.8 50.235348)">Progress by demonstrated exits; revisit failed prerequisites before advancing</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="244.8" y="79.520682" transform="rotate(-0 244.8 79.520682)">Shared foundations</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(159.11225 95.189276)">M01  Environment, tools and Git</text>
+    <text style="font-size: 10.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(132.440828 108.267109)">M02  C ownership and undefined behavior</text>
+    <text style="font-size: 10.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(128.450094 121.344942)">M03  Data structures and defensive parsing</text>
+    <text style="font-size: 10.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(127.877031 134.422775)">M04  Compilation, linking and relevant C++</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="244.8" y="197.093802" transform="rotate(-0 244.8 197.093802)">Systems foundations</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(134.606375 213.702593)">M05  Operating systems and architecture</text>
+    <text style="font-size: 10.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(165.255281 226.780425)">M06  POSIX I/O and processes</text>
+    <text style="font-size: 10.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(174.921156 239.858258)">M07  Concurrency and IPC</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 10.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="129.64608" y="299.246441" transform="rotate(-0 129.64608 299.246441)">Linux and kernel branch</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9.9px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(34.302892 318.612241)">M08  Cross tools, boot and device tree</text>
+    <text style="font-size: 9.9px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(43.809986 330.826443)">M09  Kernel contexts and lifetimes</text>
+    <text style="font-size: 9.9px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(39.284603 343.040645)">M10  Character and platform drivers</text>
+    <text style="font-size: 9.9px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(48.855892 355.254848)">M11  Buses, IIO, DMA and power</text>
+    <text style="font-size: 9.9px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(48.465307 367.46905)">M14  Buildroot and Yocto images</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 10.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="359.95392" y="299.246441" transform="rotate(-0 359.95392 299.246441)">MCU and firmware branch</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9.9px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(263.632334 318.612241)">M12  Startup, memory and peripherals</text>
+    <text style="font-size: 9.9px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(272.611943 330.826443)">M13  RTOS and Linux MCU protocol</text>
+    <text style="font-size: 9.9px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(359.95392 343.040645)"/>
+    <text style="font-size: 9.9px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(290.82949 355.254848)">First validate in a simulator;</text>
+    <text style="font-size: 9.9px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(272.688514 367.46905)">then build and measure on a board</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="244.8" y="418.803114" transform="rotate(-0 244.8 418.803114)">Integration and evidence</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #111111" x="244.8" y="439.926095" transform="rotate(-0 244.8 439.926095)">M15  Debugging and performance   •   M17  Integration and tests</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="244.8" y="498.025002" transform="rotate(-0 244.8 498.025002)">Production practice and capstones</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(88.59375 517.178234)">M16  Updates, security and reliability   •   M18  Responsible AI</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(87.419531 529.515812)">C01  Monitoring gateway   •   C02  Robot control demonstrator</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26384a" x="244.8" y="563.941741" transform="rotate(-0 244.8 563.941741)">Branches are related career tracks. Depth follows the target JD and assessment evidence.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcca2792394">
+   <rect x="9.792" y="11.664" width="470.016" height="559.872"/>
+  </clipPath>
+ </defs>
+</svg>

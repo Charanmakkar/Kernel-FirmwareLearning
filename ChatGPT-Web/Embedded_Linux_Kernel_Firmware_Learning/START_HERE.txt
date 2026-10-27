@@ -1,0 +1,70 @@
+EMBEDDED LINUX KERNEL AND FIRMWARE LEARNING PROGRAM
+Complete package | Prepared edition 27 October 2026
+
+START HERE
+
+1. Extract the complete ZIP into one folder. Keep the folders together.
+
+2. Open the main document at the package root:
+   Embedded_Linux_Kernel_Firmware_Handbook.docx
+
+   The handbook includes a designed cover, package guide, clickable contents
+   with page references, a module index and a project index. Its eleven
+   chapters contain the learning program, project runbooks, assessments,
+   interview preparation, 200 question-and-answer entries, solutions,
+   validation guidance and primary references.
+
+3. Open your editable progress workbook:
+   10_Progress_Tracking/Learning_Roadmap_and_Skills_Tracker.xlsx
+
+   The three sheets cover learner progress, the 52-week roadmap and the
+   reference skills matrix. Your skills begin as not assessed. Enter your
+   own independent evidence as you complete the work.
+
+4. Read the environment setup and take the diagnostic:
+   00_Start_Here/Environment_Setup.md
+   04_Skill_Assessments/questions/Diagnostic.md
+
+   Attempt the diagnostic before opening its answer key. The same material
+   is included in the handbook if you prefer reading in Word.
+
+5. Start with M01 and M02, then build the first project:
+   07_Projects/01_Basic/B01_C_Utility_Library/README.md
+
+   Read the project README before running commands. Keep its source,
+   configuration and tests together. Build commands target the Linux
+   environments described in the setup guide.
+
+WHAT IS INCLUDED
+
+  18 learning modules, with exercises and separate solutions
+  52-week roadmap with 572 planned core study hours
+  58-skill reference matrix and editable workbook
+  200 interview questions with structured answers and scoring
+  Diagnostic, quizzes, timed coding, debugging tasks and role mocks
+  15 projects: 5 basic, 5 intermediate, 3 advanced and 2 capstones
+  Complete project source, configuration, tests and recorded evidence
+  30-day interview revision plan and portfolio guidance
+  10 AI assistance workflows, source references and evidence templates
+
+FIND A FILE
+
+  README.md       Main package overview and recommended learning order
+  FILE_INDEX.md   Clickable index of every delivered file
+  07_Projects     Project source and runbooks grouped by difficulty
+  10_Progress_Tracking
+                  Workbook, CSV trackers and validation records
+
+READ VALIDATION RESULTS ACCURATELY
+
+  The supplied checks describe the reference package, not your proficiency.
+  Host tests, selected emulation and selected builds were executed.
+  Physical hardware testing and several full-image and kernel-runtime
+  checks remain pending. See the handbook validation chapter and:
+  10_Progress_Tracking/Validation_Summary.md
+
+AFTER EDITING THE WORD DOCUMENT
+
+  Update fields in Word to refresh the page references and total page count.
+  Use the Contents link in the footer or Word's Navigation pane to move
+  through the handbook.

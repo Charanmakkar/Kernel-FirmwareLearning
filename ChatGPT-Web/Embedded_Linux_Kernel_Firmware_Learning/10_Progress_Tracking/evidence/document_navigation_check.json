@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-27",
+  "file": "Embedded_Linux_Kernel_Firmware_Handbook.docx",
+  "sha256": "6690005264ac5ef1b02843fde102506df60a412a6267d5b128214a21a81a87ad",
+  "pages": 221,
+  "verified_page_reference_fields": 44,
+  "all_reference_caches_match_rendered_destinations": true,
+  "technical_text_unchanged": true,
+  "original_technical_text_sha256": "22021c8b486c26bf2be4450be8756b200a86fca1e894c657f3439a4bdf05d2ca",
+  "chapter_page_numbers": {
+    "_total_pages": 221,
+    "start": 6,
+    "roadmap": 9,
+    "lessons": 23,
+    "projects": 52,
+    "assessments": 83,
+    "strategy": 96,
+    "ai": 102,
+    "interviews": 106,
+    "answers": 191,
+    "validation": 205,
+    "references": 209
+  },
+  "notes": "The opening guide and indexes were redesigned. Chapter 1 spacing was adjusted to remove a four-line spill page. The technical text and all later chapter formatting are preserved."
+}

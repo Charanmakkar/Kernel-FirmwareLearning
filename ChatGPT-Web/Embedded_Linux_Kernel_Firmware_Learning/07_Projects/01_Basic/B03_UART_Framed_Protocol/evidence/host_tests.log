@@ -1,0 +1,7 @@
+Executed 2026-10-27 after cancellation cleanup review
+$ make test
+Exit: 0
+mkdir -p build
+cc -Iinclude -std=c11 -O2 -g -Wall -Wextra -Wpedantic -Werror src/uart_frame.c src/util.c -o build/uart_frame
+python3 tests/test_pty.py
+PASS fragmented PTY; noise/stale/corrupt resynchronization; bounded timeout; 0/128-byte payload; oversize rejection; terminal restore on success/error/SIGINT/SIGTERM/broken stdout pipe

@@ -1,0 +1,2 @@
+Compiled TMP102 overlay and applied to symbol-enabled Linux v6.12 Raspberry Pi 4 base DTB successfully.
+This is offline DTB validation, not I2C or board execution.

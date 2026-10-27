@@ -1,0 +1,26 @@
+{
+  "relative_sleep": {
+    "n": 300,
+    "median_us": 11889.233,
+    "p99_us": 25134.227,
+    "max_us": 25289.329,
+    "meaning": "cumulative schedule lateness"
+  },
+  "absolute_deadline": {
+    "n": 300,
+    "median_us": 65.2855,
+    "p99_us": 271.806,
+    "max_us": 3144.802,
+    "meaning": "cumulative schedule lateness"
+  },
+  "environment": {
+    "kernel": "6.18.55",
+    "python": "3.12.14",
+    "cpu_affinity": [
+      0
+    ],
+    "load_process": true,
+    "period_ns": 2000000
+  },
+  "caveat": "Small host sample, relative sleep drift and absolute schedule lateness are different policies; no worst-case bound."
+}

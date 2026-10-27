@@ -1,0 +1,1087 @@
+[
+  {
+    "id": "C11",
+    "title": "WG14 N1570 public C11 committee draft",
+    "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+    "access_date": "2026-10-27",
+    "use": "C language behavior and foundational semantics; not the newest C standard",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers"
+    ]
+  },
+  {
+    "id": "GCC-WARN",
+    "title": "GCC warning options",
+    "url": "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html",
+    "access_date": "2026-10-27",
+    "use": "Diagnostic flags; consult installed-version manual for exact availability",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers",
+      "07_Projects/01_Basic/B01_C_Utility_Library"
+    ]
+  },
+  {
+    "id": "GCC13",
+    "title": "GCC 13.3 instrumentation options",
+    "url": "https://gcc.gnu.org/onlinedocs/gcc-13.3.0/gcc/Instrumentation-Options.html",
+    "access_date": "2026-10-27",
+    "use": "User-space sanitizer scope and combinations",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "GCC-VOL",
+    "title": "GCC volatile access rules",
+    "url": "https://gcc.gnu.org/onlinedocs/gcc/Volatiles.html",
+    "access_date": "2026-10-27",
+    "use": "Volatile does not establish ordering of ordinary memory",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "GIT",
+    "title": "Git official tutorial",
+    "url": "https://git-scm.com/docs/gittutorial",
+    "access_date": "2026-10-27",
+    "use": "Source history and review workflow",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "LD",
+    "title": "GNU ld linker scripts",
+    "url": "https://sourceware.org/binutils/docs/ld/Scripts.html",
+    "access_date": "2026-10-27",
+    "use": "Section placement and linker-script role",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "CMAKE",
+    "title": "CMake 3.28 toolchains",
+    "url": "https://cmake.org/cmake/help/v3.28/manual/cmake-toolchains.7.html",
+    "access_date": "2026-10-27",
+    "use": "Cross-compilation and sysroot configuration",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "CPP",
+    "title": "C++ Core Guidelines",
+    "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+    "access_date": "2026-10-27",
+    "use": "Resource ownership and RAII design guidance",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "READ",
+    "title": "Linux read manual",
+    "url": "https://man7.org/linux/man-pages/man2/read.2.html",
+    "access_date": "2026-10-27",
+    "use": "Short reads EOF and error handling",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers"
+    ]
+  },
+  {
+    "id": "WRITE",
+    "title": "Linux write manual",
+    "url": "https://man7.org/linux/man-pages/man2/write.2.html",
+    "access_date": "2026-10-27",
+    "use": "Partial writes and interruption",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers"
+    ]
+  },
+  {
+    "id": "CLOSE",
+    "title": "Linux close manual",
+    "url": "https://man7.org/linux/man-pages/man2/close.2.html",
+    "access_date": "2026-10-27",
+    "use": "Descriptor release and retry hazards",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "COND",
+    "title": "POSIX condition wait manual",
+    "url": "https://man7.org/linux/man-pages/man3/pthread_cond_wait.3p.html",
+    "access_date": "2026-10-27",
+    "use": "Predicate mutex and spurious wakeup contracts",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers"
+    ]
+  },
+  {
+    "id": "EPOLL",
+    "title": "Linux epoll control manual",
+    "url": "https://man7.org/linux/man-pages/man2/epoll_ctl.2.html",
+    "access_date": "2026-10-27",
+    "use": "Readiness registration and event semantics",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "SIGNAL",
+    "title": "Linux signal safety manual",
+    "url": "https://man7.org/linux/man-pages/man7/signal-safety.7.html",
+    "access_date": "2026-10-27",
+    "use": "Asynchronous signal-safe functions",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers"
+    ]
+  },
+  {
+    "id": "PROC",
+    "title": "Linux proc pid stat manual",
+    "url": "https://man7.org/linux/man-pages/man5/proc_pid_stat.5.html",
+    "access_date": "2026-10-27",
+    "use": "Process field definitions and access limits",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers",
+      "07_Projects/01_Basic/B02_Process_Inspector"
+    ]
+  },
+  {
+    "id": "FSYNC",
+    "title": "Linux fsync manual",
+    "url": "https://man7.org/linux/man-pages/man2/fsync.2.html",
+    "access_date": "2026-10-27",
+    "use": "File and directory durability requirements",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers",
+      "07_Projects/02_Intermediate/I01_Buildroot_Appliance"
+    ]
+  },
+  {
+    "id": "RENAME",
+    "title": "Linux rename manual",
+    "url": "https://man7.org/linux/man-pages/man2/rename.2.html",
+    "access_date": "2026-10-27",
+    "use": "Atomic replacement scope and filesystem qualifications",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "K-VOL",
+    "title": "Linux 6.12 volatile guidance",
+    "url": "https://www.kernel.org/doc/html/v6.12/process/volatile-considered-harmful.html",
+    "access_date": "2026-10-27",
+    "use": "Kernel synchronization and I/O accessors",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "KLOCK",
+    "title": "Linux 6.12 lock types",
+    "url": "https://www.kernel.org/doc/html/v6.12/locking/locktypes.html",
+    "access_date": "2026-10-27",
+    "use": "Context rules and PREEMPT_RT qualifications",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "KALLOC",
+    "title": "Linux 6.12 memory allocation guide",
+    "url": "https://www.kernel.org/doc/html/v6.12/core-api/memory-allocation.html",
+    "access_date": "2026-10-27",
+    "use": "Allocation flags and context",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "WORK",
+    "title": "Linux 6.12 workqueues",
+    "url": "https://www.kernel.org/doc/html/v6.12/core-api/workqueue.html",
+    "access_date": "2026-10-27",
+    "use": "Deferred execution and work lifecycle",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "DRIVER",
+    "title": "Linux 6.12 driver model",
+    "url": "https://www.kernel.org/doc/html/v6.12/driver-api/driver-model/driver.html",
+    "access_date": "2026-10-27",
+    "use": "Driver binding and lifecycle",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "RCU",
+    "title": "Linux 6.12 RCU explanation",
+    "url": "https://www.kernel.org/doc/html/v6.12/RCU/whatisRCU.html",
+    "access_date": "2026-10-27",
+    "use": "Publication grace periods and reclamation",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "UACCESS",
+    "title": "Linux 6.12 memory management APIs",
+    "url": "https://www.kernel.org/doc/html/v6.12/core-api/mm-api.html",
+    "access_date": "2026-10-27",
+    "use": "User-space memory access contracts",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "GPIO",
+    "title": "Linux 6.12 GPIO consumer API",
+    "url": "https://www.kernel.org/doc/html/v6.12/driver-api/gpio/consumer.html",
+    "access_date": "2026-10-27",
+    "use": "Descriptor-based GPIO and sleepability",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers",
+      "07_Projects/02_Intermediate/I03_Device_Tree_GPIO"
+    ]
+  },
+  {
+    "id": "IIO",
+    "title": "Linux 6.12 Industrial I/O",
+    "url": "https://www.kernel.org/doc/html/v6.12/driver-api/iio/index.html",
+    "access_date": "2026-10-27",
+    "use": "Sensor subsystem channels buffers and triggers",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "DMA",
+    "title": "Linux 6.12 DMA mapping guide",
+    "url": "https://www.kernel.org/doc/html/v6.12/core-api/dma-api-howto.html",
+    "access_date": "2026-10-27",
+    "use": "CPU and DMA addresses and ownership",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "RPM",
+    "title": "Linux 6.12 runtime power management",
+    "url": "https://www.kernel.org/doc/html/v6.12/power/runtime_pm.html",
+    "access_date": "2026-10-27",
+    "use": "Device runtime suspend resume and usage",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "DT",
+    "title": "Linux 6.12 device tree usage",
+    "url": "https://www.kernel.org/doc/html/v6.12/devicetree/usage-model.html",
+    "access_date": "2026-10-27",
+    "use": "Hardware descriptions and bindings",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "DTSCHEMA",
+    "title": "Linux 6.12 binding schemas",
+    "url": "https://www.kernel.org/doc/html/v6.12/devicetree/bindings/writing-schema.html",
+    "access_date": "2026-10-27",
+    "use": "Schema validation for device descriptions",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "FTRACE",
+    "title": "Linux 6.12 ftrace",
+    "url": "https://www.kernel.org/doc/html/v6.12/trace/ftrace.html",
+    "access_date": "2026-10-27",
+    "use": "Kernel tracing capabilities and tracefs",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "KASAN",
+    "title": "Linux 6.12 KASAN",
+    "url": "https://www.kernel.org/doc/html/v6.12/dev-tools/kasan.html",
+    "access_date": "2026-10-27",
+    "use": "Kernel memory detector modes and support",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "KCSAN",
+    "title": "Linux 6.12 KCSAN",
+    "url": "https://www.kernel.org/doc/html/v6.12/dev-tools/kcsan.html",
+    "access_date": "2026-10-27",
+    "use": "Sampling race detector scope",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "KUNIT",
+    "title": "Linux 6.12 KUnit",
+    "url": "https://www.kernel.org/doc/html/v6.12/dev-tools/kunit/index.html",
+    "access_date": "2026-10-27",
+    "use": "In-kernel unit testing",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "SOCKETCAN",
+    "title": "Linux 6.12 SocketCAN",
+    "url": "https://www.kernel.org/doc/html/v6.12/networking/can.html",
+    "access_date": "2026-10-27",
+    "use": "CAN sockets and networking interface",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers"
+    ]
+  },
+  {
+    "id": "QEMU-USER",
+    "title": "QEMU user-space emulation",
+    "url": "https://www.qemu.org/docs/master/user/main.html",
+    "access_date": "2026-10-27",
+    "use": "Foreign application execution using host syscall translation",
+    "used_by": [
+      "Core curriculum",
+      "07_Projects/01_Basic/B05_Cross_Compile_QEMU"
+    ]
+  },
+  {
+    "id": "QEMU-VIRT",
+    "title": "QEMU generic Arm virt machine",
+    "url": "https://www.qemu.org/docs/master/system/arm/virt.html",
+    "access_date": "2026-10-27",
+    "use": "Generic full-system machine and versioning limits",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "BUILDROOT",
+    "title": "Buildroot official manual",
+    "url": "https://buildroot.org/downloads/manual/manual.html",
+    "access_date": "2026-10-27",
+    "use": "Build system concepts; execute pinned release-local instructions",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers",
+      "07_Projects/02_Intermediate/I01_Buildroot_Appliance"
+    ]
+  },
+  {
+    "id": "YOCTO-HOST",
+    "title": "Yocto 5.0.9 system requirements",
+    "url": "https://docs.yoctoproject.org/5.0.9/ref-manual/system-requirements.html",
+    "access_date": "2026-10-27",
+    "use": "Frozen release host compatibility and resource guidance",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "YOCTO-SBOM",
+    "title": "Yocto 5.0.9 SBOM creation",
+    "url": "https://docs.yoctoproject.org/5.0.9/dev-manual/sbom.html",
+    "access_date": "2026-10-27",
+    "use": "SPDX inventory generation",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "CMSIS",
+    "title": "Arm CMSIS Cortex-M startup",
+    "url": "https://arm-software.github.io/CMSIS_6/latest/Core/startup_c_pg.html",
+    "access_date": "2026-10-27",
+    "use": "Reset handler and vector initialization",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "NVIC",
+    "title": "Arm CMSIS NVIC",
+    "url": "https://arm-software.github.io/CMSIS_6/latest/Core/group__NVIC__gr.html",
+    "access_date": "2026-10-27",
+    "use": "Interrupt and exception interfaces",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "NUCLEO",
+    "title": "ST NUCLEO-F446RE board",
+    "url": "https://www.st.com/en/evaluation-tools/nucleo-f446re.html",
+    "access_date": "2026-10-27",
+    "use": "Selected physical MCU board documentation",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "PI-HW",
+    "title": "Raspberry Pi hardware documentation",
+    "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html",
+    "access_date": "2026-10-27",
+    "use": "Selected Linux board family hardware reference",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "FREERTOS-MUTEX",
+    "title": "FreeRTOS mutexes",
+    "url": "https://www.freertos.org/Documentation/02-Kernel/02-Kernel-features/02-Queues-mutexes-and-semaphores/04-Mutexes",
+    "access_date": "2026-10-27",
+    "use": "Simplified priority inheritance and task-context mutex usage",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers"
+    ]
+  },
+  {
+    "id": "GDB",
+    "title": "GDB backtraces",
+    "url": "https://sourceware.org/gdb/current/onlinedocs/gdb.html/Backtrace.html",
+    "access_date": "2026-10-27",
+    "use": "Stack inspection and frame meaning",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "UBOOT",
+    "title": "U-Boot v2025.01 verified boot",
+    "url": "https://docs.u-boot.org/en/v2025.01/usage/fit/verified-boot.html",
+    "access_date": "2026-10-27",
+    "use": "Verified boot and signing concepts",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "RAUC",
+    "title": "RAUC basics",
+    "url": "https://rauc.readthedocs.io/en/latest/basic.html",
+    "access_date": "2026-10-27",
+    "use": "Image-based update and boot integration concepts",
+    "used_by": [
+      "Core curriculum",
+      "02_Interview_Questions_and_Answers"
+    ]
+  },
+  {
+    "id": "LITERT",
+    "title": "Google LiteRT for Microcontrollers",
+    "url": "https://developers.google.com/edge/litert/microcontrollers/overview",
+    "access_date": "2026-10-27",
+    "use": "MCU inference deployment and limitations",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "ONNX",
+    "title": "ONNX Runtime quantization",
+    "url": "https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html",
+    "access_date": "2026-10-27",
+    "use": "Quantization choices and evaluation needs",
+    "used_by": [
+      "Core curriculum"
+    ]
+  },
+  {
+    "id": "P001",
+    "title": "Clang AddressSanitizer",
+    "url": "https://clang.llvm.org/docs/AddressSanitizer.html",
+    "access_date": "2026-10-27",
+    "use": "Instrumented runtime detection, build flags, and limitations",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P002",
+    "title": "Linux poll manual",
+    "url": "https://man7.org/linux/man-pages/man2/poll.2.html",
+    "access_date": "2026-10-27",
+    "use": "Readiness, hangup and error behavior",
+    "used_by": [
+      "02_Interview_Questions_and_Answers",
+      "07_Projects/01_Basic/B03_UART_Framed_Protocol"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P003",
+    "title": "Linux epoll manual",
+    "url": "https://man7.org/linux/man-pages/man7/epoll.7.html",
+    "access_date": "2026-10-27",
+    "use": "Level and edge triggering, drain-to-EAGAIN convention",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P004",
+    "title": "Linux clock_gettime manual",
+    "url": "https://man7.org/linux/man-pages/man2/clock_gettime.2.html",
+    "access_date": "2026-10-27",
+    "use": "Monotonic clocks and suspend semantics",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P005",
+    "title": "Linux futex manual",
+    "url": "https://man7.org/linux/man-pages/man7/futex.7.html",
+    "access_date": "2026-10-27",
+    "use": "Userspace synchronization and kernel waiting foundation",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P006",
+    "title": "Linux 6.12 lock types and rules",
+    "url": "https://docs.kernel.org/6.12/locking/locktypes.html",
+    "access_date": "2026-10-27",
+    "use": "Sleeping and spinning locks; PREEMPT_RT qualification",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P007",
+    "title": "Linux 6.12 managed device resources",
+    "url": "https://docs.kernel.org/6.12/driver-api/driver-model/devres.html",
+    "access_date": "2026-10-27",
+    "use": "Managed resource scope and release behavior",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P008",
+    "title": "Linux 6.12 DMA mapping guide",
+    "url": "https://docs.kernel.org/6.12/core-api/dma-api-howto.html",
+    "access_date": "2026-10-27",
+    "use": "Device address domains, coherent/streaming mapping, ordering",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P009",
+    "title": "Linux 6.12 runtime power management",
+    "url": "https://docs.kernel.org/6.12/power/runtime_pm.html",
+    "access_date": "2026-10-27",
+    "use": "Usage references, runtime suspend and resume",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P010",
+    "title": "Linux 6.12 IIO introduction",
+    "url": "https://docs.kernel.org/6.12/driver-api/iio/intro.html",
+    "access_date": "2026-10-27",
+    "use": "Sensor subsystem role and channel model",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P011",
+    "title": "Linux 6.12 ioctl interfaces",
+    "url": "https://docs.kernel.org/6.12/driver-api/ioctl.html",
+    "access_date": "2026-10-27",
+    "use": "UAPI fixed-width types, layout, compat handling and information leaks",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P012",
+    "title": "Linux 6.12 RCU overview",
+    "url": "https://docs.kernel.org/6.12/RCU/whatisRCU.html",
+    "access_date": "2026-10-27",
+    "use": "Publication, grace periods and delayed reclamation",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P013",
+    "title": "Linux 6.12 workqueues",
+    "url": "https://docs.kernel.org/6.12/core-api/workqueue.html",
+    "access_date": "2026-10-27",
+    "use": "Worker context and asynchronous work lifecycle",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P014",
+    "title": "Linux 6.12 device tree usage model",
+    "url": "https://docs.kernel.org/6.12/devicetree/usage-model.html",
+    "access_date": "2026-10-27",
+    "use": "Hardware description and device population",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P015",
+    "title": "Linux 6.12 driver model",
+    "url": "https://docs.kernel.org/6.12/driver-api/driver-model/index.html",
+    "access_date": "2026-10-27",
+    "use": "Device matching, binding and driver-model structure",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P016",
+    "title": "U-Boot v2025.01 documentation",
+    "url": "https://docs.u-boot.org/en/v2025.01/",
+    "access_date": "2026-10-27",
+    "use": "Board-specific bootloader documentation entry point",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P017",
+    "title": "Arm CMSIS Cortex-M core documentation",
+    "url": "https://arm-software.github.io/CMSIS_6/latest/Core/index.html",
+    "access_date": "2026-10-27",
+    "use": "Cortex-M core/startup support; exact MCU manual still required",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P018",
+    "title": "QEMU system emulation manual",
+    "url": "https://www.qemu.org/docs/master/system/index.html",
+    "access_date": "2026-10-27",
+    "use": "Machine models and emulation scope; latest documentation is conceptual only",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P019",
+    "title": "Linux 6.12 I2C driver implementation",
+    "url": "https://docs.kernel.org/6.12/i2c/writing-clients.html",
+    "access_date": "2026-10-27",
+    "use": "Bus device drivers and transfer checks",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P020",
+    "title": "Linux 6.12 SPI support overview",
+    "url": "https://docs.kernel.org/6.12/spi/spi-summary.html",
+    "access_date": "2026-10-27",
+    "use": "SPI controller/device model and transfers",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P021",
+    "title": "Linux v6.12 regmap interface source",
+    "url": "https://raw.githubusercontent.com/torvalds/linux/v6.12/include/linux/regmap.h",
+    "access_date": "2026-10-27",
+    "use": "Register map configuration and access interface",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official pinned source URL identified; contents unavailable through web retrieval. Verify in the local v6.12 source tree."
+  },
+  {
+    "id": "P022",
+    "title": "MCUboot bootloader design",
+    "url": "https://docs.mcuboot.com/design.html",
+    "access_date": "2026-10-27",
+    "use": "Image validation, swap and recovery design concepts",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P023",
+    "title": "Yocto 5.0.12 creating layers",
+    "url": "https://docs.yoctoproject.org/5.0.12/dev-manual/layers.html",
+    "access_date": "2026-10-27",
+    "use": "Layers, recipes and metadata organization",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P024",
+    "title": "Yocto 5.0.12 reproducible builds",
+    "url": "https://docs.yoctoproject.org/5.0.12/test-manual/reproducible-builds.html",
+    "access_date": "2026-10-27",
+    "use": "Bitwise reproducibility goals and validation",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P025",
+    "title": "Yocto 5.0.12 creating an SBOM",
+    "url": "https://docs.yoctoproject.org/5.0.12/dev-manual/sbom.html",
+    "access_date": "2026-10-27",
+    "use": "Build-generated SPDX software inventory",
+    "used_by": [
+      "02_Interview_Questions_and_Answers"
+    ],
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "P026",
+    "title": "GNU GCC instrumentation options",
+    "url": "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html",
+    "access_date": "2026-10-27",
+    "use": "Address undefined behavior and thread instrumentation",
+    "used_by": [
+      "07_Projects/01_Basic/B01_C_Utility_Library",
+      "07_Projects/01_Basic/B04_Sensor_Logger"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P027",
+    "title": "Linux man pages termios",
+    "url": "https://man7.org/linux/man-pages/man3/termios.3.html",
+    "access_date": "2026-10-27",
+    "use": "Raw serial settings and baud configuration",
+    "used_by": [
+      "07_Projects/01_Basic/B03_UART_Framed_Protocol"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P028",
+    "title": "Linux pthread condition documentation",
+    "url": "https://man7.org/linux/man-pages/man3/pthread_cond_init.3.html",
+    "access_date": "2026-10-27",
+    "use": "Condition predicate loops and mutex relationship; historical LinuxThreads specifics on this page do not describe modern NPTL",
+    "used_by": [
+      "07_Projects/01_Basic/B04_Sensor_Logger"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P029",
+    "title": "Bootlin official toolchain archive",
+    "url": "https://toolchains.bootlin.com/downloads/releases/toolchains/aarch64/tarballs/",
+    "access_date": "2026-10-27",
+    "use": "Pinned AArch64 2024.05-1 glibc toolchain availability",
+    "used_by": [
+      "07_Projects/01_Basic/B05_Cross_Compile_QEMU"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P030",
+    "title": "Buildroot release archive",
+    "url": "https://buildroot.org/downloads/",
+    "access_date": "2026-10-27",
+    "use": "Archived 2025.02.1 archive exists; newer releases also listed",
+    "used_by": [
+      "07_Projects/02_Intermediate/I01_Buildroot_Appliance"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P031",
+    "title": "Linux 6.12 miscellaneous devices",
+    "url": "https://docs.kernel.org/6.12/driver-api/misc_devices.html",
+    "access_date": "2026-10-27",
+    "use": "misc registration lifetime and private data",
+    "used_by": [
+      "07_Projects/02_Intermediate/I02_Kernel_Character_Driver"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P032",
+    "title": "Linux 6.12 kernel API",
+    "url": "https://docs.kernel.org/6.12/core-api/kernel-api.html",
+    "access_date": "2026-10-27",
+    "use": "kfifo user copies and FIFO helpers",
+    "used_by": [
+      "07_Projects/02_Intermediate/I02_Kernel_Character_Driver"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P033",
+    "title": "Linux 6.12 external modules",
+    "url": "https://docs.kernel.org/6.12/kbuild/modules.html",
+    "access_date": "2026-10-27",
+    "use": "External builds prepared trees symbol versions",
+    "used_by": [
+      "07_Projects/02_Intermediate/I02_Kernel_Character_Driver"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P034",
+    "title": "Raspberry Pi hardware",
+    "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#gpio",
+    "access_date": "2026-10-27",
+    "use": "3.3 V logic, physical pin 11 is GPIO17, pin 6 ground",
+    "used_by": [
+      "07_Projects/02_Intermediate/I03_Device_Tree_GPIO",
+      "07_Projects/03_Advanced/A01_IIO_Sensor_Driver"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P035",
+    "title": "Yocto 5.0.9 documentation",
+    "url": "https://docs.yoctoproject.org/5.0.9/singleindex.html",
+    "access_date": "2026-10-27",
+    "use": "Pinned Scarthgap environment and layer/image/SDK concepts",
+    "used_by": [
+      "07_Projects/02_Intermediate/I04_Yocto_Telemetry"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P036",
+    "title": "Yocto quick build",
+    "url": "https://docs.yoctoproject.org/5.0/brief-yoctoprojectqs/index.html",
+    "access_date": "2026-10-27",
+    "use": "QEMU build and run model",
+    "used_by": [
+      "07_Projects/02_Intermediate/I04_Yocto_Telemetry"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P037",
+    "title": "FreeRTOS GCC POSIX simulator",
+    "url": "https://www.freertos.org/Documentation/02-Kernel/03-Supported-devices/04-Demos/03-Emulation-and-simulation/Linux/FreeRTOS-simulator-for-Linux",
+    "access_date": "2026-10-27",
+    "use": "Real kernel hosted port and simulation limits",
+    "used_by": [
+      "07_Projects/02_Intermediate/I05_RTOS_Linux"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P038",
+    "title": "FreeRTOS V11.1.0 source",
+    "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V11.1.0",
+    "access_date": "2026-10-27",
+    "use": "Pinned RTOS source and POSIX port",
+    "used_by": [
+      "07_Projects/02_Intermediate/I05_RTOS_Linux"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P039",
+    "title": "STM32F446RE product and datasheet",
+    "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f446re.html",
+    "access_date": "2026-10-27",
+    "use": "Cortex M4F memory map target",
+    "used_by": [
+      "07_Projects/02_Intermediate/I05_RTOS_Linux"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P040",
+    "title": "STM32F446 RM0390",
+    "url": "https://www.st.com/st-web-ui/static/active/en/resource/technical/document/reference_manual/DM00135183.pdf",
+    "access_date": "2026-10-27",
+    "use": "RCC USART GPIO IWDG register configuration",
+    "used_by": [
+      "07_Projects/02_Intermediate/I05_RTOS_Linux"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P041",
+    "title": "Nucleo MB1136 UM1724",
+    "url": "https://www.st.com/resource/en/user_manual/dm00105823.pdf",
+    "access_date": "2026-10-27",
+    "use": "USART2 PA2 PA3 ST LINK bridge mapping",
+    "used_by": [
+      "07_Projects/02_Intermediate/I05_RTOS_Linux"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P042",
+    "title": "TMP102 product and datasheet",
+    "url": "https://www.ti.com/lit/ds/symlink/tmp102.pdf",
+    "access_date": "2026-10-27",
+    "use": "12-bit normal mode signed format 0.0625 C step, config and address",
+    "used_by": [
+      "07_Projects/03_Advanced/A01_IIO_Sensor_Driver"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P043",
+    "title": "IIO core",
+    "url": "https://www.kernel.org/doc/html/v6.12/driver-api/iio/core.html",
+    "access_date": "2026-10-27",
+    "use": "IIO device registration and channel interface",
+    "used_by": [
+      "07_Projects/03_Advanced/A01_IIO_Sensor_Driver"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P044",
+    "title": "Kernel event tracing",
+    "url": "https://docs.kernel.org/6.12/trace/events.html",
+    "access_date": "2026-10-27",
+    "use": "Scheduler event correlation and trace collection",
+    "used_by": [
+      "07_Projects/03_Advanced/A02_Latency_Investigation"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P045",
+    "title": "Python time",
+    "url": "https://docs.python.org/3.12/library/time.html",
+    "access_date": "2026-10-27",
+    "use": "Monotonic time and sleep can exceed requested duration",
+    "used_by": [
+      "07_Projects/03_Advanced/A02_Latency_Investigation",
+      "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P046",
+    "title": "OpenSSL dgst",
+    "url": "https://docs.openssl.org/3.0/man1/openssl-dgst/",
+    "access_date": "2026-10-27",
+    "use": "Detached signing and public-key verification",
+    "used_by": [
+      "07_Projects/03_Advanced/A03_Signed_AB_Update"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P047",
+    "title": "RAUC using updates",
+    "url": "https://rauc.readthedocs.io/en/latest/using.html",
+    "access_date": "2026-10-27",
+    "use": "Health confirmation after trial boot and real-system distinction",
+    "used_by": [
+      "07_Projects/03_Advanced/A03_Signed_AB_Update",
+      "07_Projects/04_Capstone/C01_Industrial_Gateway"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P048",
+    "title": "Python selectors",
+    "url": "https://docs.python.org/3.12/library/selectors.html",
+    "access_date": "2026-10-27",
+    "use": "Nonblocking descriptor readiness",
+    "used_by": [
+      "07_Projects/04_Capstone/C01_Industrial_Gateway"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P049",
+    "title": "FreeRTOS queues",
+    "url": "https://www.freertos.org/Documentation/02-Kernel/02-Kernel-features/02-Queues-mutexes-and-semaphores/01-Queues",
+    "access_date": "2026-10-27",
+    "use": "MCU producer consumer integration",
+    "used_by": [
+      "07_Projects/04_Capstone/C01_Industrial_Gateway"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P050",
+    "title": "FreeRTOS task scheduling",
+    "url": "https://www.freertos.org/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/03-Task-states",
+    "access_date": "2026-10-27",
+    "use": "Control and supervisory scheduling concepts",
+    "used_by": [
+      "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  },
+  {
+    "id": "P051",
+    "title": "Python random",
+    "url": "https://docs.python.org/3.12/library/random.html",
+    "access_date": "2026-10-27",
+    "use": "Seeded synthetic data reproducibility",
+    "used_by": [
+      "07_Projects/04_Capstone/C02_Robot_Control_Diagnostics"
+    ],
+    "retrieval_status": "See the project source record and validation scope."
+  }
+]

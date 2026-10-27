@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_LEARN_PATH/package/learn-telemetry/Config.in"

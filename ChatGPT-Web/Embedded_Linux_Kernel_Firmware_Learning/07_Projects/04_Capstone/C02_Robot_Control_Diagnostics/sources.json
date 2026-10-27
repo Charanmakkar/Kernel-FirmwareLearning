@@ -1,0 +1,23 @@
+[
+  {
+    "title": "FreeRTOS task scheduling",
+    "url": "https://www.freertos.org/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/03-Task-states",
+    "access_date": "2026-10-27",
+    "supports": "Control and supervisory scheduling concepts",
+    "ref_id": "official reference"
+  },
+  {
+    "title": "Python random",
+    "url": "https://docs.python.org/3.12/library/random.html",
+    "access_date": "2026-10-27",
+    "supports": "Seeded synthetic data reproducibility",
+    "ref_id": "official reference"
+  },
+  {
+    "title": "Python time",
+    "url": "https://docs.python.org/3.12/library/time.html",
+    "access_date": "2026-10-27",
+    "supports": "Elapsed and process CPU measurements",
+    "ref_id": "official reference"
+  }
+]

@@ -1,0 +1,14 @@
+test_confirm (test_updates.Updates.test_confirm) ... ok
+test_corrupt_trial_fallback (test_updates.Updates.test_corrupt_trial_fallback) ... ok
+test_downgrade (test_updates.Updates.test_downgrade) ... ok
+test_interruption (test_updates.Updates.test_interruption) ... ok
+test_manifest_tamper (test_updates.Updates.test_manifest_tamper) ... ok
+test_no_early_confirmation (test_updates.Updates.test_no_early_confirmation) ... ok
+test_payload_tamper (test_updates.Updates.test_payload_tamper) ... ok
+test_pending_block (test_updates.Updates.test_pending_block) ... ok
+test_rollback (test_updates.Updates.test_rollback) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.437s
+
+OK

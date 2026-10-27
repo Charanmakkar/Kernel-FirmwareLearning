@@ -1,0 +1,26 @@
+[
+  {
+    "source_id": "BR",
+    "title": "Buildroot manual",
+    "url": "https://buildroot.org/downloads/manual/manual.html",
+    "access_date": "2026-10-27",
+    "claims": "External trees local packages image generation legal info; exact archived manual in 2025.02.1 tarball is baseline",
+    "retrieval_ref": "turn7search4"
+  },
+  {
+    "source_id": "BRARCH",
+    "title": "Buildroot release archive",
+    "url": "https://buildroot.org/downloads/",
+    "access_date": "2026-10-27",
+    "claims": "Archived 2025.02.1 archive exists; newer releases also listed",
+    "retrieval_ref": "turn11view4"
+  },
+  {
+    "source_id": "FSYNC",
+    "title": "Linux man pages fsync",
+    "url": "https://man7.org/linux/man-pages/man2/fsync.2.html",
+    "access_date": "2026-10-27",
+    "claims": "File synchronization and directory persistence",
+    "retrieval_ref": "turn31view5"
+  }
+]

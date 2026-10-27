@@ -1,0 +1,7 @@
+test_recording (test_latency.Latency.test_recording) ... ok
+test_samples (test_latency.Latency.test_samples) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.039s
+
+OK

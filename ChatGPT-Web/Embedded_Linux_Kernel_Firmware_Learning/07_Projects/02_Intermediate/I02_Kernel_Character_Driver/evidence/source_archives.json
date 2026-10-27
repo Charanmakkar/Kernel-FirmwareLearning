@@ -1,0 +1,8 @@
+{
+  "linux": {
+    "version": "6.12",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.tar.xz",
+    "downloaded_sha256": "b1a2562be56e42afb3f8489d4c2a7ac472ac23098f1ef1c1e40da601f54625eb",
+    "signature_verified": false
+  }
+}

@@ -1,0 +1,201 @@
+id,topic,track,difficulty,round,tags,module,question
+Q001,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,How are an array and a pointer different when passed to a function?
+Q002,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,"Explain storage duration, scope, and linkage using a static local variable."
+Q003,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,What do const placement and volatile placement actually promise?
+Q004,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,Classify signed overflow and unsigned wraparound.
+Q005,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,Why can comparing a negative int with an unsigned length surprise you?
+Q006,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,"Is `printf(""%d %d"", i++, i++)` guaranteed to print a particular pair?"
+Q007,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,What makes returning a pointer to a local array unsafe?
+Q008,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,Why is memcpy not a safe replacement for memmove on overlapping regions?
+Q009,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,Can a received byte buffer be cast directly to a C packet structure?
+Q010,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,Why is bit-field layout unsuitable for a portable wire protocol?
+Q011,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,When is a shift expression undefined or implementation-defined?
+Q012,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,Explain strict aliasing and a safe way to inspect a float's bytes.
+Q013,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,What is the difference between a null pointer and an uninitialized pointer?
+Q014,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,How should realloc failure be handled without losing the original allocation?
+Q015,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,What can a function pointer safely represent in a driver-like C interface?
+Q016,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,How do alignment and structure padding affect an embedded ABI?
+Q017,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,"What makes a C API reentrant, and how is that different from thread safe?"
+Q018,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,Why does volatile not fix a shared-counter data race?
+Q019,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,What does undefined behavior imply for a code-output interview question?
+Q020,C objects and behavior,Shared,Foundation,Technical screen,conceptual;code-analysis,M02,"How do you choose between fixed allocation, a pool, and general heap allocation?"
+Q021,C coding exercises,Shared,Practical,Coding round,coding,M03,Implement checked multiplication for two size_t values before allocation.
+Q022,C coding exercises,Shared,Practical,Coding round,coding,M03,Write a bounds-checked big-endian 16-bit decoder from bytes.
+Q023,C coding exercises,Shared,Practical,Coding round,coding,M03,Implement an eight-byte ring buffer with explicit full and empty states.
+Q024,C coding exercises,Shared,Practical,Coding round,coding,M03,Convert an even-length ASCII hexadecimal string into a bounded byte buffer.
+Q025,C coding exercises,Shared,Practical,Coding round,coding,M03,Reverse a byte array in place without accessing beyond either end.
+Q026,C coding exercises,Shared,Practical,Coding round,coding,M03,Set or clear a selected bit in a uint32_t without undefined shifts.
+Q027,C coding exercises,Shared,Practical,Coding round,coding,M03,Implement CRC-16/CCITT-FALSE and verify a known check value.
+Q028,C coding exercises,Shared,Practical,Coding round,coding,M03,Parse a decimal uint32_t with no trailing characters or overflow.
+Q029,C coding exercises,Shared,Practical,Coding round,coding,M03,Write a bounded string copy that reports truncation explicitly.
+Q030,C coding exercises,Shared,Practical,Coding round,coding,M03,Implement a saturating addition of two uint32_t values.
+Q031,C coding exercises,Shared,Practical,Coding round,coding,M03,Implement a debounced boolean input state machine using sample counts.
+Q032,C coding exercises,Shared,Practical,Coding round,coding,M03,Implement an integer moving average over the most recent four samples.
+Q033,C coding exercises,Shared,Practical,Coding round,coding,M03,Insert a uint32_t into a sorted fixed-capacity array.
+Q034,C coding exercises,Shared,Practical,Coding round,coding,M03,Compare a wrapping 32-bit tick counter against a deadline safely.
+Q035,C coding exercises,Shared,Practical,Coding round,coding,M03,Detect a cycle in a singly linked list using constant extra space.
+Q036,C coding exercises,Shared,Practical,Coding round,coding,M03,Count the set bits in a uint32_t without a 32-iteration loop.
+Q037,C coding exercises,Shared,Practical,Coding round,coding,M03,Round a size_t up to a power-of-two alignment without overflow.
+Q038,C coding exercises,Shared,Practical,Coding round,coding,M03,Validate a sequence of one-byte-type one-byte-length TLV records.
+Q039,C coding exercises,Shared,Practical,Coding round,coding,M03,Implement hysteresis for a high-temperature alarm.
+Q040,C coding exercises,Shared,Practical,Coding round,coding,M03,Replace a bounded bit field in a uint32_t while preserving other bits.
+Q041,Tools linking and C++,Shared,Practical,Technical screen,conceptual,M04,"Explain preprocessing, compilation, assembly, and linking using one missing-symbol error."
+Q042,Tools linking and C++,Shared,Practical,Technical screen,conceptual,M04,What information can readelf and a linker map reveal that source code cannot?
+Q043,Tools linking and C++,Shared,Practical,Technical screen,conceptual,M04,What is the difference between an ABI and an API?
+Q044,Tools linking and C++,Shared,Practical,Technical screen,conceptual,M04,How does RAII improve resource handling in C++ system code?
+Q045,Tools linking and C++,Shared,Practical,Technical screen,conceptual,M04,"When would you use unique_ptr, shared_ptr, or a nonowning pointer?"
+Q046,Tools linking and C++,Shared,Practical,Technical screen,conceptual,M04,How would you make a Make or CMake build reproducible enough to investigate a regression?
+Q047,Tools linking and C++,Shared,Practical,Technical screen,conceptual,M04,Why can a static library link fail depending on command-line order?
+Q048,Tools linking and C++,Shared,Practical,Technical screen,conceptual,M04,What should a useful embedded code review examine beyond formatting?
+Q049,Tools linking and C++,Shared,Practical,Technical screen,conceptual,M04,How do you use git bisect without misdiagnosing an intermittent fault?
+Q050,Tools linking and C++,Shared,Practical,Technical screen,conceptual,M04,"What do compiler warnings, static analysis, and sanitizers each contribute?"
+Q051,Linux process and I O fundamentals,Embedded Linux,Practical,Technical screen,conceptual,M06,"How do a process, a thread, and a file descriptor differ?"
+Q052,Linux process and I O fundamentals,Embedded Linux,Practical,Technical screen,conceptual,M06,Why must a read or write loop handle partial progress?
+Q053,Linux process and I O fundamentals,Embedded Linux,Practical,Technical screen,conceptual,M06,What is the difference between blocking mode and readiness notification?
+Q054,Linux process and I O fundamentals,Embedded Linux,Practical,Technical screen,conceptual,M06,"When should you choose poll instead of epoll, or epoll instead of poll?"
+Q055,Linux process and I O fundamentals,Embedded Linux,Practical,Technical screen,conceptual,M06,How should a daemon shut down cleanly after SIGTERM?
+Q056,Linux process and I O fundamentals,Embedded Linux,Practical,Technical screen,conceptual,M06,"What are /proc, /sys, and /dev used for?"
+Q057,Linux process and I O fundamentals,Embedded Linux,Practical,Technical screen,conceptual,M06,How do fork and exec interact with descriptors and memory?
+Q058,Linux process and I O fundamentals,Embedded Linux,Practical,Technical screen,conceptual,M06,What does fsync add beyond a successful write?
+Q059,Linux process and I O fundamentals,Embedded Linux,Practical,Technical screen,conceptual,M06,Why should timeouts normally use a monotonic clock?
+Q060,Linux process and I O fundamentals,Embedded Linux,Practical,Technical screen,conceptual,M06,What does least privilege mean for an embedded Linux service?
+Q061,Linux coding exercises,Embedded Linux,Practical,Coding round,coding,M06,Write a complete-write helper for a blocking descriptor with EINTR handling.
+Q062,Linux coding exercises,Embedded Linux,Practical,Coding round,coding,M06,Read a text file whose length is unknown without trusting stat size.
+Q063,Linux coding exercises,Embedded Linux,Practical,Coding round,coding,M06,Build a poll loop that reads a pipe and exits when a control pipe signals shutdown.
+Q064,Linux coding exercises,Embedded Linux,Practical,Coding round,coding,M06,Implement a bounded newline decoder for fragmented stream input.
+Q065,Linux coding exercises,Embedded Linux,Practical,Coding round,coding,M06,Implement a monotonic deadline helper returning milliseconds remaining.
+Q066,Linux coding exercises,Embedded Linux,Practical,Coding round,coding,M06,Write a subprocess launcher that captures exit status without leaking descriptors.
+Q067,Linux coding exercises,Embedded Linux,Practical,Coding round,coding,M06,Write a TCP request parser that accepts a 16-bit length followed by payload.
+Q068,Linux coding exercises,Embedded Linux,Practical,Coding round,coding,M06,Implement atomic replacement of a small configuration file with error checking.
+Q069,Linux coding exercises,Embedded Linux,Practical,Coding round,coding,M06,Implement a bounded producer-consumer queue with clean shutdown.
+Q070,Linux coding exercises,Embedded Linux,Practical,Coding round,coding,M06,Parse a /proc PID stat record robustly enough to extract state and PID.
+Q071,Concurrency and IPC,Embedded Linux and Kernel,Practical,Technical interview,conceptual,M07,Why must a condition variable be paired with a predicate and mutex?
+Q072,Concurrency and IPC,Embedded Linux and Kernel,Practical,Technical interview,conceptual,M07,How does deadlock differ from starvation and livelock?
+Q073,Concurrency and IPC,Embedded Linux and Kernel,Practical,Technical interview,conceptual,M07,When is an atomic counter insufficient to protect a data structure?
+Q074,Concurrency and IPC,Embedded Linux and Kernel,Practical,Technical interview,conceptual,M07,"What is priority inversion, and what does priority inheritance solve?"
+Q075,Concurrency and IPC,Embedded Linux and Kernel,Practical,Technical interview,conceptual,M07,How should shared memory between processes be synchronized?
+Q076,Concurrency and IPC,Embedded Linux and Kernel,Practical,Technical interview,conceptual,M07,"What is backpressure, and where should it appear in telemetry systems?"
+Q077,Concurrency and IPC,Embedded Linux and Kernel,Practical,Technical interview,conceptual,M07,Why is cancellation harder than adding a stop flag?
+Q078,Concurrency and IPC,Embedded Linux and Kernel,Practical,Technical interview,conceptual,M07,"What is false sharing, and how would you establish that it matters?"
+Q079,Concurrency and IPC,Embedded Linux and Kernel,Practical,Technical interview,conceptual,M07,"What does lock-free mean, and what does it not guarantee?"
+Q080,Concurrency and IPC,Embedded Linux and Kernel,Practical,Technical interview,conceptual,M07,"When would you choose a pipe, Unix socket, shared memory, or message queue?"
+Q081,Linux debugging scenarios,Embedded Linux,Intermediate,Debugging round,debugging;scenario,M15,A daemon uses 100 percent CPU after its serial peer disconnects. What do you inspect?
+Q082,Linux debugging scenarios,Embedded Linux,Intermediate,Debugging round,debugging;scenario,M15,A parser passes whole-frame tests but fails on real UART traffic. What is likely missing?
+Q083,Linux debugging scenarios,Embedded Linux,Intermediate,Debugging round,debugging;scenario,M15,A process reports ENOENT when executing a file that visibly exists. How can that happen?
+Q084,Linux debugging scenarios,Embedded Linux,Intermediate,Debugging round,debugging;scenario,M15,A service works as root but fails under its intended account. How do you fix it?
+Q085,Linux debugging scenarios,Embedded Linux,Intermediate,Debugging round,debugging;scenario,M15,Memory usage grows slowly while the process stays responsive. How do you separate a leak from caching?
+Q086,Linux debugging scenarios,Embedded Linux,Intermediate,Debugging round,debugging;scenario,M15,A multithreaded application hangs only during shutdown. What is your first investigation?
+Q087,Linux debugging scenarios,Embedded Linux,Intermediate,Debugging round,debugging;scenario,M15,A network request sometimes contains duplicated bytes. What write-loop bug would you check?
+Q088,Linux debugging scenarios,Embedded Linux,Intermediate,Debugging round,debugging;scenario,M15,A periodic task drifts farther behind each minute. What timing pattern is suspect?
+Q089,Linux debugging scenarios,Embedded Linux,Intermediate,Debugging round,debugging;scenario,M15,A cross-compiled program crashes on one board but passes on the host. What do you compare?
+Q090,Linux debugging scenarios,Embedded Linux,Intermediate,Debugging round,debugging;scenario,M15,A configuration file becomes empty after power loss. What is wrong with a direct overwrite?
+Q091,Concurrency and fault analysis scenarios,Shared,Intermediate,Debugging round,debugging;scenario,M15,A counter occasionally loses increments despite being volatile. How do you demonstrate the defect?
+Q092,Concurrency and fault analysis scenarios,Shared,Intermediate,Debugging round,debugging;scenario,M15,A consumer sleeps although the queue contains data. What lost-wakeup pattern do you inspect?
+Q093,Concurrency and fault analysis scenarios,Shared,Intermediate,Debugging round,debugging;scenario,M15,A two-thread program locks up after each thread takes a different mutex. What is the repair?
+Q094,Concurrency and fault analysis scenarios,Shared,Intermediate,Debugging round,debugging;scenario,M15,A timer callback accesses freed state after device removal. What lifetime ordering is missing?
+Q095,Concurrency and fault analysis scenarios,Shared,Intermediate,Debugging round,debugging;scenario,M15,A driver fails with a sleeping-in-atomic-context warning. What do you inspect?
+Q096,Concurrency and fault analysis scenarios,Shared,Intermediate,Debugging round,debugging;scenario,M15,A low-priority logger causes a high-priority control task to miss deadlines. How can this occur?
+Q097,Concurrency and fault analysis scenarios,Shared,Intermediate,Debugging round,debugging;scenario,M15,A device works until runtime suspend is enabled. Where do you start?
+Q098,Concurrency and fault analysis scenarios,Shared,Intermediate,Debugging round,debugging;scenario,M15,A DMA buffer contains stale data on one architecture. What could host testing have missed?
+Q099,Concurrency and fault analysis scenarios,Shared,Intermediate,Debugging round,debugging;scenario,M15,A firmware task resets under heavy logging but never in the debugger. What hypotheses fit?
+Q100,Concurrency and fault analysis scenarios,Shared,Intermediate,Debugging round,debugging;scenario,M15,An update passes in normal testing but bricks the device after power interruption. What was missing?
+Q101,Architecture boot and device tree,Kernel BSP and Firmware,Practical,Technical interview,conceptual,M08,How is a Linux application processor different from a typical microcontroller target?
+Q102,Architecture boot and device tree,Kernel BSP and Firmware,Practical,Technical interview,conceptual,M08,What do an MMU and an MPU each provide?
+Q103,Architecture boot and device tree,Kernel BSP and Firmware,Practical,Technical interview,conceptual,M08,Describe a representative embedded Linux boot path without assuming every board uses U-Boot.
+Q104,Architecture boot and device tree,Kernel BSP and Firmware,Practical,Technical interview,conceptual,M08,How do initramfs and a persistent root filesystem differ?
+Q105,Architecture boot and device tree,Kernel BSP and Firmware,Practical,Technical interview,conceptual,M08,"What belongs in device tree, and what belongs in a driver?"
+Q106,Architecture boot and device tree,Kernel BSP and Firmware,Practical,Technical interview,conceptual,M08,What are pin control and GPIO control responsible for?
+Q107,Architecture boot and device tree,Kernel BSP and Firmware,Practical,Technical interview,conceptual,M08,Why are clocks and regulators explicit driver resources?
+Q108,Architecture boot and device tree,Kernel BSP and Firmware,Practical,Technical interview,conceptual,M08,"What does a cross-compilation sysroot contain, and why is it important?"
+Q109,Architecture boot and device tree,Kernel BSP and Firmware,Practical,Technical interview,conceptual,M08,"How does an interrupt differ from polling, and when can polling be reasonable?"
+Q110,Architecture boot and device tree,Kernel BSP and Firmware,Practical,Technical interview,conceptual,M08,"What is memory ordering, and why can it matter even with coherent caches?"
+Q111,Kernel internals and lifetime,Kernel BSP,Intermediate,Technical interview,conceptual,M09,Why should most application logic remain in user space?
+Q112,Kernel internals and lifetime,Kernel BSP,Intermediate,Technical interview,conceptual,M09,What are process context and interrupt context in kernel code?
+Q113,Kernel internals and lifetime,Kernel BSP,Intermediate,Technical interview,conceptual,M09,"How do kmalloc, vmalloc, and DMA allocation serve different needs?"
+Q114,Kernel internals and lifetime,Kernel BSP,Intermediate,Technical interview,conceptual,M09,How do a mutex and a spinlock differ in the kernel?
+Q115,Kernel internals and lifetime,Kernel BSP,Intermediate,Technical interview,conceptual,M09,What does a wait queue solve in a blocking character driver?
+Q116,Kernel internals and lifetime,Kernel BSP,Intermediate,Technical interview,conceptual,M09,Why does devm allocation not eliminate the need for a removal design?
+Q117,Kernel internals and lifetime,Kernel BSP,Intermediate,Technical interview,conceptual,M09,What is the core idea of Read Copy Update?
+Q118,Kernel internals and lifetime,Kernel BSP,Intermediate,Technical interview,conceptual,M09,How do workqueues differ from doing everything in an interrupt handler?
+Q119,Kernel internals and lifetime,Kernel BSP,Intermediate,Technical interview,conceptual,M09,"What is a kernel oops, and how should its evidence be preserved?"
+Q120,Kernel internals and lifetime,Kernel BSP,Intermediate,Technical interview,conceptual,M09,Why must an out-of-tree module match the target kernel build?
+Q121,Driver review scenarios,Kernel BSP,Intermediate,Driver review,debugging;scenario,M10,A platform driver's probe never runs. What matching evidence do you inspect?
+Q122,Driver review scenarios,Kernel BSP,Intermediate,Driver review,debugging;scenario,M10,Probe returns EPROBE_DEFER repeatedly. Is this always a bug in the driver?
+Q123,Driver review scenarios,Kernel BSP,Intermediate,Driver review,debugging;scenario,M10,A read method directly dereferences the user's buffer pointer. What is wrong?
+Q124,Driver review scenarios,Kernel BSP,Intermediate,Driver review,debugging;scenario,M10,A blocking read never wakes when a writer adds data. Where can the bug be?
+Q125,Driver review scenarios,Kernel BSP,Intermediate,Driver review,debugging;scenario,M10,Poll reports readable but the next read blocks. Is the driver necessarily wrong?
+Q126,Driver review scenarios,Kernel BSP,Intermediate,Driver review,debugging;scenario,M10,A driver leaks memory whenever the second initialization step fails. How do you repair it?
+Q127,Driver review scenarios,Kernel BSP,Intermediate,Driver review,debugging;scenario,M10,A driver's ioctl works for 64-bit applications but fails for 32-bit userspace. What do you inspect?
+Q128,Driver review scenarios,Kernel BSP,Intermediate,Driver review,debugging;scenario,M10,A GPIO interrupt handler triggers continuously after the first event. What evidence matters?
+Q129,Driver review scenarios,Kernel BSP,Intermediate,Driver review,debugging;scenario,M10,A device is removed while a process is blocked in read. What behavior must the driver define?
+Q130,Driver review scenarios,Kernel BSP,Intermediate,Driver review,debugging;scenario,M10,A custom character driver duplicates a standard sensor interface. When should it be redesigned?
+Q131,Buses sensors DMA and power,Kernel BSP and Firmware,Intermediate,Technical interview,conceptual,M11,"Compare UART, I2C, and SPI from an integration perspective."
+Q132,Buses sensors DMA and power,Kernel BSP and Firmware,Intermediate,Technical interview,conceptual,M11,"What does an I2C register read typically require, and what must be checked?"
+Q133,Buses sensors DMA and power,Kernel BSP and Firmware,Intermediate,Technical interview,conceptual,M11,What SPI parameters must agree between controller configuration and peripheral expectations?
+Q134,Buses sensors DMA and power,Kernel BSP and Firmware,Intermediate,Technical interview,conceptual,M11,Why does IIO expose raw values and scale rather than only a floating-point value?
+Q135,Buses sensors DMA and power,Kernel BSP and Firmware,Intermediate,Technical interview,conceptual,M11,How do direct reads and buffered acquisition differ for a sensor driver?
+Q136,Buses sensors DMA and power,Kernel BSP and Firmware,Intermediate,Technical interview,conceptual,M11,"What problem does regmap solve, and what does it not know automatically?"
+Q137,Buses sensors DMA and power,Kernel BSP and Firmware,Intermediate,Technical interview,conceptual,M11,Why is a DMA address different from a CPU virtual or physical address?
+Q138,Buses sensors DMA and power,Kernel BSP and Firmware,Intermediate,Technical interview,conceptual,M11,What is the difference between coherent and streaming DMA mappings?
+Q139,Buses sensors DMA and power,Kernel BSP and Firmware,Intermediate,Technical interview,conceptual,M11,How do system suspend and runtime suspend differ?
+Q140,Buses sensors DMA and power,Kernel BSP and Firmware,Intermediate,Technical interview,conceptual,M11,What does SocketCAN provide beyond sending raw CAN-controller registers?
+Q141,Bare metal firmware,MCU Firmware,Practical,Technical interview,conceptual,M12,What must startup code establish before calling main on a microcontroller?
+Q142,Bare metal firmware,MCU Firmware,Practical,Technical interview,conceptual,M12,How does a linker script affect firmware correctness?
+Q143,Bare metal firmware,MCU Firmware,Practical,Technical interview,conceptual,M12,How should an interrupt service routine be structured?
+Q144,Bare metal firmware,MCU Firmware,Practical,Technical interview,conceptual,M12,"What is the difference between a hardware timer, a software timer, and a busy wait?"
+Q145,Bare metal firmware,MCU Firmware,Practical,Technical interview,conceptual,M12,How do you choose PWM frequency and resolution?
+Q146,Bare metal firmware,MCU Firmware,Practical,Technical interview,conceptual,M12,What should be considered before trusting an ADC measurement?
+Q147,Bare metal firmware,MCU Firmware,Practical,Technical interview,conceptual,M12,How should a watchdog be integrated into a multitask firmware system?
+Q148,Bare metal firmware,MCU Firmware,Practical,Technical interview,conceptual,M12,What information should a Cortex-M fault handler preserve?
+Q149,Bare metal firmware,MCU Firmware,Practical,Technical interview,conceptual,M12,How should flash writes be designed when erase granularity exceeds record size?
+Q150,Bare metal firmware,MCU Firmware,Practical,Technical interview,conceptual,M12,What belongs in a firmware bootloader versus the application?
+Q151,RTOS scheduling and communication,MCU Firmware,Intermediate,Technical interview,conceptual;scenario,M13,How do task priority and execution time interact in a preemptive RTOS?
+Q152,RTOS scheduling and communication,MCU Firmware,Intermediate,Technical interview,conceptual;scenario,M13,When should you use a queue rather than a task notification?
+Q153,RTOS scheduling and communication,MCU Firmware,Intermediate,Technical interview,conceptual;scenario,M13,Why can a mutex be unsuitable in an interrupt handler?
+Q154,RTOS scheduling and communication,MCU Firmware,Intermediate,Technical interview,conceptual;scenario,M13,What are the limits of FreeRTOS priority inheritance?
+Q155,RTOS scheduling and communication,MCU Firmware,Intermediate,Technical interview,conceptual;scenario,M13,How do you size and validate RTOS task stacks?
+Q156,RTOS scheduling and communication,MCU Firmware,Intermediate,Technical interview,conceptual;scenario,M13,How should a periodic RTOS task avoid cumulative drift?
+Q157,RTOS scheduling and communication,MCU Firmware,Intermediate,Technical interview,conceptual;scenario,M13,What must a Linux to MCU protocol specify beyond a payload structure?
+Q158,RTOS scheduling and communication,MCU Firmware,Intermediate,Technical interview,conceptual;scenario,M13,How do you make a command timeout meaningful for a robot demonstrator?
+Q159,RTOS scheduling and communication,MCU Firmware,Intermediate,Technical interview,conceptual;scenario,M13,What does deterministic execution mean in an RTOS discussion?
+Q160,RTOS scheduling and communication,MCU Firmware,Intermediate,Technical interview,conceptual;scenario,M13,How do you recover from a stalled I2C transaction in firmware without wedging every task?
+Q161,Firmware and protocol coding,MCU Firmware,Practical,Coding round,coding,M13,Implement comparison of wrapping 16-bit sequence numbers.
+Q162,Firmware and protocol coding,MCU Firmware,Practical,Coding round,coding,M13,Encode payload bytes with delimiter 0x7e and escape 0x7d.
+Q163,Firmware and protocol coding,MCU Firmware,Practical,Coding round,coding,M13,Implement a watchdog supervisor for three required task heartbeats.
+Q164,Firmware and protocol coding,MCU Firmware,Practical,Coding round,coding,M13,Implement a robot command state machine with DISARMED ARMED and FAULT states.
+Q165,Firmware and protocol coding,MCU Firmware,Practical,Coding round,coding,M13,Implement sensor validity classification using range and maximum age.
+Q166,Firmware and protocol coding,MCU Firmware,Practical,Coding round,coding,M13,Implement bounded exponential retry delays with a maximum delay.
+Q167,Firmware and protocol coding,MCU Firmware,Practical,Coding round,coding,M13,Write a median-of-three filter for signed 32-bit samples without addition.
+Q168,Firmware and protocol coding,MCU Firmware,Practical,Coding round,coding,M13,Scale a signed sensor code by an integer ratio with checked output range.
+Q169,Firmware and protocol coding,MCU Firmware,Practical,Coding round,coding,M13,Decode a signed 12-bit two's-complement value from a 16-bit container.
+Q170,Firmware and protocol coding,MCU Firmware,Practical,Coding round,coding,M13,Implement a token bucket that limits diagnostic events per time window.
+Q171,Images updates and reliability,Embedded Linux and Kernel,Intermediate,Technical interview,conceptual,M14,How would you choose between Buildroot and Yocto for a learning or product image?
+Q172,Images updates and reliability,Embedded Linux and Kernel,Intermediate,Technical interview,conceptual,M14,"What do a Yocto layer, recipe, and image each represent?"
+Q173,Images updates and reliability,Embedded Linux and Kernel,Intermediate,Technical interview,conceptual,M14,What belongs in a Buildroot external tree for a custom appliance?
+Q174,Images updates and reliability,Embedded Linux and Kernel,Intermediate,Technical interview,conceptual,M14,What is the difference between a rebuildable and a bit-reproducible image?
+Q175,Images updates and reliability,Embedded Linux and Kernel,Intermediate,Technical interview,conceptual,M14,What should an SBOM contribute to an embedded product workflow?
+Q176,Images updates and reliability,Embedded Linux and Kernel,Intermediate,Technical interview,conceptual,M14,How do signed updates differ from secure or verified boot?
+Q177,Images updates and reliability,Embedded Linux and Kernel,Intermediate,Technical interview,conceptual,M14,What must an A/B updater do before marking a new slot good?
+Q178,Images updates and reliability,Embedded Linux and Kernel,Intermediate,Technical interview,conceptual,M14,How should a CI pipeline validate an embedded change at several levels?
+Q179,Images updates and reliability,Embedded Linux and Kernel,Intermediate,Technical interview,conceptual,M14,How do you investigate boot time without optimizing the wrong stage?
+Q180,Images updates and reliability,Embedded Linux and Kernel,Intermediate,Technical interview,conceptual,M14,What makes a reliability test more useful than leaving a device running overnight?
+Q181,System design exercises,All three tracks,Advanced,System design,system-design,M17,Design a bounded industrial sensor gateway using one MCU and one Linux computer.
+Q182,System design exercises,All three tracks,Advanced,System design,system-design,M17,Design a Linux to MCU robot control demonstrator with stale-command protection.
+Q183,System design exercises,All three tracks,Advanced,System design,system-design,M17,Design a character-device interface for a bounded event queue.
+Q184,System design exercises,All three tracks,Advanced,System design,system-design,M17,Design a sensor acquisition path using Linux IIO and a user-space logger.
+Q185,System design exercises,All three tracks,Advanced,System design,system-design,M17,Design a signed A/B update workflow for a small appliance.
+Q186,System design exercises,All three tracks,Advanced,System design,system-design,M17,Design a reliable serial protocol for commands and telemetry with 128-byte payloads.
+Q187,System design exercises,All three tracks,Advanced,System design,system-design,M17,Design a real-time acquisition task plus best-effort logging under overload.
+Q188,System design exercises,All three tracks,Advanced,System design,system-design,M17,Design a diagnostic subsystem that remains useful during failure.
+Q189,System design exercises,All three tracks,Advanced,System design,system-design,M17,Design a small optional anomaly detector without giving it control authority.
+Q190,System design exercises,All three tracks,Advanced,System design,system-design,M17,Design a test strategy for a driver and firmware pair before boards arrive.
+Q191,Project defense behavioral and AI judgment,All three tracks,Practical,Project defense,project-defense;behavioral,M18,How would you explain a project you built with AI assistance honestly?
+Q192,Project defense behavioral and AI judgment,All three tracks,Practical,Project defense,project-defense;behavioral,M18,What should you say when you do not know an API or answer?
+Q193,Project defense behavioral and AI judgment,All three tracks,Practical,Project defense,project-defense;behavioral,M18,How do you turn a learning project into a credible resume bullet?
+Q194,Project defense behavioral and AI judgment,All three tracks,Practical,Project defense,project-defense;behavioral,M18,How should you defend a design decision that has a clear drawback?
+Q195,Project defense behavioral and AI judgment,All three tracks,Practical,Project defense,project-defense;behavioral,M18,How do you answer a behavioral question about a failure without inventing experience?
+Q196,Project defense behavioral and AI judgment,All three tracks,Practical,Project defense,project-defense;behavioral,M18,An AI suggests a kernel helper that is absent from your headers. What is your workflow?
+Q197,Project defense behavioral and AI judgment,All three tracks,Practical,Project defense,project-defense;behavioral,M18,How can AI-generated tests give false confidence?
+Q198,Project defense behavioral and AI judgment,All three tracks,Practical,Project defense,project-defense;behavioral,M18,How would you present benchmark results from an emulator or shared host?
+Q199,Project defense behavioral and AI judgment,All three tracks,Practical,Project defense,project-defense;behavioral,M18,How should you prioritize preparation when a JD contains far more topics than you can master soon?
+Q200,Project defense behavioral and AI judgment,All three tracks,Practical,Project defense,project-defense;behavioral,M18,What demonstrates interview readiness beyond knowing 200 answers?

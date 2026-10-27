@@ -1,0 +1,30 @@
+{
+  "project_id": "B01",
+  "date": "2026-10-27",
+  "stages": [
+    {
+      "stage": "Code authored",
+      "result": "Complete library and tests"
+    },
+    {
+      "stage": "Host build",
+      "result": "Passed GCC 13.3.0 with warnings as errors"
+    },
+    {
+      "stage": "Host tests",
+      "result": "Passed boundary, all payload lengths, truncation, CRC and malformed-byte tests"
+    },
+    {
+      "stage": "Instrumentation",
+      "result": "AddressSanitizer and UndefinedBehaviorSanitizer passed; leak detection disabled due restricted proc access"
+    },
+    {
+      "stage": "Emulator tests",
+      "result": "Not applicable to portable host reference"
+    },
+    {
+      "stage": "Hardware tests",
+      "result": "Not executed; optional MCU port requires target build"
+    }
+  ]
+}

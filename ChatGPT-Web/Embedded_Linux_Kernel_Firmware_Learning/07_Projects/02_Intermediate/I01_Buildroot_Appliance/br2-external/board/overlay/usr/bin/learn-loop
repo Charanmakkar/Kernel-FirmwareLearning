@@ -1,0 +1,10 @@
+#!/bin/sh
+trap 'exit 0' TERM INT
+while :; do
+  if ! /usr/bin/telemetry-once /data; then
+    logger -t learn-telemetry 'persistent counter failure; stopped to preserve evidence'
+    exit 1
+  fi
+  sleep 1 &
+  wait "$!"
+done

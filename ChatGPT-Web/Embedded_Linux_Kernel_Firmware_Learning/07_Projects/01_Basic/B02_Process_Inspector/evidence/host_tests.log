@@ -1,0 +1,7 @@
+Executed 2026-10-27
+$ make test
+Exit: 0
+mkdir -p build
+cc -std=c11 -O2 -g -Wall -Wextra -Wpedantic -Werror src/inspect.c -o build/inspect
+python3 tests/test_inspect.py
+PASS live proc; PID rejection; quoted/spaced comm; counters; malformed and disappearing proc entries

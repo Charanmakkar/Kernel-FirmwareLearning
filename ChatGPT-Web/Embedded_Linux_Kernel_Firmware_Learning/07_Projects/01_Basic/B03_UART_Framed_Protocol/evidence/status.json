@@ -1,0 +1,26 @@
+{
+  "project_id": "B03",
+  "date": "2026-10-27",
+  "stages": [
+    {
+      "stage": "Code authored",
+      "result": "Complete codec, POSIX transaction tool and independent Python peer"
+    },
+    {
+      "stage": "Host build",
+      "result": "Passed GCC 13.3.0 with warnings as errors"
+    },
+    {
+      "stage": "Host tests",
+      "result": "PTY fragmentation, noise/stale/corrupt frames, timeout, 0/128-byte boundaries, SIGINT/SIGTERM cancellation and broken-stdout terminal restoration passed"
+    },
+    {
+      "stage": "Emulator tests",
+      "result": "PTY is a host kernel interface; not a hardware UART emulator"
+    },
+    {
+      "stage": "Hardware tests",
+      "result": "Not executed; voltage, pinmux, baud clock and physical faults pending"
+    }
+  ]
+}

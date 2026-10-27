@@ -1,0 +1,10 @@
+[
+  {
+    "source_id": "PROC",
+    "title": "Linux man pages proc pid stat",
+    "url": "https://man7.org/linux/man-pages/man5/proc_pid_stat.5.html",
+    "access_date": "2026-10-27",
+    "claims": "Process CPU counters and stat field order",
+    "retrieval_ref": "turn11view3"
+  }
+]

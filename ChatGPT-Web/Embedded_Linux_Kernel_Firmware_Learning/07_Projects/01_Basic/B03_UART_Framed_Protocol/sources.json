@@ -1,0 +1,18 @@
+[
+  {
+    "source_id": "TERMIOS",
+    "title": "Linux man pages termios",
+    "url": "https://man7.org/linux/man-pages/man3/termios.3.html",
+    "access_date": "2026-10-27",
+    "claims": "Raw serial settings and baud configuration",
+    "retrieval_ref": "turn7search5"
+  },
+  {
+    "source_id": "POLL",
+    "title": "Linux man pages poll",
+    "url": "https://man7.org/linux/man-pages/man2/poll.2.html",
+    "access_date": "2026-10-27",
+    "claims": "Readiness and error events",
+    "retrieval_ref": "turn31view2"
+  }
+]

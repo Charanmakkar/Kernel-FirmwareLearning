@@ -1,0 +1,7 @@
+# SYNTHETIC teaching trace, not observed project evidence
+12:00:00.000 poll([{fd=4, events=POLLIN}], 1, 1000) = 1 ([{fd=4, revents=POLLHUP}])
+12:00:00.001 read(4, "", 64) = 0
+12:00:00.001 poll([{fd=4, events=POLLIN}], 1, 1000) = 1 ([{fd=4, revents=POLLHUP}])
+12:00:00.001 read(4, "", 64) = 0
+12:00:00.002 poll([{fd=4, events=POLLIN}], 1, 1000) = 1 ([{fd=4, revents=POLLHUP}])
+12:00:00.002 read(4, "", 64) = 0

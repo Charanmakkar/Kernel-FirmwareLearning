@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="A local reading room for your embedded Linux, kernel and firmware learning program.">
+  <title>Fieldnotes — Embedded Systems Library</title>
+  <style>/* READER_STYLES */</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="mobile-shade" id="mobile-shade"></div>
+  <aside class="sidebar" id="sidebar" aria-label="Library navigation">
+    <a class="brand" href="#home" aria-label="Fieldnotes home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>fieldnotes<span class="brand-subtitle">EMBEDDED SYSTEMS</span></span></a>
+    <button class="search-launch" id="open-search"><span class="search-icon"></span><span>Search the library</span><kbd>Ctrl K</kbd></button>
+    <nav id="navigation" aria-label="Learning material"></nav>
+    <div class="sidebar-bottom"><div class="local-label"><span class="status-dot"></span> Your local library <span id="library-total"></span></div><button class="quiet refresh-control" id="refresh-library">Refresh content <span aria-hidden="true">↻</span></button></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <div class="topbar-left"><button class="icon-button mobile-menu" id="mobile-menu" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false"></button><span class="topbar-label" id="topbar-label">THE LEARNING ROOM</span></div>
+      <div class="topbar-actions"><span class="release-label"><span></span> Release 1</span><span class="action-separator"></span><button class="icon-button" id="font-minus" aria-label="Decrease reading text size">A−</button><button class="icon-button" id="font-plus" aria-label="Increase reading text size">A+</button><button class="icon-button" id="focus-mode" aria-label="Toggle focus mode" title="Focus mode"></button><button class="icon-button" id="theme-toggle" aria-label="Switch to dark theme" title="Change theme"></button></div>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="app-footer"><span>Learn carefully. Build deliberately. <button id="about-reader" class="footer-help">About this reader</button></span><span id="snapshot-label"></span></footer>
+  </div>
+  <dialog id="search-dialog" class="search-dialog" aria-labelledby="search-title">
+    <div class="search-dialog-top"><span id="search-symbol"></span><label class="sr-only" id="search-title" for="global-search">Search all learning content</label><input type="search" id="global-search" placeholder="Search concepts, questions, code…" autocomplete="off"><button class="icon-button" id="close-search" aria-label="Close search">×</button></div>
+    <div class="search-hint">Search file names and full content. Assessment answer keys stay hidden.</div>
+    <div id="search-results" class="search-results" aria-live="polite"></div>
+  </dialog>
+  <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title"><div class="detail-top"><h2 id="detail-title">Details</h2><button id="close-detail" class="icon-button" aria-label="Close details">×</button></div><div id="detail-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">Enable JavaScript to read this local library. The original Markdown, Word and source files remain in the learning folder.</div></noscript>
+  <script>/* VENDORED_MARKED */</script>
+  <script>/* VENDORED_PURIFY */</script>
+  <script id="library-data" type="application/json">/* LIBRARY_JSON */</script>
+  <script id="third-party-notices" type="application/json">/* LICENSES_JSON */</script>
+  <script>/* READER_SCRIPT */</script>
+</body>
+</html>

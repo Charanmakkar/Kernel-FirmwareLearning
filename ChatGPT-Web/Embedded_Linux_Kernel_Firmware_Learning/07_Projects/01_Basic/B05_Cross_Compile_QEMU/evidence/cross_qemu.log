@@ -1,0 +1,96 @@
+Executed 2026-10-27
+
+$ /tmp/learning-aarch64-toolchain/bin/aarch64-buildroot-linux-gnu-gcc --version
+exit=0
+aarch64-buildroot-linux-gnu-gcc.br_real (Buildroot 2021.11-12449-g1bef613319) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static --version
+exit=0
+qemu-aarch64 version 8.2.2 (Debian 1:8.2.2+ds-0ubuntu1)
+Copyright (c) 2003-2023 Fabrice Bellard and the QEMU Project developers
+
+$ /tmp/learning-aarch64-toolchain/bin/aarch64-buildroot-linux-gnu-gcc -print-sysroot
+exit=0
+/tmp/learning-aarch64-toolchain/aarch64-buildroot-linux-gnu/sysroot
+
+$ make cross CROSS_COMPILE=/tmp/learning-aarch64-toolchain/bin/aarch64-buildroot-linux-gnu-
+exit=0
+mkdir -p build
+/tmp/learning-aarch64-toolchain/bin/aarch64-buildroot-linux-gnu-gcc -std=c11 -Og -g3 -Wall -Wextra -Wpedantic -Werror src/target_sum.c -o build/target_sum_aarch64
+mkdir -p build
+/tmp/learning-aarch64-toolchain/bin/aarch64-buildroot-linux-gnu-gcc -std=c11 -Og -g3 -Wall -Wextra -Wpedantic -Werror -static src/target_sum.c -o build/target_sum_aarch64_static
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static -L /tmp/learning-aarch64-toolchain/aarch64-buildroot-linux-gnu/sysroot build/target_sum_aarch64 0
+exit=0
+arch=aarch64 pointer_bytes=8 n=0 sum=0
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static build/target_sum_aarch64_static 0
+exit=0
+arch=aarch64 pointer_bytes=8 n=0 sum=0
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static -L /tmp/learning-aarch64-toolchain/aarch64-buildroot-linux-gnu/sysroot build/target_sum_aarch64 1
+exit=0
+arch=aarch64 pointer_bytes=8 n=1 sum=1
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static build/target_sum_aarch64_static 1
+exit=0
+arch=aarch64 pointer_bytes=8 n=1 sum=1
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static -L /tmp/learning-aarch64-toolchain/aarch64-buildroot-linux-gnu/sysroot build/target_sum_aarch64 10
+exit=0
+arch=aarch64 pointer_bytes=8 n=10 sum=55
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static build/target_sum_aarch64_static 10
+exit=0
+arch=aarch64 pointer_bytes=8 n=10 sum=55
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static -L /tmp/learning-aarch64-toolchain/aarch64-buildroot-linux-gnu/sysroot build/target_sum_aarch64 1000000
+exit=0
+arch=aarch64 pointer_bytes=8 n=1000000 sum=500000500000
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static build/target_sum_aarch64_static 1000000
+exit=0
+arch=aarch64 pointer_bytes=8 n=1000000 sum=500000500000
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static -L /tmp/learning-aarch64-toolchain/aarch64-buildroot-linux-gnu/sysroot build/target_sum_aarch64 -1
+exit=2
+invalid N
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static -L /tmp/learning-aarch64-toolchain/aarch64-buildroot-linux-gnu/sysroot build/target_sum_aarch64 1000001
+exit=2
+invalid N
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static -L /tmp/learning-aarch64-toolchain/aarch64-buildroot-linux-gnu/sysroot build/target_sum_aarch64 abc
+exit=2
+invalid N
+
+$ /tmp/learning-qemu-user/usr/bin/qemu-aarch64-static -L /tmp/learning-aarch64-toolchain/aarch64-buildroot-linux-gnu/sysroot build/target_sum_aarch64 99999999999999999999999999
+exit=2
+invalid N
+
+$ /tmp/learning-aarch64-toolchain/bin/aarch64-buildroot-linux-gnu-readelf -h build/target_sum_aarch64
+exit=0
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Position-Independent Executable file)
+  Machine:                           AArch64
+  Version:                           0x1
+  Entry point address:               0x940
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          53896 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         9
+  Size of section headers:           64 (bytes)
+  Number of section headers:         37
+  Section header string table index: 36

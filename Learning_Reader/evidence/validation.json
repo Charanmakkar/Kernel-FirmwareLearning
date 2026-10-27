@@ -1,0 +1,94 @@
+{
+  "stdlibChecks": {
+    "testsRun": 7,
+    "failures": 0,
+    "errors": 0
+  },
+  "browserChecks": {
+    "browser": "Microsoft Edge, headless, disposable profile",
+    "checks": [
+      {
+        "test": "desktop home and complete library counts",
+        "result": "passed"
+      },
+      {
+        "test": "Markdown lesson, code blocks and table of contents",
+        "result": "passed"
+      },
+      {
+        "test": "text sizing and focused reading layout",
+        "result": "passed"
+      },
+      {
+        "test": "bookmark and reading state survive reload",
+        "result": "passed"
+      },
+      {
+        "test": "full-content search and answer-key exclusion",
+        "result": "passed"
+      },
+      {
+        "test": "interview reveal, category and role filters",
+        "result": "passed"
+      },
+      {
+        "test": "interview topic table of contents targets actual headings",
+        "result": "passed"
+      },
+      {
+        "test": "CSV filter, full row details and all columns",
+        "result": "passed"
+      },
+      {
+        "test": "assessment answer key requires deliberate reveal",
+        "result": "passed"
+      },
+      {
+        "test": "all 15 project specifications and level filter",
+        "result": "passed"
+      },
+      {
+        "test": "source, executed evidence and extracted Word content",
+        "result": "passed"
+      },
+      {
+        "test": "continuous section reading",
+        "result": "passed"
+      },
+      {
+        "test": "continuous reading includes every distributable file",
+        "result": "passed"
+      },
+      {
+        "test": "live refresh and dark theme",
+        "result": "passed"
+      },
+      {
+        "test": "mobile navigation and no horizontal page overflow",
+        "result": "passed"
+      },
+      {
+        "test": "direct file opening works offline without a server",
+        "result": "passed"
+      },
+      {
+        "test": "offline help and embedded third-party license notices",
+        "result": "passed"
+      },
+      {
+        "test": "live server rejects paths outside the learning folder",
+        "result": "passed"
+      },
+      {
+        "test": "no browser JavaScript errors",
+        "result": "passed"
+      }
+    ],
+    "javascriptErrors": []
+  },
+  "originalFilesUnchanged": true,
+  "sourceFilesIncluded": 88,
+  "offlineHtmlWorksWithoutServer": true,
+  "connectedInAppBrowser": "unavailable; tested with separate headless Edge",
+  "userFilesOutsideLearningReader": "not modified"
+}

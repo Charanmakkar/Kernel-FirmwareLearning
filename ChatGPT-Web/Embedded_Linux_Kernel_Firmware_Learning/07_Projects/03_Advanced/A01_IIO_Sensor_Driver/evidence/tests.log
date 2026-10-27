@@ -1,0 +1,12 @@
+test_25 (test_decode.Decode.test_25) ... ok
+test_lsb (test_decode.Decode.test_lsb) ... ok
+test_negative (test_decode.Decode.test_negative) ... ok
+test_negative_boundary (test_decode.Decode.test_negative_boundary) ... ok
+test_positive_boundary (test_decode.Decode.test_positive_boundary) ... ok
+test_wire_order (test_decode.Decode.test_wire_order) ... ok
+test_zero (test_decode.Decode.test_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK

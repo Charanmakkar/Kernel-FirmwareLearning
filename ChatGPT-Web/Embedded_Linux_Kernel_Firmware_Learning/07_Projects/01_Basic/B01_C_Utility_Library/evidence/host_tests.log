@@ -1,0 +1,12 @@
+Date: 2026-10-27
+Command: make test sanitize
+Environment overrides: {'ASAN_OPTIONS': 'detect_leaks=0'}
+Exit: 0
+mkdir -p build
+cc -Iinclude -std=c11 -O2 -g -Wall -Wextra -Wpedantic -Werror src/util.c tests/test_util.c -o build/test_util
+./build/test_util
+PASS ring wrap/full/empty; bits; CRC known vector; 129 frame lengths; truncation; corruption; 10000 malformed inputs
+mkdir -p build
+cc -Iinclude -std=c11 -g -O1 -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer src/util.c tests/test_util.c -o build/test_sanitize
+./build/test_sanitize
+PASS ring wrap/full/empty; bits; CRC known vector; 129 frame lengths; truncation; corruption; 10000 malformed inputs

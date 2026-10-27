@@ -1,0 +1,14 @@
+test_bad_crc (test_robot.RobotTests.test_bad_crc) ... ok
+test_duplicate_cannot_refresh (test_robot.RobotTests.test_duplicate_cannot_refresh) ... ok
+test_estop_latched (test_robot.RobotTests.test_estop_latched) ... ok
+test_expiry_boundary (test_robot.RobotTests.test_expiry_boundary) ... ok
+test_integrated_stop (test_robot.RobotTests.test_integrated_stop) ... ok
+test_invalid_speed (test_robot.RobotTests.test_invalid_speed) ... ok
+test_start_disabled (test_robot.RobotTests.test_start_disabled) ... ok
+test_turn (test_robot.RobotTests.test_turn) ... ok
+test_wrap (test_robot.RobotTests.test_wrap) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK

@@ -1,0 +1,13 @@
+test_alarm (test_gateway.GatewayTests.test_alarm) ... ok
+test_corrupt_counter_units (test_gateway.GatewayTests.test_corrupt_counter_units) ... ok
+test_fragmented (test_gateway.GatewayTests.test_fragmented) ... ok
+test_invalid_config (test_gateway.GatewayTests.test_invalid_config) ... ok
+test_process_integration (test_gateway.GatewayTests.test_process_integration) ... ok
+test_replay (test_gateway.GatewayTests.test_replay) ... ok
+test_stale (test_gateway.GatewayTests.test_stale) ... ok
+test_wrap (test_gateway.GatewayTests.test_wrap) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.446s
+
+OK

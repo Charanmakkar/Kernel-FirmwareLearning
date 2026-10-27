@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-27",
+  "scope": "Mechanical package consistency; not learner or hardware competence",
+  "project_count": 15,
+  "project_level_counts": {
+    "Basic": 5,
+    "Intermediate": 5,
+    "Advanced": 3,
+    "Capstone": 2
+  },
+  "lesson_count": 18,
+  "question_count": 200,
+  "question_tag_counts": {
+    "conceptual": 110,
+    "code-analysis": 20,
+    "coding": 40,
+    "debugging": 30,
+    "scenario": 40,
+    "system-design": 10,
+    "project-defense": 10,
+    "behavioral": 10
+  },
+  "roadmap_weeks": 52,
+  "core_planned_hours": 572,
+  "reference_skill_rows": 58,
+  "revision_days": 30,
+  "checked_local_markdown_destinations": 977,
+  "broken_local_markdown_destinations": [],
+  "document_layout_review": "10_Progress_Tracking/evidence/document_layout_review.json",
+  "source_note": "Original sources retain their own retrieval and validation scope.",
+  "hardware_execution": "Not performed",
+  "learner_proficiency": "Not assessed"
+}

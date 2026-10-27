@@ -1,0 +1,4 @@
+make: Entering directory '/tmp/learning-linux-6.12'
+  CC [M]  /workspace/scratch/edb61339d1f8/Embedded_Linux_Kernel_Firmware_Learning/07_Projects/02_Intermediate/I02_Kernel_Character_Driver/src/learn_fifo.o
+  LD [M]  /workspace/scratch/edb61339d1f8/Embedded_Linux_Kernel_Firmware_Learning/07_Projects/02_Intermediate/I02_Kernel_Character_Driver/learn_fifo.o
+make: Leaving directory '/tmp/learning-linux-6.12'

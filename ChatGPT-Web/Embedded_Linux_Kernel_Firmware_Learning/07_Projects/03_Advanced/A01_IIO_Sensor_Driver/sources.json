@@ -1,0 +1,23 @@
+[
+  {
+    "title": "TMP102 product and datasheet",
+    "url": "https://www.ti.com/lit/ds/symlink/tmp102.pdf",
+    "access_date": "2026-10-27",
+    "supports": "12-bit normal mode signed format 0.0625 C step, config and address",
+    "ref_id": "turn6search48"
+  },
+  {
+    "title": "IIO core",
+    "url": "https://www.kernel.org/doc/html/v6.12/driver-api/iio/core.html",
+    "access_date": "2026-10-27",
+    "supports": "IIO device registration and channel interface",
+    "ref_id": "turn10search8"
+  },
+  {
+    "title": "Raspberry Pi pinout",
+    "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#gpio",
+    "access_date": "2026-10-27",
+    "supports": "SDA SCL power ground and pull-ups",
+    "ref_id": "turn13view2"
+  }
+]

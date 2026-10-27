@@ -1,0 +1,14 @@
+SYNTHETIC Cortex-M teaching record. Part-specific interpretation must use its manual.
+build_id=lesson-fault-001
+reset_cause=watchdog
+last_progress_acquisition_ms=1000
+last_progress_control_ms=1000
+last_progress_logger_ms=1050
+supervisor_now_ms=1400
+control_timeout_ms=100
+logger_queue_count=64
+logger_queue_capacity=64
+control_wait_reason=mutex_log
+mutex_log_owner=logger
+logger_wait_reason=storage_busy
+Observation request: identify a supported blocking chain. Do not invent fault-register values or timing measurements.

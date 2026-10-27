@@ -1,0 +1,14 @@
+{
+  "questions": 200,
+  "distinct_questions": 200,
+  "tag_counts": {
+    "coding": 40,
+    "debugging": 30,
+    "system-design": 10
+  },
+  "missing_local_links": [],
+  "interview_markdown_words": 38218,
+  "assessment_files": 30,
+  "assessment_rows": 43,
+  "assessment_markdown_words": 10702
+}

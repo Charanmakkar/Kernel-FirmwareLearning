@@ -1,0 +1,1 @@
+{"feature": "abs(expected_mps-measured_mps)", "model": "one_feature_decision_stump", "seeds": {"test": 300, "train": 100, "validation": 200}, "synthetic": true, "threshold": 0.10641033986880694}

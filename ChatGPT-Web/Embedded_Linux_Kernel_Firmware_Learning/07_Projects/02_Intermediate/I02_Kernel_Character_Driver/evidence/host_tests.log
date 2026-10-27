@@ -1,0 +1,5 @@
+Executed 2026-10-27
+$ make client
+Exit: 0
+mkdir -p build
+cc -std=c11 -Og -g -Wall -Wextra -Wpedantic -Werror tests/test_faults.c -o build/test_faults

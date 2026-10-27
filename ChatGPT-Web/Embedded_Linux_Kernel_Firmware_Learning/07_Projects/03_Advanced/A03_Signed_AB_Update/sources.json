@@ -1,0 +1,16 @@
+[
+  {
+    "title": "OpenSSL dgst",
+    "url": "https://docs.openssl.org/3.0/man1/openssl-dgst/",
+    "access_date": "2026-10-27",
+    "supports": "Detached signing and public-key verification",
+    "ref_id": "turn10search2"
+  },
+  {
+    "title": "RAUC using updates",
+    "url": "https://rauc.readthedocs.io/en/latest/using.html",
+    "access_date": "2026-10-27",
+    "supports": "Health confirmation after trial boot and real-system distinction",
+    "ref_id": "turn10search15"
+  }
+]

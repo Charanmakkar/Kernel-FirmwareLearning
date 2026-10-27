@@ -1,0 +1,344 @@
+[
+  {
+    "id": "C11",
+    "title": "C11 committee draft N1570",
+    "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+    "source_ref": "turn5view0",
+    "access_date": "2026-10-27",
+    "claims": "C object lifetime, integer behavior, sequencing, type rules; normative draft reference rather than a tutorial",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "GCC",
+    "title": "GCC warning options",
+    "url": "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html",
+    "source_ref": "turn34view0",
+    "access_date": "2026-10-27",
+    "claims": "Warning categories and limits of compiler diagnostics",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "LLVM",
+    "title": "Clang AddressSanitizer",
+    "url": "https://clang.llvm.org/docs/AddressSanitizer.html",
+    "source_ref": "turn34view1",
+    "access_date": "2026-10-27",
+    "claims": "Instrumented runtime detection, build flags, and limitations",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "READ",
+    "title": "Linux read manual",
+    "url": "https://man7.org/linux/man-pages/man2/read.2.html",
+    "source_ref": "turn5view1",
+    "access_date": "2026-10-27",
+    "claims": "Partial reads, EOF, return/error handling",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "WRITE",
+    "title": "Linux write manual",
+    "url": "https://man7.org/linux/man-pages/man2/write.2.html",
+    "source_ref": "turn5view2",
+    "access_date": "2026-10-27",
+    "claims": "Partial writes and persistence qualification",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "POLL",
+    "title": "Linux poll manual",
+    "url": "https://man7.org/linux/man-pages/man2/poll.2.html",
+    "source_ref": "turn5view3",
+    "access_date": "2026-10-27",
+    "claims": "Readiness, hangup and error behavior",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "EPOLL",
+    "title": "Linux epoll manual",
+    "url": "https://man7.org/linux/man-pages/man7/epoll.7.html",
+    "source_ref": "turn5view4",
+    "access_date": "2026-10-27",
+    "claims": "Level and edge triggering, drain-to-EAGAIN convention",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "SIGNAL",
+    "title": "Linux signal safety manual",
+    "url": "https://man7.org/linux/man-pages/man7/signal-safety.7.html",
+    "source_ref": "turn5view5",
+    "access_date": "2026-10-27",
+    "claims": "Async-signal-safe operation constraints",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "PROC",
+    "title": "Linux proc PID stat manual",
+    "url": "https://man7.org/linux/man-pages/man5/proc_pid_stat.5.html",
+    "source_ref": "turn34view2",
+    "access_date": "2026-10-27",
+    "claims": "Process stat field representation and limitations",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "FSYNC",
+    "title": "Linux fsync manual",
+    "url": "https://man7.org/linux/man-pages/man2/fsync.2.html",
+    "source_ref": "turn34view3",
+    "access_date": "2026-10-27",
+    "claims": "File durability and containing-directory synchronization",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "CLOCK",
+    "title": "Linux clock_gettime manual",
+    "url": "https://man7.org/linux/man-pages/man2/clock_gettime.2.html",
+    "source_ref": "turn34view4",
+    "access_date": "2026-10-27",
+    "claims": "Monotonic clocks and suspend semantics",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "PTHREAD",
+    "title": "POSIX condition wait manual",
+    "url": "https://man7.org/linux/man-pages/man3/pthread_cond_wait.3p.html",
+    "source_ref": "turn26view7",
+    "access_date": "2026-10-27",
+    "claims": "Predicate re-evaluation, mutex binding and timing",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "FUTEX",
+    "title": "Linux futex manual",
+    "url": "https://man7.org/linux/man-pages/man7/futex.7.html",
+    "source_ref": "turn34view5",
+    "access_date": "2026-10-27",
+    "claims": "Userspace synchronization and kernel waiting foundation",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "LOCKS",
+    "title": "Linux 6.12 lock types and rules",
+    "url": "https://docs.kernel.org/6.12/locking/locktypes.html",
+    "source_ref": "turn5view6",
+    "access_date": "2026-10-27",
+    "claims": "Sleeping and spinning locks; PREEMPT_RT qualification",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "DEVRES",
+    "title": "Linux 6.12 managed device resources",
+    "url": "https://docs.kernel.org/6.12/driver-api/driver-model/devres.html",
+    "source_ref": "turn5view7",
+    "access_date": "2026-10-27",
+    "claims": "Managed resource scope and release behavior",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "DMA",
+    "title": "Linux 6.12 DMA mapping guide",
+    "url": "https://docs.kernel.org/6.12/core-api/dma-api-howto.html",
+    "source_ref": "turn26view0",
+    "access_date": "2026-10-27",
+    "claims": "Device address domains, coherent/streaming mapping, ordering",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "PM",
+    "title": "Linux 6.12 runtime power management",
+    "url": "https://docs.kernel.org/6.12/power/runtime_pm.html",
+    "source_ref": "turn26view1",
+    "access_date": "2026-10-27",
+    "claims": "Usage references, runtime suspend and resume",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "IIO",
+    "title": "Linux 6.12 IIO introduction",
+    "url": "https://docs.kernel.org/6.12/driver-api/iio/intro.html",
+    "source_ref": "turn26view2",
+    "access_date": "2026-10-27",
+    "claims": "Sensor subsystem role and channel model",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "IOCTL",
+    "title": "Linux 6.12 ioctl interfaces",
+    "url": "https://docs.kernel.org/6.12/driver-api/ioctl.html",
+    "source_ref": "turn26view4",
+    "access_date": "2026-10-27",
+    "claims": "UAPI fixed-width types, layout, compat handling and information leaks",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "RCU",
+    "title": "Linux 6.12 RCU overview",
+    "url": "https://docs.kernel.org/6.12/RCU/whatisRCU.html",
+    "source_ref": "turn26view5",
+    "access_date": "2026-10-27",
+    "claims": "Publication, grace periods and delayed reclamation",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "WORKQUEUE",
+    "title": "Linux 6.12 workqueues",
+    "url": "https://docs.kernel.org/6.12/core-api/workqueue.html",
+    "source_ref": "turn26view6",
+    "access_date": "2026-10-27",
+    "claims": "Worker context and asynchronous work lifecycle",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "GPIO",
+    "title": "Linux 6.12 GPIO consumer interface",
+    "url": "https://www.kernel.org/doc/html/v6.12/driver-api/gpio/consumer.html",
+    "source_ref": "turn27view0",
+    "access_date": "2026-10-27",
+    "claims": "Descriptor APIs, polarity and sleep-capable GPIO access",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "DT",
+    "title": "Linux 6.12 device tree usage model",
+    "url": "https://docs.kernel.org/6.12/devicetree/usage-model.html",
+    "source_ref": "turn27view1",
+    "access_date": "2026-10-27",
+    "claims": "Hardware description and device population",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "KERNEL",
+    "title": "Linux 6.12 driver model",
+    "url": "https://docs.kernel.org/6.12/driver-api/driver-model/index.html",
+    "source_ref": "turn1search13",
+    "access_date": "2026-10-27",
+    "claims": "Device matching, binding and driver-model structure",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "UBOOT",
+    "title": "U-Boot v2025.01 documentation",
+    "url": "https://docs.u-boot.org/en/v2025.01/",
+    "source_ref": "turn34view7",
+    "access_date": "2026-10-27",
+    "claims": "Board-specific bootloader documentation entry point",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "ARM",
+    "title": "Arm CMSIS Cortex-M core documentation",
+    "url": "https://arm-software.github.io/CMSIS_6/latest/Core/index.html",
+    "source_ref": "turn34view9",
+    "access_date": "2026-10-27",
+    "claims": "Cortex-M core/startup support; exact MCU manual still required",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "QEMU",
+    "title": "QEMU system emulation manual",
+    "url": "https://www.qemu.org/docs/master/system/index.html",
+    "source_ref": "turn34view8",
+    "access_date": "2026-10-27",
+    "claims": "Machine models and emulation scope; latest documentation is conceptual only",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "I2C",
+    "title": "Linux 6.12 I2C driver implementation",
+    "url": "https://docs.kernel.org/6.12/i2c/writing-clients.html",
+    "source_ref": "turn35view0",
+    "access_date": "2026-10-27",
+    "claims": "Bus device drivers and transfer checks",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "SPI",
+    "title": "Linux 6.12 SPI support overview",
+    "url": "https://docs.kernel.org/6.12/spi/spi-summary.html",
+    "source_ref": "turn35view1",
+    "access_date": "2026-10-27",
+    "claims": "SPI controller/device model and transfers",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "REGMAP",
+    "title": "Linux v6.12 regmap interface source",
+    "url": "https://raw.githubusercontent.com/torvalds/linux/v6.12/include/linux/regmap.h",
+    "source_ref": null,
+    "access_date": "2026-10-27",
+    "claims": "Register map configuration and access interface",
+    "retrieval_status": "Official pinned source URL identified; contents unavailable through web retrieval. Verify in the local v6.12 source tree."
+  },
+  {
+    "id": "CAN",
+    "title": "Linux 6.12 SocketCAN",
+    "url": "https://www.kernel.org/doc/html/v6.12/networking/can.html",
+    "source_ref": "turn36view0",
+    "access_date": "2026-10-27",
+    "claims": "CAN as Linux networking interface and socket family",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "FREERTOS",
+    "title": "FreeRTOS mutex documentation",
+    "url": "https://www.freertos.org/Documentation/02-Kernel/02-Kernel-features/02-Queues-mutexes-and-semaphores/04-Mutexes",
+    "source_ref": "turn1search2",
+    "access_date": "2026-10-27",
+    "claims": "Simplified priority inheritance and mutex ISR restriction",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "MCUBOOT",
+    "title": "MCUboot bootloader design",
+    "url": "https://docs.mcuboot.com/design.html",
+    "source_ref": "turn35view4",
+    "access_date": "2026-10-27",
+    "claims": "Image validation, swap and recovery design concepts",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "BUILDROOT",
+    "title": "Buildroot user manual",
+    "url": "https://buildroot.org/downloads/manual/manual.html",
+    "source_ref": "turn35view5",
+    "access_date": "2026-10-27",
+    "claims": "External trees, packages and reproducible configuration inputs",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "YOCTO",
+    "title": "Yocto 5.0.12 creating layers",
+    "url": "https://docs.yoctoproject.org/5.0.12/dev-manual/layers.html",
+    "source_ref": "turn35view6",
+    "access_date": "2026-10-27",
+    "claims": "Layers, recipes and metadata organization",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "REPRO",
+    "title": "Yocto 5.0.12 reproducible builds",
+    "url": "https://docs.yoctoproject.org/5.0.12/test-manual/reproducible-builds.html",
+    "source_ref": "turn35view7",
+    "access_date": "2026-10-27",
+    "claims": "Bitwise reproducibility goals and validation",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "SBOM",
+    "title": "Yocto 5.0.12 creating an SBOM",
+    "url": "https://docs.yoctoproject.org/5.0.12/dev-manual/sbom.html",
+    "source_ref": "turn35view8",
+    "access_date": "2026-10-27",
+    "claims": "Build-generated SPDX software inventory",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  },
+  {
+    "id": "RAUC",
+    "title": "RAUC update basics",
+    "url": "https://rauc.readthedocs.io/en/latest/basic.html",
+    "source_ref": "turn34view6",
+    "access_date": "2026-10-27",
+    "claims": "Signed bundle, slots and bootloader integration concepts",
+    "retrieval_status": "Official documentation retrieved or official search result inspected; exact claim scope is listed."
+  }
+]

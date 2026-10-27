@@ -1,0 +1,3 @@
+Compiled Linux v6.12 BCM2711 Raspberry Pi 4 base DTB with symbols.
+Compiled project GPIO overlay and applied using fdtoverlay successfully.
+This is offline DTB validation, not board boot.

@@ -1,0 +1,18 @@
+[
+  {
+    "source_id": "C",
+    "title": "GNU GCC warning options",
+    "url": "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html",
+    "access_date": "2026-10-27",
+    "claims": "Compiler diagnostics and warning flags",
+    "retrieval_ref": "turn31view0"
+  },
+  {
+    "source_id": "SAN",
+    "title": "GNU GCC instrumentation options",
+    "url": "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html",
+    "access_date": "2026-10-27",
+    "claims": "Address undefined behavior and thread instrumentation",
+    "retrieval_ref": "turn31view1"
+  }
+]

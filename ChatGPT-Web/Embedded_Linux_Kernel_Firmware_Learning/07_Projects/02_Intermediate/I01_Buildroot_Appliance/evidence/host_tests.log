@@ -1,0 +1,8 @@
+Date: 2026-10-27
+Command: make test
+Environment overrides: {}
+Exit: 0
+mkdir -p build
+cc -std=c11 -O2 -g -Wall -Wextra -Wpedantic -Werror src/telemetry_once.c -o build/telemetry-once
+python3 tests/test_counter.py
+PASS initial/increment; crash before/after rename; 40 concurrent writers; corruption preserved; symlink/missing-dir rejection

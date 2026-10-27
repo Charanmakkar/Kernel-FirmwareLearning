@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="489.6pt" height="576pt" viewBox="0 0 489.6 576" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-27T18:49:52.218764</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 576 
+L 489.6 576 
+L 489.6 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 124.94592 158.33088 
+L 449.25696 158.33088 
+Q 453.017088 158.33088 453.017088 153.9072 
+L 453.017088 73.728 
+Q 453.017088 69.30432 449.25696 69.30432 
+L 124.94592 69.30432 
+Q 121.185792 69.30432 121.185792 73.728 
+L 121.185792 153.9072 
+Q 121.185792 158.33088 124.94592 158.33088 
+z
+" clip-path="url(#pfd084f9c08)" style="fill: #f3f5f7; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 124.94592 264.77568 
+L 449.25696 264.77568 
+Q 453.017088 264.77568 453.017088 260.352 
+L 453.017088 188.4672 
+Q 453.017088 184.04352 449.25696 184.04352 
+L 124.94592 184.04352 
+Q 121.185792 184.04352 121.185792 188.4672 
+L 121.185792 260.352 
+Q 121.185792 264.77568 124.94592 264.77568 
+z
+" clip-path="url(#pfd084f9c08)" style="fill: #ffffff; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 287.10144 158.60736 
+L 287.10144 182.701879 
+" clip-path="url(#pfd084f9c08)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 289.10144 178.701879 
+L 287.10144 182.701879 
+L 285.10144 178.701879 
+z
+" clip-path="url(#pfd084f9c08)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 124.94592 414.07488 
+L 449.25696 414.07488 
+Q 453.017088 414.07488 453.017088 409.6512 
+L 453.017088 293.5296 
+Q 453.017088 289.10592 449.25696 289.10592 
+L 124.94592 289.10592 
+Q 121.185792 289.10592 121.185792 293.5296 
+L 121.185792 409.6512 
+Q 121.185792 414.07488 124.94592 414.07488 
+z
+" clip-path="url(#pfd084f9c08)" style="fill: #f3f5f7; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 287.10144 264.77568 
+L 287.10144 287.764279 
+" clip-path="url(#pfd084f9c08)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 289.10144 283.764279 
+L 287.10144 287.764279 
+L 285.10144 283.764279 
+z
+" clip-path="url(#pfd084f9c08)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 21.5424 405.78048 
+L 106.14528 405.78048 
+Q 109.905408 405.78048 109.905408 401.3568 
+L 109.905408 301.824 
+Q 109.905408 297.40032 106.14528 297.40032 
+L 21.5424 297.40032 
+Q 17.782272 297.40032 17.782272 301.824 
+L 17.782272 401.3568 
+Q 17.782272 405.78048 21.5424 405.78048 
+z
+" clip-path="url(#pfd084f9c08)" style="fill: #ffffff; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 109.905408 351.5904 
+L 119.844151 351.5904 
+" clip-path="url(#pfd084f9c08)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 115.844151 349.5904 
+L 119.844151 351.5904 
+L 115.844151 353.5904 
+z
+" clip-path="url(#pfd084f9c08)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 124.94592 511.11936 
+L 449.25696 511.11936 
+Q 453.017088 511.11936 453.017088 506.69568 
+L 453.017088 437.57568 
+Q 453.017088 433.152 449.25696 433.152 
+L 124.94592 433.152 
+Q 121.185792 433.152 121.185792 437.57568 
+L 121.185792 506.69568 
+Q 121.185792 511.11936 124.94592 511.11936 
+z
+" clip-path="url(#pfd084f9c08)" style="fill: #ffffff; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 287.10144 414.07488 
+L 287.10144 431.533879 
+" clip-path="url(#pfd084f9c08)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 289.10144 427.533879 
+L 287.10144 431.533879 
+L 285.10144 427.533879 
+z
+" clip-path="url(#pfd084f9c08)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 453.017088 472.13568 
+L 466.647552 472.13568 
+L 466.647552 113.8176 
+L 454.358729 113.8176 
+" clip-path="url(#pfd084f9c08)" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 458.358729 115.8176 
+L 454.358729 113.8176 
+L 458.358729 111.8176 
+z
+" clip-path="url(#pfd084f9c08)" style="fill: #26384a; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="244.8" y="33.976856" transform="rotate(-0 244.8 33.976856)">Linux and MCU responsibilities</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26384a" x="244.8" y="49.704276" transform="rotate(-0 244.8 49.704276)">C02 evidence: deterministic host simulation; no physical motor outputs</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="287.10144" y="91.08561" transform="rotate(-0 287.10144 91.08561)">Linux role</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10.3px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(153.705174 111.693491)">Plan motion and publish bounded wheel commands</text>
+    <text style="font-size: 10.3px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(154.56619 124.401196)">Refresh commands every 50 ms in the lab scenario</text>
+    <text style="font-size: 10.3px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(191.006463 137.108902)">Collect diagnostics and explain faults</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="287.10144" y="205.82481" transform="rotate(-0 287.10144 205.82481)">Protocol boundary</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(176.084252 222.572837)">Version, sequence, wheel setpoints and CRC</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(177.096752 234.910415)">Reject malformed or out of range messages</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(166.063159 247.247993)">CRC detects corruption; it does not authenticate</text>
+   </g>
+   <g id="text_7">
+    <g id="patch_12">
+     <path d="M 304.828672 176.567636 
+L 382.178047 176.567636 
+L 382.178047 164.977324 
+L 304.828672 164.977324 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26384a" x="343.50336" y="173.255918" transform="rotate(-0 343.50336 173.255918)">command frame</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="287.10144" y="310.88721" transform="rotate(-0 287.10144 310.88721)">MCU role</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(167.139721 337.416059)">Validate frame, sequence and local speed limits</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(160.355346 349.753637)">Refresh freshness only after a valid new command</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(166.215502 362.091215)">Expire demand at 200 ms; output becomes zero</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(186.892065 374.428793)">Latch a local stop until deliberate rearm</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(192.556127 386.766371)">Rearm alone does not request motion</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 10.3px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="63.84384" y="318.497751" transform="rotate(-0 63.84384 318.497751)">Local stop</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(30.487356 338.950163)">Separate from</text>
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(24.205496 350.424111)">Linux commands</text>
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(63.84384 361.898059)"/>
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(30.401621 373.372006)">Software latch</text>
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(33.685684 384.845954)">in this model</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="287.10144" y="454.93329" transform="rotate(-0 287.10144 454.93329)">Actuator and feedback simulation</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(178.704565 476.467706)">Differential drive integrated at 10 ms steps</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(169.572534 488.805284)">Record wheel output, pose and controller state</text>
+   </g>
+   <g id="text_14">
+    <g id="patch_13">
+     <path d="M 319.667664 429.270356 
+L 386.139696 429.270356 
+L 386.139696 417.680044 
+L 319.667664 417.680044 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26384a" x="352.90368" y="425.958638" transform="rotate(-0 352.90368 425.958638)">limited output</text>
+   </g>
+   <g id="text_15">
+    <g id="patch_14">
+     <path d="M 481.684872 348.824897 
+L 481.684872 238.234303 
+L 471.350904 238.234303 
+L 471.350904 348.824897 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'; fill: #26384a" transform="translate(478.918544 347.867897) rotate(-90)">diagnostic feedback only</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #26384a" transform="translate(40.489453 539.464092)">The stop path is modeled software. Real MCU timing, motor dynamics and an independent</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #26384a" transform="translate(97.405312 550.225983)">hardware stopping circuit require separate design and validation.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pfd084f9c08">
+   <rect x="9.792" y="11.52" width="470.016" height="552.96"/>
+  </clipPath>
+ </defs>
+</svg>

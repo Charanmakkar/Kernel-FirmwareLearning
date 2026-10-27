@@ -1,0 +1,128 @@
+[
+  {
+    "id": "M01",
+    "title": "Linux tools and reproducible engineering",
+    "prerequisites": "none",
+    "objectives": "Find files and logs confidently, compile a program, preserve a change in Git and capture enough context for someone else to reproduce a failure.",
+    "references": "[GIT] Git official tutorial. [GCC-WARN] GCC warning options. [LD] GNU linker scripts."
+  },
+  {
+    "id": "M02",
+    "title": "C memory ownership and defined behavior",
+    "prerequisites": "M01",
+    "objectives": "Track object lifetime and bounds, explain pointer declarations, distinguish language behavior categories and choose qualifiers correctly.",
+    "references": "[C11] WG14 N1570 public draft. [GCC13] GCC 13.3 instrumentation. [GCC-VOL] GCC volatile access. [K-VOL] Linux volatile guidance."
+  },
+  {
+    "id": "M03",
+    "title": "Data structures and defensive protocols",
+    "prerequisites": "M02",
+    "objectives": "Implement a bounded ring buffer and state machine, define a binary wire format and recover from corrupted or incomplete input.",
+    "references": "[READ] Linux read semantics. [WRITE] Linux write semantics. B01 and B03 contain original protocol contracts and tests."
+  },
+  {
+    "id": "M04",
+    "title": "Build systems linking and C++ ownership",
+    "prerequisites": "M02",
+    "objectives": "Inspect ELF objects, diagnose link/runtime mismatches and use a small RAII wrapper without copying an owning resource.",
+    "references": "[LD] GNU ld linker scripts. [CMAKE] CMake 3.28 toolchain manual. [CPP] C++ Core Guidelines. [CLOSE] Linux close semantics."
+  },
+  {
+    "id": "M05",
+    "title": "Processor and operating system foundations",
+    "prerequisites": "M02",
+    "objectives": "Explain virtual memory, privilege, scheduling and device access, and separate application processors from microcontrollers.",
+    "references": "[DMA] Linux DMA mapping guide. [CMSIS] Arm CMSIS startup. [NVIC] Arm NVIC documentation. [KLOCK] Linux lock types."
+  },
+  {
+    "id": "M06",
+    "title": "Linux I/O processes and event loops",
+    "prerequisites": "M01 M02 M05",
+    "objectives": "Write correct partial-I/O loops, manage child processes and implement bounded timeouts and graceful termination.",
+    "references": "[READ] read manual. [WRITE] write manual. [EPOLL] epoll_ctl manual. [SIGNAL] signal-safety manual. [PROC] proc_pid_stat manual."
+  },
+  {
+    "id": "M07",
+    "title": "Concurrency synchronization and IPC",
+    "prerequisites": "M06",
+    "objectives": "Protect invariants, use condition variables correctly, reason about deadlock and choose an IPC mechanism for a measured need.",
+    "references": "[COND] POSIX condition-wait manual. [GCC13] GCC sanitizer options. [KLOCK] Kernel lock context comparison."
+  },
+  {
+    "id": "M08",
+    "title": "Cross compilation boot and device tree",
+    "prerequisites": "M04 M05",
+    "objectives": "Build for a foreign target, identify boot-stage evidence and describe hardware with validated bindings.",
+    "references": "[CMAKE] CMake toolchains. [QEMU-USER] QEMU userspace. [QEMU-VIRT] Generic virt machine. [DT] Linux device tree. [DTSCHEMA] Binding schemas."
+  },
+  {
+    "id": "M09",
+    "title": "Kernel execution contexts and resource lifetimes",
+    "prerequisites": "M07 M08",
+    "objectives": "Choose context-appropriate allocation and locks, reason about deferred work and prevent teardown races.",
+    "references": "[KALLOC] Kernel allocation guide. [KLOCK] Kernel locking. [WORK] Workqueues. [DRIVER] Driver model. [RCU] RCU fundamentals."
+  },
+  {
+    "id": "M10",
+    "title": "Character and platform drivers",
+    "prerequisites": "M09",
+    "objectives": "Implement an educational character interface, define blocking and poll semantics, and choose a standard subsystem for real hardware.",
+    "references": "[UACCESS] Kernel uaccess API. [DRIVER] Linux driver model. [GPIO] GPIO consumers. [IIO] Industrial I/O subsystem."
+  },
+  {
+    "id": "M11",
+    "title": "Peripheral buses sensor subsystems DMA and power",
+    "prerequisites": "M10",
+    "objectives": "Read a datasheet into an interface contract, select a subsystem and explain data, DMA and power lifetimes.",
+    "references": "[IIO] Linux IIO. [DMA] Linux DMA mapping. [RPM] Runtime PM. [GPIO] GPIO consumer rules. A01 provides its exact device datasheet."
+  },
+  {
+    "id": "M12",
+    "title": "Bare metal startup peripherals and faults",
+    "prerequisites": "M04 M05 M11",
+    "objectives": "Explain reset-to-main, link memory correctly and design bounded peripheral handling and watchdog supervision.",
+    "references": "[CMSIS] Arm startup contract. [NVIC] Arm interrupt controller APIs. [NUCLEO] ST board documentation. [LD] Linker scripts."
+  },
+  {
+    "id": "M13",
+    "title": "RTOS scheduling and Linux to MCU communication",
+    "prerequisites": "M07 M12",
+    "objectives": "Use tasks and queues, analyze timing and priority inversion, and make an MCU communication boundary recoverable.",
+    "references": "[FREERTOS-MUTEX] FreeRTOS mutex documentation. [NVIC] Arm interrupt rules. I05 includes its exact RTOS source and port references."
+  },
+  {
+    "id": "M14",
+    "title": "Buildroot Yocto and image maintenance",
+    "prerequisites": "M08 M06",
+    "objectives": "Choose the build-system scope, package a service and preserve a reproducible image configuration.",
+    "references": "[BUILDROOT] Official manual and pinned release-local manual. [YOCTO-HOST] Yocto 5.0.9 requirements. [YOCTO-SBOM] Yocto SPDX generation. I04 includes exact layer/recipe references."
+  },
+  {
+    "id": "M15",
+    "title": "Debugging tracing and performance",
+    "prerequisites": "M06 M07; M09 for kernel portions",
+    "objectives": "Form falsifiable bug hypotheses, interpret crash evidence and measure latency without confusing averages with guarantees.",
+    "references": "[GDB] GDB backtraces. [FTRACE] Kernel ftrace. [KASAN] KASAN. [KCSAN] KCSAN. [GCC13] GCC sanitizers."
+  },
+  {
+    "id": "M16",
+    "title": "Persistence security and reliable updates",
+    "prerequisites": "M14 M07",
+    "objectives": "Make configuration writes recoverable, distinguish update trust from boot trust and test rollback state transitions.",
+    "references": "[UBOOT] U-Boot verified boot. [RAUC] RAUC basics. [YOCTO-SBOM] SBOM generation. [FSYNC] fsync durability. [RENAME] rename semantics."
+  },
+  {
+    "id": "M17",
+    "title": "Integration testing and capstone engineering",
+    "prerequisites": "M03 M13 M16",
+    "objectives": "Turn requirements into acceptance tests, integrate earlier work and present evidence with clearly bounded claims.",
+    "references": "[KUNIT] Kernel unit testing. C01 and C02 provide original requirements and acceptance tests. Project-specific sources govern actual hardware contracts."
+  },
+  {
+    "id": "M18",
+    "title": "AI assisted learning and embedded inference",
+    "prerequisites": "M02 M15 M17",
+    "objectives": "Use AI to improve reasoning without losing independent competence, and evaluate a small inference extension against a non-AI baseline.",
+    "references": "[LITERT] Google LiteRT for Microcontrollers. [ONNX] ONNX Runtime quantization. Core engineering contracts use the sources in the relevant preceding modules."
+  }
+]

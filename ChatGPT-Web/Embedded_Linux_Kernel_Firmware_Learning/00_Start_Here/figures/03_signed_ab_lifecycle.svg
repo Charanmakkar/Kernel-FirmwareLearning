@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="489.6pt" height="655.2pt" viewBox="0 0 489.6 655.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-27T18:49:52.395025</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 655.2 
+L 489.6 655.2 
+L 489.6 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 73.24416 130.725504 
+L 416.35584 130.725504 
+Q 420.115968 130.725504 420.115968 125.693568 
+L 420.115968 76.632192 
+Q 420.115968 71.600256 416.35584 71.600256 
+L 73.24416 71.600256 
+Q 69.484032 71.600256 69.484032 76.632192 
+L 69.484032 125.693568 
+Q 69.484032 130.725504 73.24416 130.725504 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #f3f5f7; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 73.24416 209.978496 
+L 416.35584 209.978496 
+Q 420.115968 209.978496 420.115968 204.94656 
+L 420.115968 148.33728 
+Q 420.115968 143.305344 416.35584 143.305344 
+L 73.24416 143.305344 
+Q 69.484032 143.305344 69.484032 148.33728 
+L 69.484032 204.94656 
+Q 69.484032 209.978496 73.24416 209.978496 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #ffffff; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 244.8 130.725504 
+L 244.8 141.963703 
+" clip-path="url(#p1d5764ec46)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 246.8 137.963703 
+L 244.8 141.963703 
+L 242.8 137.963703 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 73.24416 297.093888 
+L 416.35584 297.093888 
+Q 420.115968 297.093888 420.115968 292.061952 
+L 420.115968 226.017792 
+Q 420.115968 220.985856 416.35584 220.985856 
+L 73.24416 220.985856 
+Q 69.484032 220.985856 69.484032 226.017792 
+L 69.484032 292.061952 
+Q 69.484032 297.093888 73.24416 297.093888 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #ffffff; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 244.8 209.978496 
+L 244.8 219.329719 
+" clip-path="url(#p1d5764ec46)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 246.8 215.329719 
+L 244.8 219.329719 
+L 242.8 215.329719 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 69.484032 176.64192 
+L 42.69312 176.64192 
+L 42.69312 101.16288 
+L 68.142391 101.16288 
+" clip-path="url(#p1d5764ec46)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 64.142391 99.16288 
+L 68.142391 101.16288 
+L 64.142391 103.16288 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 73.24416 390.4992 
+L 416.35584 390.4992 
+Q 420.115968 390.4992 420.115968 385.467264 
+L 420.115968 316.278144 
+Q 420.115968 311.246208 416.35584 311.246208 
+L 73.24416 311.246208 
+Q 69.484032 311.246208 69.484032 316.278144 
+L 69.484032 385.467264 
+Q 69.484032 390.4992 73.24416 390.4992 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #f3f5f7; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 244.8 296.779392 
+L 244.8 309.904567 
+" clip-path="url(#p1d5764ec46)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 246.8 305.904567 
+L 244.8 309.904567 
+L 242.8 305.904567 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 244.8 406.224 
+L 317.65248 439.560576 
+L 244.8 472.897152 
+L 171.94752 439.560576 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #ffffff; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 244.8 390.4992 
+L 244.8 399.850423 
+" clip-path="url(#p1d5764ec46)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 246.8 395.850423 
+L 244.8 399.850423 
+L 242.8 395.850423 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 29.76768 578.882304 
+L 220.12416 578.882304 
+Q 223.884288 578.882304 223.884288 573.850368 
+L 223.884288 495.226368 
+Q 223.884288 490.194432 220.12416 490.194432 
+L 29.76768 490.194432 
+Q 26.007552 490.194432 26.007552 495.226368 
+L 26.007552 573.850368 
+Q 26.007552 578.882304 29.76768 578.882304 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #ffffff; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 269.47584 578.882304 
+L 459.83232 578.882304 
+Q 463.592448 578.882304 463.592448 573.850368 
+L 463.592448 495.226368 
+Q 463.592448 490.194432 459.83232 490.194432 
+L 269.47584 490.194432 
+Q 265.715712 490.194432 265.715712 495.226368 
+L 265.715712 573.850368 
+Q 265.715712 578.882304 269.47584 578.882304 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #ffffff; stroke: #26384a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 168.187392 439.560576 
+L 124.94592 439.560576 
+L 124.94592 488.538295 
+" clip-path="url(#p1d5764ec46)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 126.94592 484.538295 
+L 124.94592 488.538295 
+L 122.94592 484.538295 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 321.412608 439.560576 
+L 364.65408 439.560576 
+L 364.65408 488.538295 
+" clip-path="url(#p1d5764ec46)" style="fill: none; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 366.65408 484.538295 
+L 364.65408 488.538295 
+L 362.65408 484.538295 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #26384a; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 463.35744 534.538368 
+L 472.287744 534.538368 
+L 472.287744 350.872704 
+L 421.457609 350.872704 
+" clip-path="url(#p1d5764ec46)" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 425.457609 352.872704 
+L 421.457609 350.872704 
+L 425.457609 348.872704 
+z
+" clip-path="url(#p1d5764ec46)" style="fill: #26384a; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #26384a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="244.8" y="37.081496" transform="rotate(-0 244.8 37.081496)">Signed A B update lifecycle</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26384a" x="244.8" y="55.546068" transform="rotate(-0 244.8 55.546068)">A03 evidence: host file slots and simulated boot selection</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="244.8" y="104.20963" transform="rotate(-0 244.8 104.20963)">Known good A remains active</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="244.8" y="166.911402" transform="rotate(-0 244.8 166.911402)">Authenticate release bundle</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #111111" x="244.8" y="188.207183" transform="rotate(-0 244.8 188.207183)">Signature, compatibility, version and payload digest</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="244.8" y="244.591914" transform="rotate(-0 244.8 244.591914)">Stage inactive B</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(169.939062 264.436346)">Write verified bytes and fsync</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(114.832812 276.773924)">Reverify the slot; commit pending B and attempts 0</text>
+   </g>
+   <g id="text_8">
+    <g id="patch_17">
+     <path d="M 29.88809 144.697556 
+L 58.318246 144.697556 
+L 58.318246 133.107244 
+L 29.88809 133.107244 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26384a" x="44.103168" y="141.385838" transform="rotate(-0 44.103168 141.385838)">reject</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="244.8" y="334.852266" transform="rotate(-0 244.8 334.852266)">Trial boot B</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(120.739062 356.269178)">Persist an attempt before selecting the candidate</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(167.532031 368.606756)">At most two unconfirmed trials</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #182d45" transform="translate(225.256055 436.579068)">Health</text>
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #182d45" transform="translate(211.835742 448.336771)">confirmed?</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 10.7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="124.94592" y="513.420568" transform="rotate(-0 124.94592 513.420568)">Commit B</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(67.67517 534.149181)">B becomes known good</text>
+    <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(37.24392 545.993256)">Advance minimum accepted version</text>
+    <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(31.25742 557.837331)">Clear pending state and attempt count</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 10.7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182d45" x="364.65408" y="513.420568" transform="rotate(-0 364.65408 513.420568)">Leave unconfirmed</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(270.66033 534.149181)">Next boot retries while budget remains</text>
+    <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(295.03533 545.993256)">Exhausted budget restores A</text>
+    <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; fill: #111111" transform="translate(283.65558 557.837331)">Corrupt trial image falls back to A</text>
+   </g>
+   <g id="text_16">
+    <g id="patch_18">
+     <path d="M 134.529997 444.097748 
+L 152.963122 444.097748 
+L 152.963122 432.507436 
+L 134.529997 432.507436 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26384a" x="143.74656" y="440.786029" transform="rotate(-0 143.74656 440.786029)">yes</text>
+   </g>
+   <g id="text_17">
+    <g id="patch_19">
+     <path d="M 340.218175 444.097748 
+L 354.3088 444.097748 
+L 354.3088 432.507436 
+L 340.218175 432.507436 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26384a" x="347.263488" y="440.786029" transform="rotate(-0 347.263488 440.786029)">no</text>
+   </g>
+   <g id="text_18">
+    <g id="patch_20">
+     <path d="M 476.83015 489.281497 
+L 476.83015 394.871591 
+L 466.805306 394.871591 
+L 466.805306 489.281497 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; fill: #26384a" transform="translate(474.108009 488.285497) rotate(-90)">retry only with budget</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #26384a" transform="translate(86.833828 610.26486)">This does not establish secure boot or tamper resistant rollback state.</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #26384a" transform="translate(31.600547 621.026751)">Real bootloader integration, flash power cut tests and trust anchor protection remain pending.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1d5764ec46">
+   <rect x="9.792" y="13.104" width="470.016" height="628.992"/>
+  </clipPath>
+ </defs>
+</svg>

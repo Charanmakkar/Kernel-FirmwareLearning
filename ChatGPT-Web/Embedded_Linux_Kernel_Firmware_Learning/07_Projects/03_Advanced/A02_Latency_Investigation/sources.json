@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Kernel event tracing",
+    "url": "https://docs.kernel.org/6.12/trace/events.html",
+    "access_date": "2026-10-27",
+    "supports": "Scheduler event correlation and trace collection",
+    "ref_id": "official reference"
+  },
+  {
+    "title": "Python time",
+    "url": "https://docs.python.org/3.12/library/time.html",
+    "access_date": "2026-10-27",
+    "supports": "Monotonic time and sleep can exceed requested duration",
+    "ref_id": "official reference"
+  }
+]

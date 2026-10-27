@@ -1,0 +1,7 @@
+SYNTHETIC teaching excerpt, not a real kernel crash or verified address mapping.
+BUG: KASAN: slab-use-after-free in demo_work+0x20/0x90 [demo]
+Read of size 4 at addr example_dead_object by task kworker/0:1
+Allocated by task probe_path
+Freed by task remove_path
+Call trace: demo_work -> process_one_work -> worker_thread
+Question: which lifetime hypothesis is supported, and what exact build/source evidence is still required?

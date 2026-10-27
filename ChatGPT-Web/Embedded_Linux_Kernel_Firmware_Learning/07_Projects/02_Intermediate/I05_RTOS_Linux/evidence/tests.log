@@ -1,0 +1,9 @@
+test_corruption (test_rtos.RTOS.test_corruption) ... ok
+test_resynchronization (test_rtos.RTOS.test_resynchronization) ... ok
+test_samples (test_rtos.RTOS.test_samples) ... ok
+test_watchdog (test_rtos.RTOS.test_watchdog) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.499s
+
+OK

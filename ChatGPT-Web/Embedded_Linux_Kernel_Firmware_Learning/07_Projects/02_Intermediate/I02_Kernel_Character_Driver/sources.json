@@ -1,0 +1,26 @@
+[
+  {
+    "source_id": "MISC",
+    "title": "Linux 6.12 miscellaneous devices",
+    "url": "https://docs.kernel.org/6.12/driver-api/misc_devices.html",
+    "access_date": "2026-10-27",
+    "claims": "misc registration lifetime and private data",
+    "retrieval_ref": "turn3view2"
+  },
+  {
+    "source_id": "KFIFO",
+    "title": "Linux 6.12 kernel API",
+    "url": "https://docs.kernel.org/6.12/core-api/kernel-api.html",
+    "access_date": "2026-10-27",
+    "claims": "kfifo user copies and FIFO helpers",
+    "retrieval_ref": "turn11view1"
+  },
+  {
+    "source_id": "KBUILD",
+    "title": "Linux 6.12 external modules",
+    "url": "https://docs.kernel.org/6.12/kbuild/modules.html",
+    "access_date": "2026-10-27",
+    "claims": "External builds prepared trees symbol versions",
+    "retrieval_ref": "turn31view4"
+  }
+]

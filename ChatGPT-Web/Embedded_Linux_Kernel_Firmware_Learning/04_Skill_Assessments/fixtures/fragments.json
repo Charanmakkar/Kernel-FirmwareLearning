@@ -1,0 +1,19 @@
+{
+  "provenance": "synthetic assessment vectors",
+  "format": "one-byte type, one-byte length, payload; this fixture has no CRC layer",
+  "valid_hex": "0103414243",
+  "split_chunks_hex": [
+    "01",
+    "0341",
+    "4243"
+  ],
+  "two_frames_hex": "01034142430200",
+  "invalid_truncated_hex": "01044142",
+  "expected_payloads_ascii": [
+    "ABC"
+  ],
+  "expected_two_types": [
+    1,
+    2
+  ]
+}

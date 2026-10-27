@@ -1,0 +1,30 @@
+{
+  "project_id": "I01",
+  "date": "2026-10-27",
+  "stages": [
+    {
+      "stage": "Code authored",
+      "result": "Complete C service app, Buildroot external package, overlay, config and launch scripts"
+    },
+    {
+      "stage": "Host build and tests",
+      "result": "Passed state, both process-crash checkpoints, concurrent writers, corruption and path errors"
+    },
+    {
+      "stage": "Buildroot configuration",
+      "result": "qemu_x86_64_defconfig plus external fragment resolved successfully with release 2025.02.1"
+    },
+    {
+      "stage": "Image build",
+      "result": "Not executed; full toolchain and root filesystem build pending"
+    },
+    {
+      "stage": "Guest boot",
+      "result": "Not executed; root/data disks and reboot acceptance pending"
+    },
+    {
+      "stage": "Hardware tests",
+      "result": "Not applicable to reference; real power-loss storage tests pending separately"
+    }
+  ]
+}

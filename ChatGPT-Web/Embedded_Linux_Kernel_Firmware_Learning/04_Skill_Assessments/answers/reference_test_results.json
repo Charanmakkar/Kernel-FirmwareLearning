@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-27",
+  "compiler": "Ubuntu GCC 13.3.0-6ubuntu2~24.04",
+  "commands_flags": [
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-pedantic"
+  ],
+  "executed": [
+    {
+      "file": "coding_reference.c",
+      "build": "passed",
+      "run": "passed",
+      "coverage": "30 portable reference routines; included assertions only"
+    },
+    {
+      "file": "posix_reference.c",
+      "build": "passed",
+      "run": "passed",
+      "coverage": "normal pipe and invalid descriptor; EINTR/partial-write injection not executed"
+    },
+    {
+      "file": "streaming_reference.c",
+      "build": "passed",
+      "run": "passed",
+      "coverage": "fragment boundaries, malformed lengths, state reset, zero and maximum payload"
+    },
+    {
+      "file": "parser_repair.c",
+      "build": "passed",
+      "run": "passed",
+      "coverage": "valid/truncated/oversized and unchanged-failure cases"
+    }
+  ],
+  "sanitizers": {
+    "coding_reference.c": {
+      "build": "passed",
+      "ASan_UBSan_execution": "passed with ASAN_OPTIONS=detect_leaks=0",
+      "LeakSanitizer": "runtime failed under container proc/task restrictions; not validated"
+    }
+  },
+  "hardware": "not executed",
+  "learner_scores": "not assessed"
+}

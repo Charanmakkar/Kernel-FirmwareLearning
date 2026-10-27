@@ -1,0 +1,18 @@
+[
+  {
+    "source_id": "PTHREAD",
+    "title": "Linux pthread condition documentation",
+    "url": "https://man7.org/linux/man-pages/man3/pthread_cond_init.3.html",
+    "access_date": "2026-10-27",
+    "claims": "Condition predicate loops and mutex relationship; historical LinuxThreads specifics on this page do not describe modern NPTL",
+    "retrieval_ref": "turn31view3"
+  },
+  {
+    "source_id": "SAN",
+    "title": "GNU GCC instrumentation options",
+    "url": "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html",
+    "access_date": "2026-10-27",
+    "claims": "Address undefined behavior and thread instrumentation",
+    "retrieval_ref": "turn31view1"
+  }
+]

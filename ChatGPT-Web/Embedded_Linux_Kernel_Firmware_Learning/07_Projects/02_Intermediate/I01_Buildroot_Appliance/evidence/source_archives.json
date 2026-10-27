@@ -1,0 +1,8 @@
+{
+  "buildroot": {
+    "version": "2025.02.1",
+    "url": "https://buildroot.org/downloads/buildroot-2025.02.1.tar.xz",
+    "downloaded_sha256": "a3216907e7ce1bbd38413e20b0861641b160ecc40dd7b598febb7f12984b3206",
+    "signature_verified": false
+  }
+}

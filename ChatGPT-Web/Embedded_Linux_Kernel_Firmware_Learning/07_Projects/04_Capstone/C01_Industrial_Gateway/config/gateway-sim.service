@@ -1,0 +1,16 @@
+[Unit]
+Description=Learning gateway with synthetic source
+After=local-fs.target
+[Service]
+Type=simple
+User=gateway
+StateDirectory=learning-gateway
+WorkingDirectory=/opt/learning-gateway
+ExecStart=/bin/sh -c '/usr/bin/python3 src/simulated_mcu.py --count 100000000 | /usr/bin/python3 src/gateway.py --state /var/lib/learning-gateway'
+Restart=on-failure
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/lib/learning-gateway
+[Install]
+WantedBy=multi-user.target

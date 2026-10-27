@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LEARN_TELEMETRY
+	bool "learn-telemetry"
+	help
+	  Small persistent counter appliance used for learning packaging and recovery.

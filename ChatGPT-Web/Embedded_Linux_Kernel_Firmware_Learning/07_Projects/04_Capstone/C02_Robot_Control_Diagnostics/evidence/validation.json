@@ -1,0 +1,16 @@
+{
+  "id": "C02",
+  "project": "04_Capstone/C02_Robot_Control_Diagnostics",
+  "source_authored": true,
+  "evidence": [
+    "evidence/STATUS.md",
+    "evidence/simulation.log",
+    "evidence/tests.log",
+    "evidence/ai-run.log",
+    "evidence/robot.csv",
+    "evidence/ai/metrics.json",
+    "evidence/ai/model.json"
+  ],
+  "hardware_executed": false,
+  "remaining": "# Validation status\n\nRecorded 2026-10-27.\n\nSimulation and acceptance tests passed; 201 time samples were recorded. The optional AI experiment executed and recorded accuracy, confusion matrices, timing, process CPU time, model bytes and memory observations. Physical robot and Linux\u2013MCU transport integration remain explicitly separate work.\n\nThe source is authored. Only steps with an accompanying execution log are claimed as executed. A passing reference implementation does not mark the learner as assessed or mastered.\n"
+}

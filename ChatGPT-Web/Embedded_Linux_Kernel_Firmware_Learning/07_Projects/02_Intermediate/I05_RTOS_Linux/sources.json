@@ -1,0 +1,37 @@
+[
+  {
+    "title": "FreeRTOS GCC POSIX simulator",
+    "url": "https://www.freertos.org/Documentation/02-Kernel/03-Supported-devices/04-Demos/03-Emulation-and-simulation/Linux/FreeRTOS-simulator-for-Linux",
+    "access_date": "2026-10-27",
+    "supports": "Real kernel hosted port and simulation limits",
+    "ref_id": "turn6search18"
+  },
+  {
+    "title": "FreeRTOS V11.1.0 source",
+    "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V11.1.0",
+    "access_date": "2026-10-27",
+    "supports": "Pinned RTOS source and POSIX port",
+    "ref_id": "source archive fetched 2026-10-27"
+  },
+  {
+    "title": "STM32F446RE product and datasheet",
+    "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f446re.html",
+    "access_date": "2026-10-27",
+    "supports": "Cortex M4F memory map target",
+    "ref_id": "turn28search0"
+  },
+  {
+    "title": "STM32F446 RM0390",
+    "url": "https://www.st.com/st-web-ui/static/active/en/resource/technical/document/reference_manual/DM00135183.pdf",
+    "access_date": "2026-10-27",
+    "supports": "RCC USART GPIO IWDG register configuration",
+    "ref_id": "turn28search48"
+  },
+  {
+    "title": "Nucleo MB1136 UM1724",
+    "url": "https://www.st.com/resource/en/user_manual/dm00105823.pdf",
+    "access_date": "2026-10-27",
+    "supports": "USART2 PA2 PA3 ST LINK bridge mapping",
+    "ref_id": "turn28search50"
+  }
+]

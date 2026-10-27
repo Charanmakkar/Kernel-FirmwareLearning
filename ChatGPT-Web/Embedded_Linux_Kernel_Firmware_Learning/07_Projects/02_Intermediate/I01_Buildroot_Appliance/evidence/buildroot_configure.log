@@ -1,0 +1,38 @@
+make: Entering directory '/tmp/learning-buildroot-2025.02.1'
+mkdir -p /tmp/learning-br-output/build/buildroot-config/lxdialog
+PKG_CONFIG_PATH="" make CC="/usr/bin/gcc" HOSTCC="/usr/bin/gcc" \
+    obj=/tmp/learning-br-output/build/buildroot-config -C support/kconfig -f Makefile.br conf
+make[1]: Entering directory '/tmp/learning-buildroot-2025.02.1/support/kconfig'
+/usr/bin/gcc -DCURSES_LOC="<curses.h>" -DLOCALE  -I/tmp/learning-br-output/build/buildroot-config -DCONFIG_=\"\"  -MM *.c > /tmp/learning-br-output/build/buildroot-config/.depend 2>/dev/null || :
+/usr/bin/gcc -DCURSES_LOC="<curses.h>" -DLOCALE  -I/tmp/learning-br-output/build/buildroot-config -DCONFIG_=\"\"   -c conf.c -o /tmp/learning-br-output/build/buildroot-config/conf.o
+/usr/bin/gcc -DCURSES_LOC="<curses.h>" -DLOCALE  -I/tmp/learning-br-output/build/buildroot-config -DCONFIG_=\"\"  -I. -c /tmp/learning-br-output/build/buildroot-config/zconf.tab.c -o /tmp/learning-br-output/build/buildroot-config/zconf.tab.o
+/usr/bin/gcc -DCURSES_LOC="<curses.h>" -DLOCALE  -I/tmp/learning-br-output/build/buildroot-config -DCONFIG_=\"\"   /tmp/learning-br-output/build/buildroot-config/conf.o /tmp/learning-br-output/build/buildroot-config/zconf.tab.o  -o /tmp/learning-br-output/build/buildroot-config/conf
+rm /tmp/learning-br-output/build/buildroot-config/zconf.tab.c
+make[1]: Leaving directory '/tmp/learning-buildroot-2025.02.1/support/kconfig'
+  GEN     /tmp/learning-br-output/Makefile
+#
+# configuration written to /tmp/learning-br-output/.config
+#
+make: Leaving directory '/tmp/learning-buildroot-2025.02.1'
+make: Entering directory '/tmp/learning-buildroot-2025.02.1'
+  GEN     /tmp/learning-br-output/Makefile
+#
+# configuration written to /tmp/learning-br-output/.config
+#
+make: Leaving directory '/tmp/learning-buildroot-2025.02.1'
+Configuration ready: /tmp/learning-br-output
+Build with: make -C '/tmp/learning-br-output' -j4
+In file included from /tmp/learning-br-output/build/buildroot-config/zconf.tab.c:2484:
+./util.c: In function ‘file_write_dep’:
+./util.c:86:26: warning: ‘%s’ directive writing 10 or more bytes into a region of size between 1 and 4097 [-Wformat-overflow=]
+   86 |         sprintf(buf2, "%s%s", dir, name);
+      |                          ^~
+./util.c:86:9: note: ‘sprintf’ output 11 or more bytes (assuming 4107) into a destination of size 4097
+   86 |         sprintf(buf2, "%s%s", dir, name);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/learning-br-output/.config:5092:warning: override: reassigning to symbol BR2_PACKAGE_LEARN_TELEMETRY
+/tmp/learning-br-output/.config:5093:warning: override: reassigning to symbol BR2_TARGET_GENERIC_HOSTNAME
+/tmp/learning-br-output/.config:5094:warning: override: reassigning to symbol BR2_TARGET_GENERIC_ISSUE
+/tmp/learning-br-output/.config:5095:warning: override: reassigning to symbol BR2_ROOTFS_OVERLAY
+/tmp/learning-br-output/.config:5096:warning: override: reassigning to symbol BR2_LINUX_KERNEL_CONFIG_FRAGMENT_FILES
+/tmp/learning-br-output/.config:5097:warning: override: reassigning to symbol BR2_REPRODUCIBLE

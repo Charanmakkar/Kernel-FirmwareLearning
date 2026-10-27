@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: GPL-2.0-only OR BSD-2-Clause
+%YAML 1.2
+---
+$id: http://devicetree.org/schemas/misc/learning,gpio-edge-counter.yaml#
+$schema: http://devicetree.org/meta-schemas/core.yaml#
+title: Educational GPIO rising edge counter
+maintainers:
+  - Learning Project <example@example.com>
+description: Private laboratory binding, not an upstream registered vendor binding.
+properties:
+  compatible:
+    const: learning,gpio-edge-counter
+  event-gpios:
+    maxItems: 1
+required:
+  - compatible
+  - event-gpios
+additionalProperties: false

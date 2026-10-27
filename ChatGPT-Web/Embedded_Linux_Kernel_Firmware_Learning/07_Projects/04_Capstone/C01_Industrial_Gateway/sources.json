@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Python selectors",
+    "url": "https://docs.python.org/3.12/library/selectors.html",
+    "access_date": "2026-10-27",
+    "supports": "Nonblocking descriptor readiness",
+    "ref_id": "official reference"
+  },
+  {
+    "title": "FreeRTOS queues",
+    "url": "https://www.freertos.org/Documentation/02-Kernel/02-Kernel-features/02-Queues-mutexes-and-semaphores/01-Queues",
+    "access_date": "2026-10-27",
+    "supports": "MCU producer consumer integration",
+    "ref_id": "official reference"
+  },
+  {
+    "title": "RAUC update confirmation",
+    "url": "https://rauc.readthedocs.io/en/latest/using.html",
+    "access_date": "2026-10-27",
+    "supports": "Explicit post-boot health confirmation boundary",
+    "ref_id": "turn10search15"
+  }
+]

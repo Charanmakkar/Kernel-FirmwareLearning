@@ -1,0 +1,12 @@
+Date: 2026-10-27
+Command: make test tsan
+Environment overrides: {}
+Exit: 0
+mkdir -p build
+cc -std=c11 -O2 -g -Wall -Wextra -Wpedantic -Werror -pthread src/logger.c -o build/logger
+python3 tests/test_logger.py
+PASS 1000 samples no loss/duplicates; per-producer ordering; zero work; SIGTERM drain/join; failed output termination; invalid input
+mkdir -p build
+cc -std=c11 -O1 -g -Wall -Wextra -pthread -fsanitize=thread src/logger.c -o build/logger_tsan
+./build/logger_tsan build/tsan.csv 1000 0
+produced=2000 consumed=2000 stop=0

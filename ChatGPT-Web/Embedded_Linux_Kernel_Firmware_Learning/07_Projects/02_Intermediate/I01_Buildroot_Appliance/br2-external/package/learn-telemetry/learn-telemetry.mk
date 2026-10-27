@@ -1,0 +1,13 @@
+LEARN_TELEMETRY_VERSION = 1.0
+LEARN_TELEMETRY_SITE = $(BR2_EXTERNAL_LEARN_PATH)/../src
+LEARN_TELEMETRY_SITE_METHOD = local
+LEARN_TELEMETRY_LICENSE = MIT
+LEARN_TELEMETRY_LICENSE_FILES = LICENSE
+define LEARN_TELEMETRY_BUILD_CMDS
+	$(TARGET_CC) $(TARGET_CFLAGS) -std=c11 -Wall -Wextra $(@D)/telemetry_once.c -o $(@D)/telemetry-once $(TARGET_LDFLAGS)
+endef
+define LEARN_TELEMETRY_INSTALL_TARGET_CMDS
+	$(INSTALL) -D -m 0755 $(@D)/telemetry-once $(TARGET_DIR)/usr/bin/telemetry-once
+	$(INSTALL) -d -m 0755 $(TARGET_DIR)/data
+endef
+$(eval $(generic-package))

@@ -1,0 +1,16 @@
+[
+  {
+    "title": "GPIO descriptor consumer interface",
+    "url": "https://www.kernel.org/doc/html/v6.12/driver-api/gpio/consumer.html",
+    "access_date": "2026-10-27",
+    "supports": "Descriptor acquisition, input direction and GPIO to IRQ translation",
+    "ref_id": "turn6search0"
+  },
+  {
+    "title": "Raspberry Pi hardware",
+    "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#gpio",
+    "access_date": "2026-10-27",
+    "supports": "3.3 V logic, physical pin 11 is GPIO17, pin 6 ground",
+    "ref_id": "turn13view2"
+  }
+]
