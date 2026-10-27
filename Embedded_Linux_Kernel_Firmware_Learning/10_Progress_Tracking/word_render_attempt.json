@@ -1,0 +1,6 @@
+{
+  "status": "not validated",
+  "attempt": "Microsoft Word COM hidden rendering",
+  "observation": "Export to PDF did not complete; only the newly created rendering processes were stopped. No successful visual rendering or PDF output is claimed.",
+  "docx_validation": "Generated editions will be structurally validated; TOC fields can be refreshed in Word with Ctrl+A, F9."
+}

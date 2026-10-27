@@ -1,0 +1,43 @@
+﻿ID,Kind,Path,Completion status,Validation status,Next task
+START,orientation,00_Start_Here/PROFILE_AND_ASSUMPTIONS.md,complete authored,profile not assessed,Attempt D01
+ROADMAP,plan,01_Learning_Roadmap/roadmap_64_weeks.csv,complete authored,64 rows; 704 planned hours,Revise after learner/JD evidence
+MATRIX,skills,03_JD_JR_Skills_and_Learning_Content/reference_skills_matrix.csv,reference framework complete,not an employer JD; learner not assessed,Attach actual JD and diagnostic evidence
+BANK,interview bank,02_Interview_Questions_and_Answers/README.md,200 questions complete authored,counts/schema checked; no claim of 44 compiled coding solutions,Use independent practice and develop full coding fixtures
+M01,lesson,03_JD_JR_Skills_and_Learning_Content/M01_C_Objects_Bytes_and_Contracts.md,complete lesson,B01 guided host lab executed,Independent exercise/retention
+M02,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M03,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M04,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M05,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M06,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M07,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M08,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M09,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M10,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M11,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M12,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M13,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M14,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M15,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M16,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,pending full lesson,not executed,Author full lesson/exercise/solution
+M17,lesson,03_JD_JR_Skills_and_Learning_Content/MODULE_CATALOG.md,partial experiment design,not executed,Author full lesson/exercise/solution
+B01,project,07_Projects/01_Basic/B01_Embedded_C_Utility_Library/README.md,complete implementation,host and ASan/UBSan passed,Learner independent extension
+B02,project,07_Projects/01_Basic/B02_Linux_process_and_resource_inspector/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+B03,project,07_Projects/01_Basic/B03_UART_terminal_and_framed-protocol_tool/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+B04,project,07_Projects/01_Basic/B04_Multithreaded_sensor_simulator_and_logger/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+B05,project,07_Projects/01_Basic/B05_Cross-compiled_application_running_in_QEMU/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+I01,project,07_Projects/02_Intermediate/I01_Custom_Buildroot_appliance/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+I02,project,07_Projects/02_Intermediate/I02_Kernel_character_driver_and_user-space_client/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+I03,project,07_Projects/02_Intermediate/I03_Device-tree_GPIO_interrupt_platform_driver/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+I04,project,07_Projects/02_Intermediate/I04_Custom_Yocto_telemetry_image/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+I05,project,07_Projects/02_Intermediate/I05_RTOS_MCU_firmware_connected_to_Linux/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+A01,project,07_Projects/03_Advanced/A01_Sensor_driver_using_the_IIO_subsystem/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+A02,project,07_Projects/03_Advanced/A02_Linux_latency_and_performance_investigation/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+A03,project,07_Projects/03_Advanced/A03_Signed_A_B_update_and_rollback_system/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+C01,project,07_Projects/04_Capstone/C01_Industrial_monitoring_and_edge_gateway/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+C02,project,07_Projects/04_Capstone/C02_Linux_MCU_robot_control_and_diagnostics_platform/README.md,plan complete; implementation pending,not built/run,Complete source/config/tests; validate target
+D01,assessment,04_Skill_Assessments/questions/D01_Initial_Diagnostic.md,questions/key delivered,learner not assessed,Attempt independently
+ASSESS-LATER,assessments,04_Skill_Assessments/ASSESSMENT_PLAN.md,plan only,no later fixtures executed,Create topic/phase/timed/broken-code/mock/final fixtures and separate solutions
+STRATEGY,guidance,05_Interview_Strategy/INTERVIEW_PLAYBOOK.md,complete authored,see access/evidence records,Apply to actual learner/target
+AI-WORK,guidance,06_AI_Integration/AI_ASSISTED_ENGINEERING.md,complete authored,see access/evidence records,Apply to actual learner/target
+PORTFOLIO,guidance,08_Portfolio_and_Job_Readiness/PORTFOLIO_EVIDENCE.md,complete authored,see access/evidence records,Apply to actual learner/target
+REFERENCES,guidance,09_References_and_Resources/REFERENCES.md,complete authored,see access/evidence records,Apply to actual learner/target

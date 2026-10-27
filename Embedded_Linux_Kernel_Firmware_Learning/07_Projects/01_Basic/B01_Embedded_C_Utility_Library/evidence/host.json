@@ -1,0 +1,83 @@
+{
+  "host": "Windows-10-10.0.19045-SP0",
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "sanitizers_requested": false,
+  "commands": [
+    {
+      "argv": [
+        "clang",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "clang version 22.1.0-rc3 (https://github.com/llvm/llvm-project.git 8530a2cf135c6091438b92b3778d1f23bf77d905)\nTarget: x86_64-w64-windows-gnu\nThread model: posix\nInstalledDir: C:/Users/charanpreet/tools/compiler/llvm-mingw-20260210-ucrt-x86_64/bin\nConfiguration file: C:/Users/charanpreet/tools/compiler/llvm-mingw-20260210-ucrt-x86_64/bin/x86_64-w64-windows-gnu.cfg\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "clang",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Wconversion",
+        "-Wshadow",
+        "-Werror",
+        "-g",
+        "-O2",
+        "-Iinclude",
+        "src/embedded_util.c",
+        "tests/test_util.c",
+        "-o",
+        "D:\\Masters\\Kernel-FirmwareLearning\\Embedded_Linux_Kernel_Firmware_Learning\\07_Projects\\01_Basic\\B01_Embedded_C_Utility_Library\\build\\normal\\test_util.exe"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "clang",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Wconversion",
+        "-Wshadow",
+        "-Werror",
+        "-g",
+        "-O2",
+        "-Iinclude",
+        "src/embedded_util.c",
+        "src/demo.c",
+        "-o",
+        "D:\\Masters\\Kernel-FirmwareLearning\\Embedded_Linux_Kernel_Firmware_Learning\\07_Projects\\01_Basic\\B01_Embedded_C_Utility_Library\\build\\normal\\demo.exe"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\Masters\\Kernel-FirmwareLearning\\Embedded_Linux_Kernel_Firmware_Learning\\07_Projects\\01_Basic\\B01_Embedded_C_Utility_Library\\build\\normal\\test_util.exe"
+      ],
+      "returncode": 0,
+      "stdout": "PASS: 1146739 checks; 340000 ring operations; 100000 parser inputs\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\Masters\\Kernel-FirmwareLearning\\Embedded_Linux_Kernel_Firmware_Learning\\07_Projects\\01_Basic\\B01_Embedded_C_Utility_Library\\build\\normal\\demo.exe"
+      ],
+      "returncode": 0,
+      "stdout": "type=7 payload=3 frame=11\n",
+      "stderr": ""
+    }
+  ],
+  "source_sha256": {
+    "include\\embedded_util.h": "e97f306237305e8e05b9fe4751953f97867197d4108468a14197d349b45bcdff",
+    "src\\demo.c": "1412ee1b2a329a132d86daa36b6b8d342736f4e520460185e56ba481d8a7336f",
+    "src\\embedded_util.c": "2dfc7df601f66754d1a1380fb368c6f380bd05de9a3585aeeae08f8f338b5989",
+    "tests\\test_util.c": "c2fffe6dcb215a46ff383f7c332063cd6ae04269e1b08df481a3e862b5c58504"
+  },
+  "result": "passed"
+}

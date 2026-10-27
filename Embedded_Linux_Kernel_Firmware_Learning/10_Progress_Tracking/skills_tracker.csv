@@ -1,0 +1,26 @@
+﻿Skill ID,Skill,Assessed on,Independent score,Evidence path,Reviewer,Critical failure,Next remediation,Status
+S01,C object lifetime and ownership,,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S02,"Integer conversions, alignment, endian and bounds",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S03,"Ring buffers, parsing, state machines, complexity",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S04,"Compilation, linking, ELF and ABI",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S05,"Git, reviews, shell/Python, test automation",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S06,"Linux CLI, users, permissions, /proc /sys /dev and services",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S07,"POSIX I/O, signals, IPC, sockets, poll/epoll",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S08,"Synchronization, races, deadlocks, shutdown",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S09,"ARM, MMIO, caches, interrupts, MMU/MPU and DMA",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S10,"Cross toolchain, sysroot and target deployment",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S11,"Boot, kernel config, initramfs, rootfs, BSP",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S12,"Kernel contexts, allocation, locking, waits, RCU",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S13,"Driver model, user copies, ABI and resource lifetimes",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S14,"Device tree/bindings, GPIO/IRQ, clocks/regulators",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S15,"I2C/SPI/UART, IIO, DMA and runtime PM",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S16,"Startup, vectors, linker, MMIO/peripheral state machines",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S17,"RTOS tasks, queues, inversion, timing, watchdog, stack",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S18,"Framing, CRC, timeout, versioning and recovery",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S19,"Buildroot/Yocto, layers, recipes, SDK",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S20,"Debuggers, traces, sanitizers, latency and reliability",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S21,"Persistence, licensing/SBOM, least privilege, updates",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S22,"Integration, acceptance, CI and project communication",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S23,"C++ RAII, ownership, move semantics and exceptions policy",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S24,"SocketCAN, fieldbus, protocol diagnostics",,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed
+S25,Embedded anomaly detection and measured inference,,not assessed,,,not assessed,Complete D01 then relevant gate,not assessed

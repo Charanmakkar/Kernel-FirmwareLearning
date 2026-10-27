@@ -1,0 +1,31 @@
+﻿Day,Minutes,Focus,Independent task,Links/IDs,Exit evidence,Status
+1,90,C ownership,Reimplement bounded endian read; defend valid region/lifetime,M01; Q001–Q010,Actual attempt; rubric; one weakness; next retest,not started
+2,90,C integers,Fix overflow and signed/unsigned boundary cases,M01; Q011–Q020,Actual attempt; rubric; one weakness; next retest,not started
+3,90,Data structures,Draw ring states and test capacity one/wrap,B01; Q021–Q030,Actual attempt; rubric; one weakness; next retest,not started
+4,90,Tools,Trace compile/link; inspect ELF symbols and loader,M02; Q031–Q040,Actual attempt; rubric; one weakness; next retest,not started
+5,90,Linux basics,Run permissions/process/proc practical in scratch area,B02; Q041–Q050,Actual attempt; rubric; one weakness; next retest,not started
+6,90,I/O,Implement/defend partial-read and partial-write state,B03; Q051–Q060,Actual attempt; rubric; one weakness; next retest,not started
+7,90,Mock 1,60-minute C/Linux mock; review two critical weaknesses,D01; G1/G2,Actual attempt; rubric; one weakness; next retest,not started
+8,90,Concurrency,"Queue predicate, mutex ownership and shutdown interleavings",B04; Q061–Q070,Actual attempt; rubric; one weakness; next retest,not started
+9,90,Architecture,"Draw address domains, cache/DMA ownership and IRQ context",M05; Q071–Q080,Actual attempt; rubric; one weakness; next retest,not started
+10,90,Cross build,Explain sysroot/interpreter mismatch from ELF evidence,B05; Q081–Q085,Actual attempt; rubric; one weakness; next retest,not started
+11,90,Boot,Localize kernel/rootfs/init failure with boot-stage diagram,I01; Q086–Q090,Actual attempt; rubric; one weakness; next retest,not started
+12,90,Kernel contexts,Classify allocations/locks in each callback context,M07; Q091–Q100,Actual attempt; rubric; one weakness; next retest,not started
+13,90,Driver ABI,"Defend copies, poll readiness and open-file lifetime",I02; Q101–Q110,Actual attempt; rubric; one weakness; next retest,not started
+14,90,Mock 2,Kernel/BSP mock with a probe/unbind review,G4; I02/I03,Actual attempt; rubric; one weakness; next retest,not started
+15,90,Device tree,"Explain compatible/resources, binding and deferred probe",I03; Q111–Q120,Actual attempt; rubric; one weakness; next retest,not started
+16,90,Bus/subsystem,Review I2C/SPI/IIO unit conversion and error paths,A01; Q121–Q130,Actual attempt; rubric; one weakness; next retest,not started
+17,90,MCU startup,Explain reset/vector/data/bss/linker/stack and fault record,I05; Q131–Q140,Actual attempt; rubric; one weakness; next retest,not started
+18,90,RTOS,Analyze priority inversion and watchdog progress policy,I05; Q141–Q150,Actual attempt; rubric; one weakness; next retest,not started
+19,90,Protocol,Version/sequence/CRC/deadline recovery fault matrix,B03/I05; Q151–Q160,Actual attempt; rubric; one weakness; next retest,not started
+20,90,Images,Defend Buildroot package and Yocto layer/recipe/SDK,I01/I04; Q161–Q170,Actual attempt; rubric; one weakness; next retest,not started
+21,90,Mock 3,Firmware timing and serial-fault mock,G5; I05,Actual attempt; rubric; one weakness; next retest,not started
+22,90,Debugging,Reproduce one unknown fault with evidence-driven hypotheses,A02; Q171–Q180,Actual attempt; rubric; one weakness; next retest,not started
+23,90,Reliability,Persist config safely; explain signing/rollback/trust chain,A03; Q181–Q190,Actual attempt; rubric; one weakness; next retest,not started
+24,90,Design 1,Gateway requirements/interfaces/bounds/failure tradeoffs,C01; Q191–Q195,Actual attempt; rubric; one weakness; next retest,not started
+25,90,Design 2,"Robot control boundary, stale command and safe state",C02; Q196–Q200,Actual attempt; rubric; one weakness; next retest,not started
+26,90,Portfolio,Run fresh demo; check every resume metric against artifact,08_Portfolio_and_Job_Readiness,Actual attempt; rubric; one weakness; next retest,not started
+27,90,Behavioral,Practice honest contribution/failure/unknown answers,INTERVIEW_PLAYBOOK.md,Actual attempt; rubric; one weakness; next retest,not started
+28,90,Mock 4,Selected role 60-minute mock; retest weakest category,G7,Actual attempt; rubric; one weakness; next retest,not started
+29,90,Target JD,Reorder matrix by actual explicit requirements; close one gap,reference_skills_matrix.csv,Actual attempt; rubric; one weakness; next retest,not started
+30,90,Final revision,Explain three failures without notes; verify demo and rest,INTERVIEW_PLAYBOOK.md,Actual attempt; rubric; one weakness; next retest,not started

@@ -1,0 +1,198 @@
+{
+  "release": "1",
+  "date": "2026-10-27",
+  "full_master_prompt_complete": false,
+  "complete_lessons": 1,
+  "complete_project_implementations": 1,
+  "planned_projects": 15,
+  "interview_questions": 200,
+  "checks": [
+    {
+      "check": "project_count",
+      "passed": true,
+      "detail": 15
+    },
+    {
+      "check": "project_distribution",
+      "passed": true,
+      "detail": {
+        "01_Basic": 5,
+        "02_Intermediate": 5,
+        "03_Advanced": 3,
+        "04_Capstone": 2
+      }
+    },
+    {
+      "check": "unique_project_ids",
+      "passed": true,
+      "detail": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "A01",
+        "A02",
+        "A03",
+        "C01",
+        "C02"
+      ]
+    },
+    {
+      "check": "project_folders",
+      "passed": true,
+      "detail": "All project README specifications exist"
+    },
+    {
+      "check": "roadmap",
+      "passed": true,
+      "detail": {
+        "weeks": 64,
+        "hours": 704
+      }
+    },
+    {
+      "check": "questions_count_and_ids",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "distinct_questions",
+      "passed": true,
+      "detail": "Exact question-text uniqueness"
+    },
+    {
+      "check": "category_minimums",
+      "passed": true,
+      "detail": {
+        "coding": 44,
+        "debugging/scenario": 56,
+        "system design": 10,
+        "code-output analysis": 3,
+        "conceptual": 87
+      }
+    },
+    {
+      "check": "question_schema",
+      "passed": true,
+      "detail": "Every item has 17 nonempty metadata/answer fields"
+    },
+    {
+      "check": "matrix_unassessed",
+      "passed": true,
+      "detail": "No learner scores inferred"
+    },
+    {
+      "check": "tracker_unassessed",
+      "passed": true,
+      "detail": "Learner progress is not fabricated"
+    },
+    {
+      "check": "local_markdown_links",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "B01_host.json",
+      "passed": true,
+      "detail": {
+        "result": "passed",
+        "source_hashes_match": true,
+        "commands": 5
+      }
+    },
+    {
+      "check": "B01_sanitize.json",
+      "passed": true,
+      "detail": {
+        "result": "passed",
+        "source_hashes_match": true,
+        "commands": 5
+      }
+    },
+    {
+      "check": "docx_Assessment_Answer_Keys_Release_1.docx",
+      "passed": true,
+      "detail": {
+        "zip_integrity": true,
+        "text_chars": 7125,
+        "headings": 4
+      }
+    },
+    {
+      "check": "docx_Assessment_Questions_Release_1.docx",
+      "passed": true,
+      "detail": {
+        "zip_integrity": true,
+        "text_chars": 29352,
+        "headings": 205
+      }
+    },
+    {
+      "check": "docx_Interview_Bank_200_Release_1.docx",
+      "passed": true,
+      "detail": {
+        "zip_integrity": true,
+        "text_chars": 191488,
+        "headings": 222
+      }
+    },
+    {
+      "check": "docx_200_answer_headings",
+      "passed": true,
+      "detail": {
+        "unique_question_ids": 200
+      }
+    },
+    {
+      "check": "docx_Learning_Program_Release_1.docx",
+      "passed": true,
+      "detail": {
+        "zip_integrity": true,
+        "text_chars": 189377,
+        "headings": 290
+      }
+    },
+    {
+      "check": "four_word_editions",
+      "passed": true,
+      "detail": [
+        {
+          "file": "Assessment_Answer_Keys_Release_1.docx",
+          "bytes": 42320,
+          "heading_count": 4,
+          "text_characters": 7125
+        },
+        {
+          "file": "Assessment_Questions_Release_1.docx",
+          "bytes": 48130,
+          "heading_count": 205,
+          "text_characters": 29352
+        },
+        {
+          "file": "Interview_Bank_200_Release_1.docx",
+          "bytes": 91043,
+          "heading_count": 222,
+          "text_characters": 191488
+        },
+        {
+          "file": "Learning_Program_Release_1.docx",
+          "bytes": 101890,
+          "heading_count": 290,
+          "text_characters": 189377
+        }
+      ]
+    },
+    {
+      "check": "word_rendering",
+      "passed": null,
+      "detail": "Not performed; XML integrity is not a visual rendering check"
+    }
+  ],
+  "all_required_structural_checks_passed": true
+}
